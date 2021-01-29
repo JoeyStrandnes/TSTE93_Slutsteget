@@ -1,0 +1,21 @@
+<!DOCTYPE QSpeakersProject>
+<project>
+ <speaker 
+	vendor="GRS"
+	model="12SW-4"
+	fs="29.6"
+	qts="0.98"
+	vas="90.0"
+	z="4"
+	sd="0"
+	bl="0"
+	le="1.1"
+	pe="240.0"
+	re="3.57"
+	spl="88.0"
+	dia="0"
+	qms="4.51"
+	qes="1.27"
+	xmax="8.5"
+ />
+</project>

@@ -1,0 +1,21 @@
+<!DOCTYPE QSpeakersProject>
+<project>
+ <speaker 
+	vendor="GRS"
+	model="8FR-8"
+	fs="39.0"
+	qts="0.4"
+	vas="64.0"
+	z="8"
+	sd="0"
+	bl="0"
+	le="1.28"
+	pe="85.0"
+	re="7.02"
+	spl="91.0"
+	dia="0"
+	qms="2.94"
+	qes="0.46"
+	xmax="3.0"
+ />
+</project>
