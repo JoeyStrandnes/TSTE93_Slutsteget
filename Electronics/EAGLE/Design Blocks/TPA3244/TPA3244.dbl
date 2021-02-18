@@ -5,7 +5,7 @@
 <description>The TPA3244 implementation. </description>
 <attributes>
 <attribute name="AIRWIRES" value="YES"/>
-<attribute name="BOARDSIZE" value="1086 x 13084 mil"/>
+<attribute name="BOARDSIZE" value="1779 x 15200 mil"/>
 <attribute name="LAYERS" value="1: 1"/>
 </attributes>
 <drawings>
@@ -230,24 +230,6 @@
 <wire x1="-3.05" y1="6.365" x2="-2.415" y2="7" width="0.1" layer="51"/>
 <wire x1="-4.525" y1="7.235" x2="-3.05" y2="7.235" width="0.2" layer="21"/>
 </package>
-<package name="INDPM122122X600N">
-<description>&lt;b&gt;12.2x12.2&lt;/b&gt;&lt;br&gt;
-</description>
-<smd name="1" x="-5.05" y="0" dx="5.2" dy="3.45" layer="1" rot="R90"/>
-<smd name="2" x="5.05" y="0" dx="5.2" dy="3.45" layer="1" rot="R90"/>
-<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-7.025" y1="6.5" x2="7.025" y2="6.5" width="0.05" layer="51"/>
-<wire x1="7.025" y1="6.5" x2="7.025" y2="-6.5" width="0.05" layer="51"/>
-<wire x1="7.025" y1="-6.5" x2="-7.025" y2="-6.5" width="0.05" layer="51"/>
-<wire x1="-7.025" y1="-6.5" x2="-7.025" y2="6.5" width="0.05" layer="51"/>
-<wire x1="-6.1" y1="6.1" x2="6.1" y2="6.1" width="0.1" layer="51"/>
-<wire x1="6.1" y1="6.1" x2="6.1" y2="-6.1" width="0.1" layer="51"/>
-<wire x1="6.1" y1="-6.1" x2="-6.1" y2="-6.1" width="0.1" layer="51"/>
-<wire x1="-6.1" y1="-6.1" x2="-6.1" y2="6.1" width="0.1" layer="51"/>
-<wire x1="6.1" y1="6.1" x2="-6.1" y2="6.1" width="0.2" layer="21"/>
-<wire x1="-6.1" y1="-6.1" x2="6.1" y2="-6.1" width="0.2" layer="21"/>
-</package>
 <package name="PHE426HB7100JR06">
 <description>&lt;b&gt;PHE426HB7100JR06-3&lt;/b&gt;&lt;br&gt;
 </description>
@@ -278,6 +260,23 @@
 <circle x="2.5" y="0" radius="5.5" width="0.05" layer="21"/>
 <circle x="2.5" y="0" radius="5" width="0.2" layer="25"/>
 <circle x="2.5" y="0" radius="5" width="0.1" layer="51"/>
+</package>
+<package name="WE-PD_1260/1245/1280/121054">
+<description>&lt;b&gt;WE-PD_1260/1245/1280/121054&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-4.95" y="0" dx="5.4" dy="2.9" layer="1" rot="R90"/>
+<smd name="2" x="4.95" y="0" dx="5.4" dy="2.9" layer="1" rot="R90"/>
+<text x="-6.31" y="-8.12" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="-5.81" y="7.35" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="4.95" y1="0" x2="-4.95" y2="0" width="0.3048" layer="51"/>
+<wire x1="-6" y1="-6" x2="6" y2="-6" width="0.127" layer="21"/>
+<wire x1="6" y1="-6" x2="6" y2="6" width="0.127" layer="51"/>
+<wire x1="6" y1="6" x2="-6" y2="6" width="0.127" layer="21"/>
+<wire x1="-6" y1="6" x2="-6" y2="-6" width="0.127" layer="51"/>
+<wire x1="-7" y1="6.5" x2="-7" y2="-6.5" width="0.127" layer="51"/>
+<wire x1="-7" y1="-6.5" x2="7" y2="-6.5" width="0.127" layer="51"/>
+<wire x1="7" y1="-6.5" x2="7" y2="6.5" width="0.127" layer="51"/>
+<wire x1="7" y1="6.5" x2="-7" y2="6.5" width="0.127" layer="51"/>
 </package>
 </packages>
 <symbols>
@@ -334,16 +333,6 @@
 <pin name="BST_B" x="40.64" y="-50.8" length="middle" rot="R180"/>
 <pin name="BST_A" x="40.64" y="-53.34" length="middle" rot="R180"/>
 </symbol>
-<symbol name="48100SC">
-<wire x1="5.08" y1="0" x2="7.62" y2="0" width="0.254" layer="94" curve="-175.4"/>
-<wire x1="7.62" y1="0" x2="10.16" y2="0" width="0.254" layer="94" curve="-175.4"/>
-<wire x1="10.16" y1="0" x2="12.7" y2="0" width="0.254" layer="94" curve="-175.4"/>
-<wire x1="12.7" y1="0" x2="15.24" y2="0" width="0.254" layer="94" curve="-175.4"/>
-<text x="16.51" y="6.35" size="1.778" layer="95" align="center-left">&gt;NAME</text>
-<text x="16.51" y="3.81" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
-<pin name="1" x="0" y="0" visible="pad" length="middle"/>
-<pin name="2" x="20.32" y="0" visible="pad" length="middle" rot="R180"/>
-</symbol>
 <symbol name="PHE426HB7100JR06">
 <wire x1="5.588" y1="2.54" x2="5.588" y2="-2.54" width="0.254" layer="94"/>
 <wire x1="7.112" y1="2.54" x2="7.112" y2="-2.54" width="0.254" layer="94"/>
@@ -373,6 +362,16 @@
 <vertex x="6.858" y="-2.54"/>
 <vertex x="6.858" y="2.54"/>
 </polygon>
+</symbol>
+<symbol name="74477010">
+<wire x1="5.08" y1="0" x2="7.62" y2="0" width="0.254" layer="94" curve="-175.4"/>
+<wire x1="7.62" y1="0" x2="10.16" y2="0" width="0.254" layer="94" curve="-175.4"/>
+<wire x1="10.16" y1="0" x2="12.7" y2="0" width="0.254" layer="94" curve="-175.4"/>
+<wire x1="12.7" y1="0" x2="15.24" y2="0" width="0.254" layer="94" curve="-175.4"/>
+<text x="16.51" y="6.35" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="16.51" y="3.81" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="1" x="0" y="0" visible="pad" length="middle"/>
+<pin name="2" x="20.32" y="0" visible="pad" length="middle" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -446,33 +445,6 @@ Source: &lt;a href="http://TI.com/tpa3244"&gt; Datasheet &lt;/a&gt;</description
 </device>
 </devices>
 </deviceset>
-<deviceset name="48100SC" prefix="L">
-<description>&lt;b&gt;Murata Shielded Wire-wound SMD Inductor 10 uH +/-20% 4.5A Idc Q:32&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="https://www.mouser.co.uk/datasheet/2/281/kmp_4800s-46629.pdf"&gt; Datasheet &lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="48100SC" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="INDPM122122X600N">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="ARROW_PART_NUMBER" value="48100SC" constant="no"/>
-<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/48100sc/murata-power-solutions" constant="no"/>
-<attribute name="DESCRIPTION" value="Murata Shielded Wire-wound SMD Inductor 10 uH +/-20% 4.5A Idc Q:32" constant="no"/>
-<attribute name="HEIGHT" value="6mm" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="Murata Electronics" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="48100SC" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="580-48100SC" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Murata-Power-Solutions/48100SC/?qs=ocmcTMnGEDiRVh3BIgymNQ%3D%3D" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="PHE426HB7100JR06" prefix="C">
 <description>&lt;b&gt;Cap Film 1uF 250V PP 5% (18 X 9.5 X 17.5mm) Radial 15mm 105C Bulk&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="https://api.kemet.com/component-edge/download/datasheet/PHE426HB7100JR06.pdf"&gt; Datasheet &lt;/a&gt;</description>
@@ -522,6 +494,33 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/2/ECA-1HM471B.p
 <attribute name="MANUFACTURER_PART_NUMBER" value="ECA-1HM471B" constant="no"/>
 <attribute name="MOUSER_PART_NUMBER" value="667-ECA-1HM471B" constant="no"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Panasonic/ECA-1HM471B/?qs=RQTRNQENgbttVw3qXUS4Ew%3D%3D" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="74477010" prefix="L">
+<description>&lt;b&gt;SMD-Shielded Power Inductors WE-PD&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="74477010" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-PD_1260/1245/1280/121054">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="ARROW_PART_NUMBER" value="" constant="no"/>
+<attribute name="ARROW_PRICE-STOCK" value="" constant="no"/>
+<attribute name="DESCRIPTION" value="SMD-Shielded Power Inductors WE-PD" constant="no"/>
+<attribute name="HEIGHT" value="mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Wurth Elektronik" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="74477010" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="710-74477010" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/74477010/?qs=E%2F%2FhvbtCqpN9eEwYoxClfg%3D%3D" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -8503,10 +8502,6 @@ DIN A3, landscape with location and doc. field</description>
 </classes>
 <parts>
 <part name="IC1" library="SamacSys_Parts" deviceset="TPA3244DDWR" device=""/>
-<part name="L1" library="SamacSys_Parts" deviceset="48100SC" device=""/>
-<part name="L2" library="SamacSys_Parts" deviceset="48100SC" device=""/>
-<part name="L3" library="SamacSys_Parts" deviceset="48100SC" device=""/>
-<part name="L4" library="SamacSys_Parts" deviceset="48100SC" device=""/>
 <part name="C13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="33nF/25V"/>
 <part name="C15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="33nF/25V"/>
 <part name="C19" library="SamacSys_Parts" deviceset="PHE426HB7100JR06" device=""/>
@@ -8562,6 +8557,10 @@ DIN A3, landscape with location and doc. field</description>
 <part name="+3V3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="20K/5%/0.1W"/>
 <part name="+3V4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="L1" library="SamacSys_Parts" deviceset="74477010" device=""/>
+<part name="L2" library="SamacSys_Parts" deviceset="74477010" device=""/>
+<part name="L3" library="SamacSys_Parts" deviceset="74477010" device=""/>
+<part name="L4" library="SamacSys_Parts" deviceset="74477010" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -8580,22 +8579,6 @@ I-GVDD = ~7.3A (peak)</text>
 <instance part="IC1" gate="G$1" x="152.4" y="172.72" smashed="yes">
 <attribute name="NAME" x="158.75" y="180.34" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="158.75" y="177.8" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="L1" gate="G$1" x="241.3" y="180.34" smashed="yes">
-<attribute name="NAME" x="242.57" y="186.69" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="242.57" y="184.15" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="L2" gate="G$1" x="241.3" y="129.54" smashed="yes">
-<attribute name="NAME" x="242.57" y="135.89" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="242.57" y="133.35" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="L3" gate="G$1" x="241.3" y="121.92" smashed="yes">
-<attribute name="NAME" x="242.57" y="128.27" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="242.57" y="125.73" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="L4" gate="G$1" x="241.3" y="71.12" smashed="yes">
-<attribute name="NAME" x="245.11" y="77.47" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="245.11" y="74.93" size="1.778" layer="96" align="center-left"/>
 </instance>
 <instance part="C13" gate="G$1" x="200.66" y="172.72" smashed="yes" rot="R90">
 <attribute name="NAME" x="199.644" y="178.181" size="1.778" layer="95"/>
@@ -8805,6 +8788,22 @@ I-GVDD = ~7.3A (peak)</text>
 <instance part="+3V4" gate="G$1" x="76.2" y="193.04" smashed="yes">
 <attribute name="VALUE" x="76.2" y="193.04" size="1.778" layer="96"/>
 </instance>
+<instance part="L1" gate="G$1" x="241.3" y="180.34" smashed="yes">
+<attribute name="NAME" x="242.57" y="186.69" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="242.57" y="184.15" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="L2" gate="G$1" x="241.3" y="129.54" smashed="yes">
+<attribute name="NAME" x="242.57" y="135.89" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="242.57" y="133.35" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="L3" gate="G$1" x="241.3" y="121.92" smashed="yes">
+<attribute name="NAME" x="242.57" y="128.27" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="242.57" y="125.73" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="L4" gate="G$1" x="241.3" y="71.12" smashed="yes">
+<attribute name="NAME" x="242.57" y="77.47" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="242.57" y="74.93" size="1.778" layer="96" align="center-left"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -9000,7 +8999,6 @@ I-GVDD = ~7.3A (peak)</text>
 <wire x1="195.58" y1="132.08" x2="195.58" y2="129.54" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="G$1" pin="OUT_A_1"/>
 <wire x1="195.58" y1="129.54" x2="193.04" y2="129.54" width="0.1524" layer="91"/>
-<pinref part="L4" gate="G$1" pin="1"/>
 <wire x1="241.3" y1="71.12" x2="226.06" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="226.06" y1="71.12" x2="226.06" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="226.06" y1="119.38" x2="226.06" y2="129.54" width="0.1524" layer="91"/>
@@ -9009,6 +9007,7 @@ I-GVDD = ~7.3A (peak)</text>
 <pinref part="C18" gate="G$1" pin="2"/>
 <wire x1="218.44" y1="119.38" x2="226.06" y2="119.38" width="0.1524" layer="91"/>
 <junction x="226.06" y="119.38"/>
+<pinref part="L4" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -9034,13 +9033,13 @@ I-GVDD = ~7.3A (peak)</text>
 <wire x1="195.58" y1="162.56" x2="233.68" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="205.74" y1="172.72" x2="233.68" y2="172.72" width="0.1524" layer="91"/>
 <wire x1="233.68" y1="172.72" x2="233.68" y2="162.56" width="0.1524" layer="91"/>
-<pinref part="L1" gate="G$1" pin="1"/>
 <wire x1="241.3" y1="180.34" x2="233.68" y2="180.34" width="0.1524" layer="91"/>
 <wire x1="233.68" y1="180.34" x2="233.68" y2="172.72" width="0.1524" layer="91"/>
 <junction x="233.68" y="172.72"/>
 <pinref part="IC1" gate="G$1" pin="OUT_D_2"/>
 <wire x1="193.04" y1="162.56" x2="195.58" y2="162.56" width="0.1524" layer="91"/>
 <junction x="195.58" y="162.56"/>
+<pinref part="L1" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$10" class="0">
@@ -9050,15 +9049,14 @@ I-GVDD = ~7.3A (peak)</text>
 <wire x1="193.04" y1="149.86" x2="231.14" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="215.9" y1="170.18" x2="231.14" y2="170.18" width="0.1524" layer="91"/>
 <wire x1="231.14" y1="170.18" x2="231.14" y2="149.86" width="0.1524" layer="91"/>
-<pinref part="L2" gate="G$1" pin="1"/>
 <wire x1="231.14" y1="149.86" x2="231.14" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="231.14" y1="129.54" x2="241.3" y2="129.54" width="0.1524" layer="91"/>
 <junction x="231.14" y="149.86"/>
+<pinref part="L2" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="SPAKER_L_0" class="0">
 <segment>
-<pinref part="L1" gate="G$1" pin="2"/>
 <pinref part="C19" gate="G$1" pin="2"/>
 <wire x1="261.62" y1="180.34" x2="276.86" y2="180.34" width="0.1524" layer="91"/>
 <wire x1="276.86" y1="180.34" x2="276.86" y2="177.8" width="0.1524" layer="91"/>
@@ -9073,11 +9071,11 @@ I-GVDD = ~7.3A (peak)</text>
 <wire x1="327.66" y1="180.34" x2="347.98" y2="180.34" width="0.1524" layer="91"/>
 <junction x="327.66" y="180.34"/>
 <label x="347.98" y="180.34" size="1.778" layer="95" xref="yes"/>
+<pinref part="L1" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="SPEAKER_L_1" class="0">
 <segment>
-<pinref part="L2" gate="G$1" pin="2"/>
 <pinref part="C20" gate="G$1" pin="1"/>
 <wire x1="261.62" y1="129.54" x2="276.86" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="276.86" y1="129.54" x2="276.86" y2="132.08" width="0.1524" layer="91"/>
@@ -9092,6 +9090,7 @@ I-GVDD = ~7.3A (peak)</text>
 <wire x1="327.66" y1="129.54" x2="347.98" y2="129.54" width="0.1524" layer="91"/>
 <junction x="327.66" y="129.54"/>
 <label x="347.98" y="129.54" size="1.778" layer="95" xref="yes"/>
+<pinref part="L2" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$6" class="0">
@@ -9113,11 +9112,11 @@ I-GVDD = ~7.3A (peak)</text>
 <pinref part="IC1" gate="G$1" pin="OUT_B"/>
 <wire x1="193.04" y1="142.24" x2="228.6" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="228.6" y1="142.24" x2="228.6" y2="121.92" width="0.1524" layer="91"/>
-<pinref part="L3" gate="G$1" pin="1"/>
 <wire x1="228.6" y1="121.92" x2="241.3" y2="121.92" width="0.1524" layer="91"/>
 <pinref part="C14" gate="G$1" pin="2"/>
 <wire x1="208.28" y1="121.92" x2="228.6" y2="121.92" width="0.1524" layer="91"/>
 <junction x="228.6" y="121.92"/>
+<pinref part="L3" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -9136,7 +9135,6 @@ I-GVDD = ~7.3A (peak)</text>
 </net>
 <net name="SPEAKER_R_0" class="0">
 <segment>
-<pinref part="L3" gate="G$1" pin="2"/>
 <wire x1="261.62" y1="121.92" x2="276.86" y2="121.92" width="0.1524" layer="91"/>
 <pinref part="C21" gate="G$1" pin="2"/>
 <wire x1="276.86" y1="121.92" x2="276.86" y2="119.38" width="0.1524" layer="91"/>
@@ -9151,6 +9149,7 @@ I-GVDD = ~7.3A (peak)</text>
 <wire x1="327.66" y1="121.92" x2="347.98" y2="121.92" width="0.1524" layer="91"/>
 <junction x="327.66" y="121.92"/>
 <label x="347.98" y="121.92" size="1.778" layer="95" xref="yes"/>
+<pinref part="L3" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$13" class="0">
@@ -9169,7 +9168,6 @@ I-GVDD = ~7.3A (peak)</text>
 </net>
 <net name="SPEAKER_R_1" class="0">
 <segment>
-<pinref part="L4" gate="G$1" pin="2"/>
 <wire x1="261.62" y1="71.12" x2="276.86" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="C22" gate="G$1" pin="1"/>
 <wire x1="276.86" y1="71.12" x2="276.86" y2="73.66" width="0.1524" layer="91"/>
@@ -9184,6 +9182,7 @@ I-GVDD = ~7.3A (peak)</text>
 <wire x1="327.66" y1="71.12" x2="350.52" y2="71.12" width="0.1524" layer="91"/>
 <junction x="327.66" y="71.12"/>
 <label x="350.52" y="71.12" size="1.778" layer="95" xref="yes"/>
+<pinref part="L4" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$5" class="0">
@@ -9637,24 +9636,6 @@ I-GVDD = ~7.3A (peak)</text>
 <wire x1="-3.05" y1="6.365" x2="-2.415" y2="7" width="0.1" layer="51"/>
 <wire x1="-4.525" y1="7.235" x2="-3.05" y2="7.235" width="0.2" layer="21"/>
 </package>
-<package name="INDPM122122X600N">
-<description>&lt;b&gt;12.2x12.2&lt;/b&gt;&lt;br&gt;
-</description>
-<smd name="1" x="-5.05" y="0" dx="5.2" dy="3.45" layer="1" rot="R90"/>
-<smd name="2" x="5.05" y="0" dx="5.2" dy="3.45" layer="1" rot="R90"/>
-<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-7.025" y1="6.5" x2="7.025" y2="6.5" width="0.05" layer="51"/>
-<wire x1="7.025" y1="6.5" x2="7.025" y2="-6.5" width="0.05" layer="51"/>
-<wire x1="7.025" y1="-6.5" x2="-7.025" y2="-6.5" width="0.05" layer="51"/>
-<wire x1="-7.025" y1="-6.5" x2="-7.025" y2="6.5" width="0.05" layer="51"/>
-<wire x1="-6.1" y1="6.1" x2="6.1" y2="6.1" width="0.1" layer="51"/>
-<wire x1="6.1" y1="6.1" x2="6.1" y2="-6.1" width="0.1" layer="51"/>
-<wire x1="6.1" y1="-6.1" x2="-6.1" y2="-6.1" width="0.1" layer="51"/>
-<wire x1="-6.1" y1="-6.1" x2="-6.1" y2="6.1" width="0.1" layer="51"/>
-<wire x1="6.1" y1="6.1" x2="-6.1" y2="6.1" width="0.2" layer="21"/>
-<wire x1="-6.1" y1="-6.1" x2="6.1" y2="-6.1" width="0.2" layer="21"/>
-</package>
 <package name="PHE426HB7100JR06">
 <description>&lt;b&gt;PHE426HB7100JR06-3&lt;/b&gt;&lt;br&gt;
 </description>
@@ -9685,6 +9666,23 @@ I-GVDD = ~7.3A (peak)</text>
 <circle x="2.5" y="0" radius="5.5" width="0.05" layer="21"/>
 <circle x="2.5" y="0" radius="5" width="0.2" layer="25"/>
 <circle x="2.5" y="0" radius="5" width="0.1" layer="51"/>
+</package>
+<package name="WE-PD_1260/1245/1280/121054">
+<description>&lt;b&gt;WE-PD_1260/1245/1280/121054&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-4.95" y="0" dx="5.4" dy="2.9" layer="1" rot="R90"/>
+<smd name="2" x="4.95" y="0" dx="5.4" dy="2.9" layer="1" rot="R90"/>
+<text x="-6.31" y="-8.12" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="-5.81" y="7.35" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="4.95" y1="0" x2="-4.95" y2="0" width="0.3048" layer="51"/>
+<wire x1="-6" y1="-6" x2="6" y2="-6" width="0.127" layer="21"/>
+<wire x1="6" y1="-6" x2="6" y2="6" width="0.127" layer="51"/>
+<wire x1="6" y1="6" x2="-6" y2="6" width="0.127" layer="21"/>
+<wire x1="-6" y1="6" x2="-6" y2="-6" width="0.127" layer="51"/>
+<wire x1="-7" y1="6.5" x2="-7" y2="-6.5" width="0.127" layer="51"/>
+<wire x1="-7" y1="-6.5" x2="7" y2="-6.5" width="0.127" layer="51"/>
+<wire x1="7" y1="-6.5" x2="7" y2="6.5" width="0.127" layer="51"/>
+<wire x1="7" y1="6.5" x2="-7" y2="6.5" width="0.127" layer="51"/>
 </package>
 </packages>
 </library>
@@ -11012,54 +11010,6 @@ design rules under a new name.</description>
 <attribute name="NAME" x="-17.78" y="-5.08" size="1.27" layer="25" align="center"/>
 <attribute name="VALUE" x="-6.35" y="0" size="1.27" layer="27" align="center"/>
 </element>
-<element name="L1" library="SamacSys_Parts" package="INDPM122122X600N" value="48100SC" x="-15.24" y="-19.05" smashed="yes">
-<attribute name="ARROW_PART_NUMBER" value="48100SC" x="-15.24" y="-19.05" size="1.778" layer="27" display="off"/>
-<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/48100sc/murata-power-solutions" x="-15.24" y="-19.05" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value="Murata Shielded Wire-wound SMD Inductor 10 uH +/-20% 4.5A Idc Q:32" x="-15.24" y="-19.05" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="6mm" x="-15.24" y="-19.05" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Murata Electronics" x="-15.24" y="-19.05" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="48100SC" x="-15.24" y="-19.05" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="580-48100SC" x="-15.24" y="-19.05" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Murata-Power-Solutions/48100SC/?qs=ocmcTMnGEDiRVh3BIgymNQ%3D%3D" x="-15.24" y="-19.05" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-15.24" y="-19.05" size="1.27" layer="25" align="center"/>
-<attribute name="VALUE" x="-15.24" y="-19.05" size="1.27" layer="27" align="center"/>
-</element>
-<element name="L2" library="SamacSys_Parts" package="INDPM122122X600N" value="48100SC" x="-15.24" y="-33.02" smashed="yes">
-<attribute name="ARROW_PART_NUMBER" value="48100SC" x="-15.24" y="-33.02" size="1.778" layer="27" display="off"/>
-<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/48100sc/murata-power-solutions" x="-15.24" y="-33.02" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value="Murata Shielded Wire-wound SMD Inductor 10 uH +/-20% 4.5A Idc Q:32" x="-15.24" y="-33.02" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="6mm" x="-15.24" y="-33.02" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Murata Electronics" x="-15.24" y="-33.02" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="48100SC" x="-15.24" y="-33.02" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="580-48100SC" x="-15.24" y="-33.02" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Murata-Power-Solutions/48100SC/?qs=ocmcTMnGEDiRVh3BIgymNQ%3D%3D" x="-15.24" y="-33.02" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-15.24" y="-33.02" size="1.27" layer="25" align="center"/>
-<attribute name="VALUE" x="-15.24" y="-33.02" size="1.27" layer="27" align="center"/>
-</element>
-<element name="L3" library="SamacSys_Parts" package="INDPM122122X600N" value="48100SC" x="-15.24" y="-46.99" smashed="yes">
-<attribute name="ARROW_PART_NUMBER" value="48100SC" x="-15.24" y="-46.99" size="1.778" layer="27" display="off"/>
-<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/48100sc/murata-power-solutions" x="-15.24" y="-46.99" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value="Murata Shielded Wire-wound SMD Inductor 10 uH +/-20% 4.5A Idc Q:32" x="-15.24" y="-46.99" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="6mm" x="-15.24" y="-46.99" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Murata Electronics" x="-15.24" y="-46.99" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="48100SC" x="-15.24" y="-46.99" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="580-48100SC" x="-15.24" y="-46.99" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Murata-Power-Solutions/48100SC/?qs=ocmcTMnGEDiRVh3BIgymNQ%3D%3D" x="-15.24" y="-46.99" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-15.24" y="-46.99" size="1.27" layer="25" align="center"/>
-<attribute name="VALUE" x="-15.24" y="-46.99" size="1.27" layer="27" align="center"/>
-</element>
-<element name="L4" library="SamacSys_Parts" package="INDPM122122X600N" value="48100SC" x="-15.24" y="-60.96" smashed="yes">
-<attribute name="ARROW_PART_NUMBER" value="48100SC" x="-15.24" y="-60.96" size="1.778" layer="27" display="off"/>
-<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/48100sc/murata-power-solutions" x="-15.24" y="-60.96" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value="Murata Shielded Wire-wound SMD Inductor 10 uH +/-20% 4.5A Idc Q:32" x="-15.24" y="-60.96" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="6mm" x="-15.24" y="-60.96" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Murata Electronics" x="-15.24" y="-60.96" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="48100SC" x="-15.24" y="-60.96" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="580-48100SC" x="-15.24" y="-60.96" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Murata-Power-Solutions/48100SC/?qs=ocmcTMnGEDiRVh3BIgymNQ%3D%3D" x="-15.24" y="-60.96" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-15.24" y="-60.96" size="1.27" layer="25" align="center"/>
-<attribute name="VALUE" x="-15.24" y="-60.96" size="1.27" layer="27" align="center"/>
-</element>
 <element name="C13" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="33nF/25V" x="-20.32" y="-71.12" smashed="yes">
 <attribute name="NAME" x="-20.955" y="-70.485" size="1.27" layer="25"/>
 <attribute name="POPULARITY" value="73" x="-20.32" y="-71.12" size="1.778" layer="27" display="off"/>
@@ -11348,6 +11298,54 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="R" x="-25.4" y="-327.66" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-26.035" y="-329.565" size="1.27" layer="27"/>
 </element>
+<element name="L1" library="SamacSys_Parts" package="WE-PD_1260/1245/1280/121054" value="74477010" x="-34.29" y="-320.04" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="" x="-34.29" y="-320.04" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="" x="-34.29" y="-320.04" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="SMD-Shielded Power Inductors WE-PD" x="-34.29" y="-320.04" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="mm" x="-34.29" y="-320.04" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Wurth Elektronik" x="-34.29" y="-320.04" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="74477010" x="-34.29" y="-320.04" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="710-74477010" x="-34.29" y="-320.04" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/74477010/?qs=E%2F%2FhvbtCqpN9eEwYoxClfg%3D%3D" x="-34.29" y="-320.04" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-40.6" y="-328.16" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-40.1" y="-312.69" size="1.27" layer="27" align="center"/>
+</element>
+<element name="L2" library="SamacSys_Parts" package="WE-PD_1260/1245/1280/121054" value="74477010" x="-34.29" y="-339.09" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="" x="-52.07" y="-320.04" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="" x="-52.07" y="-320.04" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="SMD-Shielded Power Inductors WE-PD" x="-52.07" y="-320.04" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="mm" x="-52.07" y="-320.04" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Wurth Elektronik" x="-52.07" y="-320.04" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="74477010" x="-52.07" y="-320.04" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="710-74477010" x="-52.07" y="-320.04" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/74477010/?qs=E%2F%2FhvbtCqpN9eEwYoxClfg%3D%3D" x="-52.07" y="-320.04" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-40.6" y="-347.21" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-40.1" y="-331.74" size="1.27" layer="27" align="center"/>
+</element>
+<element name="L3" library="SamacSys_Parts" package="WE-PD_1260/1245/1280/121054" value="74477010" x="-34.29" y="-356.87" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="" x="-52.07" y="-339.09" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="" x="-52.07" y="-339.09" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="SMD-Shielded Power Inductors WE-PD" x="-52.07" y="-339.09" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="mm" x="-52.07" y="-339.09" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Wurth Elektronik" x="-52.07" y="-339.09" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="74477010" x="-52.07" y="-339.09" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="710-74477010" x="-52.07" y="-339.09" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/74477010/?qs=E%2F%2FhvbtCqpN9eEwYoxClfg%3D%3D" x="-52.07" y="-339.09" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-40.6" y="-364.99" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-40.1" y="-349.52" size="1.27" layer="27" align="center"/>
+</element>
+<element name="L4" library="SamacSys_Parts" package="WE-PD_1260/1245/1280/121054" value="74477010" x="-34.29" y="-374.65" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="" x="-52.07" y="-356.87" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="" x="-52.07" y="-356.87" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="SMD-Shielded Power Inductors WE-PD" x="-52.07" y="-356.87" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="mm" x="-52.07" y="-356.87" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Wurth Elektronik" x="-52.07" y="-356.87" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="74477010" x="-52.07" y="-356.87" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="710-74477010" x="-52.07" y="-356.87" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/74477010/?qs=E%2F%2FhvbtCqpN9eEwYoxClfg%3D%3D" x="-52.07" y="-356.87" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-40.6" y="-382.77" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-40.1" y="-367.3" size="1.27" layer="27" align="center"/>
+</element>
 </elements>
 <signals>
 <signal name="PVDD">
@@ -11441,11 +11439,11 @@ design rules under a new name.</description>
 <signal name="N$7">
 <contactref element="IC1" pad="28"/>
 <contactref element="IC1" pad="27"/>
-<contactref element="L4" pad="1"/>
 <contactref element="C18" pad="2"/>
-<wire x1="-20.29" y1="-60.96" x2="-19.47" y2="-162.56" width="0" layer="19" extent="1-1"/>
-<wire x1="-13.992" y1="-9.208" x2="-20.29" y2="-60.96" width="0" layer="19" extent="1-1"/>
+<contactref element="L4" pad="1"/>
+<wire x1="-13.992" y1="-9.208" x2="-19.47" y2="-162.56" width="0" layer="19" extent="1-1"/>
 <wire x1="-13.992" y1="-8.572" x2="-13.992" y2="-9.208" width="0" layer="19" extent="1-1"/>
+<wire x1="-39.24" y1="-374.65" x2="-19.47" y2="-162.56" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$3">
 <contactref element="IC1" pad="44"/>
@@ -11460,36 +11458,36 @@ design rules under a new name.</description>
 <signal name="N$9">
 <contactref element="C13" pad="2"/>
 <contactref element="IC1" pad="39"/>
-<contactref element="L1" pad="1"/>
 <contactref element="IC1" pad="40"/>
-<wire x1="-20.29" y1="-19.05" x2="-19.47" y2="-71.12" width="0" layer="19" extent="1-1"/>
-<wire x1="-13.992" y1="-1.588" x2="-20.29" y2="-19.05" width="0" layer="19" extent="1-1"/>
+<contactref element="L1" pad="1"/>
+<wire x1="-19.47" y1="-71.12" x2="-39.24" y2="-320.04" width="0" layer="19" extent="1-1"/>
+<wire x1="-13.992" y1="-1.588" x2="-19.47" y2="-71.12" width="0" layer="19" extent="1-1"/>
 <wire x1="-13.992" y1="-0.952" x2="-13.992" y2="-1.588" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$10">
 <contactref element="C15" pad="2"/>
 <contactref element="IC1" pad="35"/>
 <contactref element="L2" pad="1"/>
-<wire x1="-20.29" y1="-33.02" x2="-19.47" y2="-76.2" width="0" layer="19" extent="1-1"/>
-<wire x1="-13.992" y1="-4.128" x2="-20.29" y2="-33.02" width="0" layer="19" extent="1-1"/>
+<wire x1="-19.47" y1="-76.2" x2="-39.24" y2="-339.09" width="0" layer="19" extent="1-1"/>
+<wire x1="-13.992" y1="-4.128" x2="-19.47" y2="-76.2" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SPAKER_L_0">
-<contactref element="L1" pad="2"/>
 <contactref element="C19" pad="2"/>
 <contactref element="C23" pad="1"/>
 <contactref element="C27" pad="1"/>
+<contactref element="L1" pad="2"/>
 <wire x1="-21.17" y1="-132.08" x2="-21.17" y2="-142.24" width="0" layer="19" extent="1-1"/>
 <wire x1="-4.05" y1="-85.09" x2="-21.17" y2="-132.08" width="0" layer="19" extent="1-1"/>
-<wire x1="-10.19" y1="-19.05" x2="-4.05" y2="-85.09" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.34" y1="-320.04" x2="-21.17" y2="-142.24" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SPEAKER_L_1">
-<contactref element="L2" pad="2"/>
 <contactref element="C20" pad="1"/>
 <contactref element="C24" pad="2"/>
 <contactref element="C28" pad="2"/>
+<contactref element="L2" pad="2"/>
 <wire x1="-19.47" y1="-137.16" x2="-19.47" y2="-152.4" width="0" layer="19" extent="1-1"/>
 <wire x1="-19.05" y1="-97.79" x2="-19.47" y2="-137.16" width="0" layer="19" extent="1-1"/>
-<wire x1="-10.19" y1="-33.02" x2="-19.05" y2="-97.79" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.34" y1="-339.09" x2="-19.47" y2="-152.4" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$6">
 <contactref element="C27" pad="2"/>
@@ -11503,10 +11501,10 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$1">
 <contactref element="IC1" pad="32"/>
-<contactref element="L3" pad="1"/>
 <contactref element="C14" pad="2"/>
-<wire x1="-20.29" y1="-46.99" x2="-19.47" y2="-167.64" width="0" layer="19" extent="1-1"/>
-<wire x1="-13.992" y1="-6.032" x2="-20.29" y2="-46.99" width="0" layer="19" extent="1-1"/>
+<contactref element="L3" pad="1"/>
+<wire x1="-13.992" y1="-6.032" x2="-19.47" y2="-167.64" width="0" layer="19" extent="1-1"/>
+<wire x1="-39.24" y1="-356.87" x2="-19.47" y2="-167.64" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$2">
 <contactref element="C14" pad="1"/>
@@ -11519,13 +11517,13 @@ design rules under a new name.</description>
 <wire x1="-13.992" y1="-11.748" x2="-21.17" y2="-162.56" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SPEAKER_R_0">
-<contactref element="L3" pad="2"/>
 <contactref element="C21" pad="2"/>
 <contactref element="C25" pad="1"/>
 <contactref element="C29" pad="1"/>
+<contactref element="L3" pad="2"/>
 <wire x1="-21.17" y1="-182.88" x2="-21.17" y2="-193.04" width="0" layer="19" extent="1-1"/>
 <wire x1="-4.05" y1="-110.49" x2="-21.17" y2="-182.88" width="0" layer="19" extent="1-1"/>
-<wire x1="-10.19" y1="-46.99" x2="-4.05" y2="-110.49" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.34" y1="-356.87" x2="-21.17" y2="-193.04" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$13">
 <contactref element="C29" pad="2"/>
@@ -11538,13 +11536,13 @@ design rules under a new name.</description>
 <wire x1="-21.17" y1="-177.8" x2="-21.17" y2="-187.96" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SPEAKER_R_1">
-<contactref element="L4" pad="2"/>
 <contactref element="C22" pad="1"/>
 <contactref element="C26" pad="2"/>
 <contactref element="C30" pad="2"/>
+<contactref element="L4" pad="2"/>
 <wire x1="-10.58" y1="-193.04" x2="-19.47" y2="-187.96" width="0" layer="19" extent="1-1"/>
 <wire x1="-19.05" y1="-123.19" x2="-19.47" y2="-187.96" width="0" layer="19" extent="1-1"/>
-<wire x1="-10.19" y1="-60.96" x2="-19.05" y2="-123.19" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.34" y1="-374.65" x2="-10.58" y2="-193.04" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$5">
 <contactref element="IC1" pad="15"/>
