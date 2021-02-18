@@ -1653,193 +1653,193 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="IC1" library="linear" library_urn="urn:adsk.eagle:library:262" package="DPACK_3" package3d_urn="urn:adsk.eagle:package:16495/2" value="MC78M12CDTG" x="-6" y="6" smashed="yes">
-<attribute name="NAME" x="-9.81" y="3.46" size="1.27" layer="25" rot="R90"/>
-<attribute name="POPULARITY" value="0" x="-6" y="6" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-0.92" y="3.46" size="1.27" layer="27" rot="R90"/>
+<element name="IC1" library="linear" library_urn="urn:adsk.eagle:library:262" package="DPACK_3" package3d_urn="urn:adsk.eagle:package:16495/2" value="MC78M12CDTG" x="-52" y="59" smashed="yes">
+<attribute name="NAME" x="-55.81" y="56.46" size="1.27" layer="25" rot="R90"/>
+<attribute name="POPULARITY" value="0" x="-52" y="59" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-46.92" y="56.46" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="CN1" library="OSTYK33108030" package="OSTYK33108030" value="OSTYK33108030" x="88" y="57" smashed="yes" rot="R90">
 <attribute name="NAME" x="95" y="81" size="1.27" layer="25" rot="R90"/>
 </element>
-<element name="IC4" library="SamacSys_Parts" package="SOP64P810X120-45N" value="TPA3244DDWR" x="16" y="136" smashed="yes">
-<attribute name="ARROW_PART_NUMBER" value="TPA3244DDWR" x="16" y="136" size="1.778" layer="27" display="off"/>
-<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/tpa3244ddwr/texas-instruments" x="16" y="136" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value="60W Stereo / 110W Peak PurePath Ultra-HD Analog-In, Pad-Down Class-D Amplifier" x="16" y="136" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="1.2mm" x="16" y="136" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Texas Instruments" x="16" y="136" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="TPA3244DDWR" x="16" y="136" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="595-TPA3244DDWR" x="16" y="136" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPA3244DDWR/?qs=KuuZdrM3jLy0z3QDP7YLRA%3D%3D" x="16" y="136" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="16" y="138" size="1.27" layer="25" align="center"/>
-<attribute name="VALUE" x="27.43" y="141.08" size="1.27" layer="27" align="center"/>
+<element name="IC4" library="SamacSys_Parts" package="SOP64P810X120-45N" value="TPA3244DDWR" x="22" y="132" smashed="yes" rot="R180">
+<attribute name="ARROW_PART_NUMBER" value="TPA3244DDWR" x="22" y="132" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/tpa3244ddwr/texas-instruments" x="22" y="132" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DESCRIPTION" value="60W Stereo / 110W Peak PurePath Ultra-HD Analog-In, Pad-Down Class-D Amplifier" x="22" y="132" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="HEIGHT" value="1.2mm" x="22" y="132" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Texas Instruments" x="22" y="132" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="TPA3244DDWR" x="22" y="132" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="595-TPA3244DDWR" x="22" y="132" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPA3244DDWR/?qs=KuuZdrM3jLy0z3QDP7YLRA%3D%3D" x="22" y="132" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="22" y="130" size="1.27" layer="25" rot="R180" align="center"/>
+<attribute name="VALUE" x="-26.43" y="134.92" size="1.27" layer="27" rot="R180" align="center"/>
 </element>
-<element name="C61" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="33nF/25V" x="-28" y="250" smashed="yes">
-<attribute name="NAME" x="-28.635" y="250.635" size="1.27" layer="25"/>
-<attribute name="POPULARITY" value="73" x="-28" y="250" size="1.778" layer="27" display="off"/>
-<attribute name="SPICEPREFIX" value="C" x="-28" y="250" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-28.635" y="248.095" size="1.27" layer="27"/>
+<element name="C61" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="33nF/25V" x="-46" y="158" smashed="yes">
+<attribute name="NAME" x="-46.635" y="158.635" size="1.27" layer="25"/>
+<attribute name="POPULARITY" value="73" x="-46" y="158" size="1.778" layer="27" display="off"/>
+<attribute name="SPICEPREFIX" value="C" x="-46" y="158" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-46.635" y="156.095" size="1.27" layer="27"/>
 </element>
-<element name="C62" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="33nF/25V" x="-28" y="245" smashed="yes">
-<attribute name="NAME" x="-28.635" y="245.635" size="1.27" layer="25"/>
-<attribute name="POPULARITY" value="73" x="-28" y="245" size="1.778" layer="27" display="off"/>
-<attribute name="SPICEPREFIX" value="C" x="-28" y="245" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-28.635" y="243.095" size="1.27" layer="27"/>
+<element name="C62" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="33nF/25V" x="-46" y="153" smashed="yes">
+<attribute name="NAME" x="-46.635" y="153.635" size="1.27" layer="25"/>
+<attribute name="POPULARITY" value="73" x="-46" y="153" size="1.778" layer="27" display="off"/>
+<attribute name="SPICEPREFIX" value="C" x="-46" y="153" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-46.635" y="151.095" size="1.27" layer="27"/>
 </element>
-<element name="C63" library="SamacSys_Parts" package="PHE426HB7100JR06" value="PHE426HB7100JR06" x="27" y="108" smashed="yes">
-<attribute name="ARROW_PART_NUMBER" value="PHE426HB7100JR06" x="27" y="108" size="1.778" layer="27" display="off"/>
-<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/phe426hb7100jr06/kemet-corporation" x="27" y="108" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value="Cap Film 1uF 250V PP 5% (18 X 9.5 X 17.5mm) Radial 15mm 105C Bulk" x="27" y="108" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="17.5mm" x="27" y="108" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Kemet" x="27" y="108" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="PHE426HB7100JR06" x="27" y="108" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="80-PHE426HB7100JR06" x="27" y="108" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/KEMET/PHE426HB7100JR06/?qs=PoZJcSwa6Dz3JJy740eBfg%3D%3D" x="27" y="108" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="34.5" y="108" size="1.27" layer="25" align="center"/>
-<attribute name="VALUE" x="34.5" y="108" size="1.27" layer="27" align="center"/>
+<element name="C63" library="SamacSys_Parts" package="PHE426HB7100JR06" value="PHE426HB7100JR06" x="71" y="123" smashed="yes" rot="R180">
+<attribute name="ARROW_PART_NUMBER" value="PHE426HB7100JR06" x="71" y="123" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/phe426hb7100jr06/kemet-corporation" x="71" y="123" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DESCRIPTION" value="Cap Film 1uF 250V PP 5% (18 X 9.5 X 17.5mm) Radial 15mm 105C Bulk" x="71" y="123" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="HEIGHT" value="17.5mm" x="71" y="123" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Kemet" x="71" y="123" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="PHE426HB7100JR06" x="71" y="123" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="80-PHE426HB7100JR06" x="71" y="123" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/KEMET/PHE426HB7100JR06/?qs=PoZJcSwa6Dz3JJy740eBfg%3D%3D" x="71" y="123" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="63.5" y="123" size="1.27" layer="25" rot="R180" align="center"/>
+<attribute name="VALUE" x="63.5" y="123" size="1.27" layer="27" rot="R180" align="center"/>
 </element>
-<element name="C64" library="SamacSys_Parts" package="PHE426HB7100JR06" value="PHE426HB7100JR06" x="42" y="121" smashed="yes" rot="R180">
-<attribute name="ARROW_PART_NUMBER" value="PHE426HB7100JR06" x="42" y="121" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/phe426hb7100jr06/kemet-corporation" x="42" y="121" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DESCRIPTION" value="Cap Film 1uF 250V PP 5% (18 X 9.5 X 17.5mm) Radial 15mm 105C Bulk" x="42" y="121" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="HEIGHT" value="17.5mm" x="42" y="121" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Kemet" x="42" y="121" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="PHE426HB7100JR06" x="42" y="121" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="80-PHE426HB7100JR06" x="42" y="121" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/KEMET/PHE426HB7100JR06/?qs=PoZJcSwa6Dz3JJy740eBfg%3D%3D" x="42" y="121" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="34.5" y="121" size="1.27" layer="25" rot="R180" align="center"/>
-<attribute name="VALUE" x="34.5" y="121" size="1.27" layer="27" rot="R180" align="center"/>
+<element name="C64" library="SamacSys_Parts" package="PHE426HB7100JR06" value="PHE426HB7100JR06" x="56" y="110" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="PHE426HB7100JR06" x="56" y="110" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/phe426hb7100jr06/kemet-corporation" x="56" y="110" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="Cap Film 1uF 250V PP 5% (18 X 9.5 X 17.5mm) Radial 15mm 105C Bulk" x="56" y="110" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="17.5mm" x="56" y="110" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Kemet" x="56" y="110" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="PHE426HB7100JR06" x="56" y="110" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="80-PHE426HB7100JR06" x="56" y="110" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/KEMET/PHE426HB7100JR06/?qs=PoZJcSwa6Dz3JJy740eBfg%3D%3D" x="56" y="110" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="63.5" y="110" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="63.5" y="110" size="1.27" layer="27" align="center"/>
 </element>
-<element name="C65" library="SamacSys_Parts" package="PHE426HB7100JR06" value="PHE426HB7100JR06" x="27" y="147" smashed="yes">
-<attribute name="ARROW_PART_NUMBER" value="PHE426HB7100JR06" x="27" y="147" size="1.778" layer="27" display="off"/>
-<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/phe426hb7100jr06/kemet-corporation" x="27" y="147" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value="Cap Film 1uF 250V PP 5% (18 X 9.5 X 17.5mm) Radial 15mm 105C Bulk" x="27" y="147" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="17.5mm" x="27" y="147" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Kemet" x="27" y="147" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="PHE426HB7100JR06" x="27" y="147" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="80-PHE426HB7100JR06" x="27" y="147" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/KEMET/PHE426HB7100JR06/?qs=PoZJcSwa6Dz3JJy740eBfg%3D%3D" x="27" y="147" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="34.5" y="147" size="1.27" layer="25" align="center"/>
-<attribute name="VALUE" x="34.5" y="147" size="1.27" layer="27" align="center"/>
+<element name="C65" library="SamacSys_Parts" package="PHE426HB7100JR06" value="PHE426HB7100JR06" x="71" y="149" smashed="yes" rot="R180">
+<attribute name="ARROW_PART_NUMBER" value="PHE426HB7100JR06" x="71" y="149" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/phe426hb7100jr06/kemet-corporation" x="71" y="149" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DESCRIPTION" value="Cap Film 1uF 250V PP 5% (18 X 9.5 X 17.5mm) Radial 15mm 105C Bulk" x="71" y="149" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="HEIGHT" value="17.5mm" x="71" y="149" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Kemet" x="71" y="149" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="PHE426HB7100JR06" x="71" y="149" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="80-PHE426HB7100JR06" x="71" y="149" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/KEMET/PHE426HB7100JR06/?qs=PoZJcSwa6Dz3JJy740eBfg%3D%3D" x="71" y="149" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="63.5" y="149" size="1.27" layer="25" rot="R180" align="center"/>
+<attribute name="VALUE" x="63.5" y="149" size="1.27" layer="27" rot="R180" align="center"/>
 </element>
-<element name="C66" library="SamacSys_Parts" package="PHE426HB7100JR06" value="PHE426HB7100JR06" x="42" y="134" smashed="yes" rot="R180">
-<attribute name="ARROW_PART_NUMBER" value="PHE426HB7100JR06" x="42" y="134" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/phe426hb7100jr06/kemet-corporation" x="42" y="134" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DESCRIPTION" value="Cap Film 1uF 250V PP 5% (18 X 9.5 X 17.5mm) Radial 15mm 105C Bulk" x="42" y="134" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="HEIGHT" value="17.5mm" x="42" y="134" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Kemet" x="42" y="134" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="PHE426HB7100JR06" x="42" y="134" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="80-PHE426HB7100JR06" x="42" y="134" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/KEMET/PHE426HB7100JR06/?qs=PoZJcSwa6Dz3JJy740eBfg%3D%3D" x="42" y="134" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="34.5" y="134" size="1.27" layer="25" rot="R180" align="center"/>
-<attribute name="VALUE" x="34.5" y="134" size="1.27" layer="27" rot="R180" align="center"/>
+<element name="C66" library="SamacSys_Parts" package="PHE426HB7100JR06" value="PHE426HB7100JR06" x="56" y="136" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="PHE426HB7100JR06" x="56" y="136" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/phe426hb7100jr06/kemet-corporation" x="56" y="136" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="Cap Film 1uF 250V PP 5% (18 X 9.5 X 17.5mm) Radial 15mm 105C Bulk" x="56" y="136" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="17.5mm" x="56" y="136" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Kemet" x="56" y="136" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="PHE426HB7100JR06" x="56" y="136" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="80-PHE426HB7100JR06" x="56" y="136" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/KEMET/PHE426HB7100JR06/?qs=PoZJcSwa6Dz3JJy740eBfg%3D%3D" x="56" y="136" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="63.5" y="136" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="63.5" y="136" size="1.27" layer="27" align="center"/>
 </element>
-<element name="C67" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1nF/50V" x="-33" y="246" smashed="yes">
-<attribute name="NAME" x="-33.635" y="246.635" size="1.27" layer="25"/>
-<attribute name="POPULARITY" value="73" x="-33" y="246" size="1.778" layer="27" display="off"/>
-<attribute name="SPICEPREFIX" value="C" x="-33" y="246" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-33.635" y="244.095" size="1.27" layer="27"/>
+<element name="C67" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1nF/50V" x="-51" y="154" smashed="yes">
+<attribute name="NAME" x="-51.635" y="154.635" size="1.27" layer="25"/>
+<attribute name="POPULARITY" value="73" x="-51" y="154" size="1.778" layer="27" display="off"/>
+<attribute name="SPICEPREFIX" value="C" x="-51" y="154" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-51.635" y="152.095" size="1.27" layer="27"/>
 </element>
-<element name="C68" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1nF/50V" x="-33" y="241" smashed="yes">
-<attribute name="NAME" x="-33.635" y="241.635" size="1.27" layer="25"/>
-<attribute name="POPULARITY" value="73" x="-33" y="241" size="1.778" layer="27" display="off"/>
-<attribute name="SPICEPREFIX" value="C" x="-33" y="241" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-33.635" y="239.095" size="1.27" layer="27"/>
+<element name="C68" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1nF/50V" x="-51" y="149" smashed="yes">
+<attribute name="NAME" x="-51.635" y="149.635" size="1.27" layer="25"/>
+<attribute name="POPULARITY" value="73" x="-51" y="149" size="1.778" layer="27" display="off"/>
+<attribute name="SPICEPREFIX" value="C" x="-51" y="149" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-51.635" y="147.095" size="1.27" layer="27"/>
 </element>
-<element name="C69" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="10nF/50V" x="-33" y="236" smashed="yes">
-<attribute name="NAME" x="-33.635" y="236.635" size="1.27" layer="25"/>
-<attribute name="POPULARITY" value="73" x="-33" y="236" size="1.778" layer="27" display="off"/>
-<attribute name="SPICEPREFIX" value="C" x="-33" y="236" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-33.635" y="234.095" size="1.27" layer="27"/>
+<element name="C69" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="10nF/50V" x="-51" y="144" smashed="yes">
+<attribute name="NAME" x="-51.635" y="144.635" size="1.27" layer="25"/>
+<attribute name="POPULARITY" value="73" x="-51" y="144" size="1.778" layer="27" display="off"/>
+<attribute name="SPICEPREFIX" value="C" x="-51" y="144" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-51.635" y="142.095" size="1.27" layer="27"/>
 </element>
-<element name="R23" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="3.3R/5%/0.1W" x="-33" y="231" smashed="yes">
-<attribute name="NAME" x="-33.635" y="231.635" size="1.27" layer="25"/>
-<attribute name="POPULARITY" value="70" x="-33" y="231" size="1.778" layer="27" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="-33" y="231" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-33.635" y="229.095" size="1.27" layer="27"/>
+<element name="R23" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="3.3R/5%/0.1W" x="-51" y="139" smashed="yes">
+<attribute name="NAME" x="-51.635" y="139.635" size="1.27" layer="25"/>
+<attribute name="POPULARITY" value="70" x="-51" y="139" size="1.778" layer="27" display="off"/>
+<attribute name="SPICEPREFIX" value="R" x="-51" y="139" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-51.635" y="137.095" size="1.27" layer="27"/>
 </element>
-<element name="C70" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="10nF/50V" x="-33" y="226" smashed="yes">
-<attribute name="NAME" x="-33.635" y="226.635" size="1.27" layer="25"/>
-<attribute name="POPULARITY" value="73" x="-33" y="226" size="1.778" layer="27" display="off"/>
-<attribute name="SPICEPREFIX" value="C" x="-33" y="226" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-33.635" y="224.095" size="1.27" layer="27"/>
+<element name="C70" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="10nF/50V" x="-51" y="134" smashed="yes">
+<attribute name="NAME" x="-51.635" y="134.635" size="1.27" layer="25"/>
+<attribute name="POPULARITY" value="73" x="-51" y="134" size="1.778" layer="27" display="off"/>
+<attribute name="SPICEPREFIX" value="C" x="-51" y="134" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-51.635" y="132.095" size="1.27" layer="27"/>
 </element>
-<element name="R24" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="3.3R/5%/0.1W" x="-33" y="221" smashed="yes">
-<attribute name="NAME" x="-33.635" y="221.635" size="1.27" layer="25"/>
-<attribute name="POPULARITY" value="70" x="-33" y="221" size="1.778" layer="27" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="-33" y="221" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-33.635" y="219.095" size="1.27" layer="27"/>
+<element name="R24" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="3.3R/5%/0.1W" x="-51" y="129" smashed="yes">
+<attribute name="NAME" x="-51.635" y="129.635" size="1.27" layer="25"/>
+<attribute name="POPULARITY" value="70" x="-51" y="129" size="1.778" layer="27" display="off"/>
+<attribute name="SPICEPREFIX" value="R" x="-51" y="129" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-51.635" y="127.095" size="1.27" layer="27"/>
 </element>
-<element name="C71" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="33nF/25V" x="-33" y="216" smashed="yes">
-<attribute name="NAME" x="-33.635" y="216.635" size="1.27" layer="25"/>
-<attribute name="POPULARITY" value="73" x="-33" y="216" size="1.778" layer="27" display="off"/>
-<attribute name="SPICEPREFIX" value="C" x="-33" y="216" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-33.635" y="214.095" size="1.27" layer="27"/>
+<element name="C71" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="33nF/25V" x="-51" y="124" smashed="yes">
+<attribute name="NAME" x="-51.635" y="124.635" size="1.27" layer="25"/>
+<attribute name="POPULARITY" value="73" x="-51" y="124" size="1.778" layer="27" display="off"/>
+<attribute name="SPICEPREFIX" value="C" x="-51" y="124" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-51.635" y="122.095" size="1.27" layer="27"/>
 </element>
-<element name="C72" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="33nF/25V" x="-33" y="211" smashed="yes">
-<attribute name="NAME" x="-33.635" y="211.635" size="1.27" layer="25"/>
-<attribute name="POPULARITY" value="73" x="-33" y="211" size="1.778" layer="27" display="off"/>
-<attribute name="SPICEPREFIX" value="C" x="-33" y="211" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-33.635" y="209.095" size="1.27" layer="27"/>
+<element name="C72" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="33nF/25V" x="-51" y="119" smashed="yes">
+<attribute name="NAME" x="-51.635" y="119.635" size="1.27" layer="25"/>
+<attribute name="POPULARITY" value="73" x="-51" y="119" size="1.778" layer="27" display="off"/>
+<attribute name="SPICEPREFIX" value="C" x="-51" y="119" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-51.635" y="117.095" size="1.27" layer="27"/>
 </element>
-<element name="C73" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1nF/50V" x="-33" y="185" smashed="yes">
-<attribute name="NAME" x="-33.635" y="185.635" size="1.27" layer="25"/>
-<attribute name="POPULARITY" value="73" x="-33" y="205.32" size="1.778" layer="27" display="off"/>
-<attribute name="SPICEPREFIX" value="C" x="-33" y="205.32" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-33.635" y="183.095" size="1.27" layer="27"/>
+<element name="C73" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1nF/50V" x="-51" y="93" smashed="yes">
+<attribute name="NAME" x="-51.635" y="93.635" size="1.27" layer="25"/>
+<attribute name="POPULARITY" value="73" x="-51" y="113.32" size="1.778" layer="27" display="off"/>
+<attribute name="SPICEPREFIX" value="C" x="-51" y="113.32" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-51.635" y="91.095" size="1.27" layer="27"/>
 </element>
-<element name="C74" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1nF/50V" x="-24" y="185" smashed="yes">
-<attribute name="NAME" x="-24.635" y="185.635" size="1.27" layer="25"/>
-<attribute name="POPULARITY" value="73" x="-32.89" y="200.24" size="1.778" layer="27" display="off"/>
-<attribute name="SPICEPREFIX" value="C" x="-32.89" y="200.24" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-24.635" y="183.095" size="1.27" layer="27"/>
+<element name="C74" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1nF/50V" x="-42" y="93" smashed="yes">
+<attribute name="NAME" x="-42.635" y="93.635" size="1.27" layer="25"/>
+<attribute name="POPULARITY" value="73" x="-50.89" y="108.24" size="1.778" layer="27" display="off"/>
+<attribute name="SPICEPREFIX" value="C" x="-50.89" y="108.24" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-42.635" y="91.095" size="1.27" layer="27"/>
 </element>
-<element name="C75" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="10nF/50V" x="-33" y="196" smashed="yes">
-<attribute name="NAME" x="-33.635" y="196.635" size="1.27" layer="25"/>
-<attribute name="POPULARITY" value="73" x="-33" y="196" size="1.778" layer="27" display="off"/>
-<attribute name="SPICEPREFIX" value="C" x="-33" y="196" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-33.635" y="194.095" size="1.27" layer="27"/>
+<element name="C75" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="10nF/50V" x="-51" y="104" smashed="yes">
+<attribute name="NAME" x="-51.635" y="104.635" size="1.27" layer="25"/>
+<attribute name="POPULARITY" value="73" x="-51" y="104" size="1.778" layer="27" display="off"/>
+<attribute name="SPICEPREFIX" value="C" x="-51" y="104" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-51.635" y="102.095" size="1.27" layer="27"/>
 </element>
-<element name="R25" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="3.3R/5%/0.1W" x="-33" y="206" smashed="yes">
-<attribute name="NAME" x="-33.635" y="206.635" size="1.27" layer="25"/>
-<attribute name="POPULARITY" value="70" x="-33" y="190.76" size="1.778" layer="27" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="-33" y="190.76" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-33.635" y="204.095" size="1.27" layer="27"/>
+<element name="R25" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="3.3R/5%/0.1W" x="-51" y="114" smashed="yes">
+<attribute name="NAME" x="-51.635" y="114.635" size="1.27" layer="25"/>
+<attribute name="POPULARITY" value="70" x="-51" y="98.76" size="1.778" layer="27" display="off"/>
+<attribute name="SPICEPREFIX" value="R" x="-51" y="98.76" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-51.635" y="112.095" size="1.27" layer="27"/>
 </element>
-<element name="C76" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="10nF/50V" x="-33" y="191" smashed="yes">
-<attribute name="NAME" x="-33.635" y="191.635" size="1.27" layer="25"/>
-<attribute name="POPULARITY" value="73" x="-33" y="185.92" size="1.778" layer="27" display="off"/>
-<attribute name="SPICEPREFIX" value="C" x="-33" y="185.92" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-33.635" y="189.095" size="1.27" layer="27"/>
+<element name="C76" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="10nF/50V" x="-51" y="99" smashed="yes">
+<attribute name="NAME" x="-51.635" y="99.635" size="1.27" layer="25"/>
+<attribute name="POPULARITY" value="73" x="-51" y="93.92" size="1.778" layer="27" display="off"/>
+<attribute name="SPICEPREFIX" value="C" x="-51" y="93.92" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-51.635" y="97.095" size="1.27" layer="27"/>
 </element>
-<element name="R26" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="3.3R/5%/0.1W" x="-33" y="201" smashed="yes">
-<attribute name="NAME" x="-33.635" y="201.635" size="1.27" layer="25"/>
-<attribute name="POPULARITY" value="70" x="-33" y="180.68" size="1.778" layer="27" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="-33" y="180.68" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-33.635" y="199.095" size="1.27" layer="27"/>
+<element name="R26" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="3.3R/5%/0.1W" x="-51" y="109" smashed="yes">
+<attribute name="NAME" x="-51.635" y="109.635" size="1.27" layer="25"/>
+<attribute name="POPULARITY" value="70" x="-51" y="88.68" size="1.778" layer="27" display="off"/>
+<attribute name="SPICEPREFIX" value="R" x="-51" y="88.68" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-51.635" y="107.095" size="1.27" layer="27"/>
 </element>
-<element name="C77" library="SamacSys_Parts" package="CAPPRD500W65D1000H2200" value="ECA-1HM471B" x="18" y="122" smashed="yes" rot="R180">
-<attribute name="ARROW_PART_NUMBER" value="ECA-1HM471B" x="18" y="122" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/eca-1hm471b/panasonic" x="18" y="122" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DESCRIPTION" value="Panasonic 470uF 50 V Aluminium Electrolytic Capacitor, M Series 2000h 10 x 20mm" x="18" y="122" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="HEIGHT" value="22mm" x="18" y="122" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Panasonic" x="18" y="122" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="ECA-1HM471B" x="18" y="122" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="667-ECA-1HM471B" x="18" y="122" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Panasonic/ECA-1HM471B/?qs=RQTRNQENgbttVw3qXUS4Ew%3D%3D" x="18" y="122" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="18" y="124" size="1.27" layer="25" rot="R180" align="center"/>
-<attribute name="VALUE" x="18" y="120" size="1.27" layer="27" rot="R180" align="center"/>
+<element name="C77" library="SamacSys_Parts" package="CAPPRD500W65D1000H2200" value="ECA-1HM471B" x="30" y="121" smashed="yes" rot="R270">
+<attribute name="ARROW_PART_NUMBER" value="ECA-1HM471B" x="30" y="121" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/eca-1hm471b/panasonic" x="30" y="121" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DESCRIPTION" value="Panasonic 470uF 50 V Aluminium Electrolytic Capacitor, M Series 2000h 10 x 20mm" x="30" y="121" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="HEIGHT" value="22mm" x="30" y="121" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Panasonic" x="30" y="121" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="ECA-1HM471B" x="30" y="121" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="667-ECA-1HM471B" x="30" y="121" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Panasonic/ECA-1HM471B/?qs=RQTRNQENgbttVw3qXUS4Ew%3D%3D" x="30" y="121" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="28" y="121" size="1.27" layer="25" rot="R270" align="center"/>
+<attribute name="VALUE" x="32" y="121" size="1.27" layer="27" rot="R270" align="center"/>
 </element>
-<element name="C78" library="SamacSys_Parts" package="CAPPRD500W65D1000H2200" value="ECA-1HM471B" x="51" y="122" smashed="yes">
-<attribute name="ARROW_PART_NUMBER" value="ECA-1HM471B" x="51" y="122" size="1.778" layer="27" display="off"/>
-<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/eca-1hm471b/panasonic" x="51" y="122" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value="Panasonic 470uF 50 V Aluminium Electrolytic Capacitor, M Series 2000h 10 x 20mm" x="51" y="122" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="22mm" x="51" y="122" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Panasonic" x="51" y="122" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="ECA-1HM471B" x="51" y="122" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="667-ECA-1HM471B" x="51" y="122" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Panasonic/ECA-1HM471B/?qs=RQTRNQENgbttVw3qXUS4Ew%3D%3D" x="51" y="122" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="51" y="120" size="1.27" layer="25" align="center"/>
-<attribute name="VALUE" x="51" y="124" size="1.27" layer="27" align="center"/>
+<element name="C78" library="SamacSys_Parts" package="CAPPRD500W65D1000H2200" value="ECA-1HM471B" x="13" y="122" smashed="yes" rot="R270">
+<attribute name="ARROW_PART_NUMBER" value="ECA-1HM471B" x="13" y="122" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/eca-1hm471b/panasonic" x="13" y="122" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DESCRIPTION" value="Panasonic 470uF 50 V Aluminium Electrolytic Capacitor, M Series 2000h 10 x 20mm" x="13" y="122" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="HEIGHT" value="22mm" x="13" y="122" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Panasonic" x="13" y="122" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="ECA-1HM471B" x="13" y="122" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="667-ECA-1HM471B" x="13" y="122" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Panasonic/ECA-1HM471B/?qs=RQTRNQENgbttVw3qXUS4Ew%3D%3D" x="13" y="122" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="11" y="122" size="1.27" layer="25" rot="R270" align="center"/>
+<attribute name="VALUE" x="15" y="122" size="1.27" layer="27" rot="R270" align="center"/>
 </element>
 <element name="R27" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="20K/5%/0.1W" x="-38" y="156" smashed="yes">
 <attribute name="NAME" x="-38.635" y="156.635" size="1.27" layer="25"/>
@@ -1895,17 +1895,17 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="R" x="-38" y="115.92" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-38.635" y="119.095" size="1.27" layer="27"/>
 </element>
-<element name="C85" library="SamacSys_Parts" package="CAPPRD500W65D1000H2200" value="ECA-1HM471B" x="51" y="134" smashed="yes">
-<attribute name="ARROW_PART_NUMBER" value="ECA-1HM471B" x="48.46" y="134" size="1.778" layer="27" display="off"/>
-<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/eca-1hm471b/panasonic" x="48.46" y="134" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value="Panasonic 470uF 50 V Aluminium Electrolytic Capacitor, M Series 2000h 10 x 20mm" x="48.46" y="134" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="22mm" x="48.46" y="134" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Panasonic" x="48.46" y="134" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="ECA-1HM471B" x="48.46" y="134" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="667-ECA-1HM471B" x="48.46" y="134" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Panasonic/ECA-1HM471B/?qs=RQTRNQENgbttVw3qXUS4Ew%3D%3D" x="48.46" y="134" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="51" y="132" size="1.27" layer="25" align="center"/>
-<attribute name="VALUE" x="51" y="136" size="1.27" layer="27" align="center"/>
+<element name="C85" library="SamacSys_Parts" package="CAPPRD500W65D1000H2200" value="ECA-1HM471B" x="30" y="142" smashed="yes" rot="R90">
+<attribute name="ARROW_PART_NUMBER" value="ECA-1HM471B" x="30" y="139.46" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/eca-1hm471b/panasonic" x="30" y="139.46" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" value="Panasonic 470uF 50 V Aluminium Electrolytic Capacitor, M Series 2000h 10 x 20mm" x="30" y="139.46" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="22mm" x="30" y="139.46" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Panasonic" x="30" y="139.46" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="ECA-1HM471B" x="30" y="139.46" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="667-ECA-1HM471B" x="30" y="139.46" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Panasonic/ECA-1HM471B/?qs=RQTRNQENgbttVw3qXUS4Ew%3D%3D" x="30" y="139.46" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="32" y="142" size="1.27" layer="25" rot="R90" align="center"/>
+<attribute name="VALUE" x="28" y="142" size="1.27" layer="27" rot="R90" align="center"/>
 </element>
 <element name="C86" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100nF/50V" x="-38" y="98" smashed="yes">
 <attribute name="NAME" x="-38.635" y="98.635" size="1.27" layer="25"/>
@@ -1961,53 +1961,53 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="R" x="-38" y="51" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-38.635" y="49.095" size="1.27" layer="27"/>
 </element>
-<element name="L9" library="SamacSys_Parts" package="WE-PD_1260/1245/1280/121054" value="74477010" x="68" y="119" smashed="yes">
-<attribute name="ARROW_PART_NUMBER" value="" x="68" y="119" size="1.778" layer="27" display="off"/>
-<attribute name="ARROW_PRICE-STOCK" value="" x="68" y="119" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value="SMD-Shielded Power Inductors WE-PD" x="68" y="119" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="mm" x="68" y="119" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Wurth Elektronik" x="68" y="119" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="74477010" x="68" y="119" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="710-74477010" x="68" y="119" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/74477010/?qs=E%2F%2FhvbtCqpN9eEwYoxClfg%3D%3D" x="68" y="119" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="61.69" y="110.88" size="1.27" layer="25" align="center"/>
-<attribute name="VALUE" x="62.19" y="126.35" size="1.27" layer="27" align="center"/>
+<element name="L9" library="SamacSys_Parts" package="WE-PD_1260/1245/1280/121054" value="74477010" x="45" y="123" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="" x="45" y="123" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="" x="45" y="123" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="SMD-Shielded Power Inductors WE-PD" x="45" y="123" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="mm" x="45" y="123" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Wurth Elektronik" x="45" y="123" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="74477010" x="45" y="123" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="710-74477010" x="45" y="123" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/74477010/?qs=E%2F%2FhvbtCqpN9eEwYoxClfg%3D%3D" x="45" y="123" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="38.69" y="114.88" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="39.19" y="130.35" size="1.27" layer="27" align="center"/>
 </element>
-<element name="L10" library="SamacSys_Parts" package="WE-PD_1260/1245/1280/121054" value="74477010" x="68" y="106" smashed="yes">
-<attribute name="ARROW_PART_NUMBER" value="" x="50.22" y="125.05" size="1.778" layer="27" display="off"/>
-<attribute name="ARROW_PRICE-STOCK" value="" x="50.22" y="125.05" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value="SMD-Shielded Power Inductors WE-PD" x="50.22" y="125.05" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="mm" x="50.22" y="125.05" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Wurth Elektronik" x="50.22" y="125.05" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="74477010" x="50.22" y="125.05" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="710-74477010" x="50.22" y="125.05" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/74477010/?qs=E%2F%2FhvbtCqpN9eEwYoxClfg%3D%3D" x="50.22" y="125.05" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="61.69" y="97.88" size="1.27" layer="25" align="center"/>
-<attribute name="VALUE" x="62.19" y="113.35" size="1.27" layer="27" align="center"/>
+<element name="L10" library="SamacSys_Parts" package="WE-PD_1260/1245/1280/121054" value="74477010" x="45" y="110" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="" x="27.22" y="129.05" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="" x="27.22" y="129.05" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="SMD-Shielded Power Inductors WE-PD" x="27.22" y="129.05" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="mm" x="27.22" y="129.05" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Wurth Elektronik" x="27.22" y="129.05" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="74477010" x="27.22" y="129.05" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="710-74477010" x="27.22" y="129.05" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/74477010/?qs=E%2F%2FhvbtCqpN9eEwYoxClfg%3D%3D" x="27.22" y="129.05" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="38.69" y="101.88" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="39.19" y="117.35" size="1.27" layer="27" align="center"/>
 </element>
-<element name="L11" library="SamacSys_Parts" package="WE-PD_1260/1245/1280/121054" value="74477010" x="68" y="146" smashed="yes">
-<attribute name="ARROW_PART_NUMBER" value="" x="50.22" y="163.78" size="1.778" layer="27" display="off"/>
-<attribute name="ARROW_PRICE-STOCK" value="" x="50.22" y="163.78" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value="SMD-Shielded Power Inductors WE-PD" x="50.22" y="163.78" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="mm" x="50.22" y="163.78" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Wurth Elektronik" x="50.22" y="163.78" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="74477010" x="50.22" y="163.78" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="710-74477010" x="50.22" y="163.78" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/74477010/?qs=E%2F%2FhvbtCqpN9eEwYoxClfg%3D%3D" x="50.22" y="163.78" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="61.69" y="137.88" size="1.27" layer="25" align="center"/>
-<attribute name="VALUE" x="62.19" y="153.35" size="1.27" layer="27" align="center"/>
+<element name="L11" library="SamacSys_Parts" package="WE-PD_1260/1245/1280/121054" value="74477010" x="45" y="149" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="" x="27.22" y="166.78" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="" x="27.22" y="166.78" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="SMD-Shielded Power Inductors WE-PD" x="27.22" y="166.78" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="mm" x="27.22" y="166.78" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Wurth Elektronik" x="27.22" y="166.78" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="74477010" x="27.22" y="166.78" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="710-74477010" x="27.22" y="166.78" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/74477010/?qs=E%2F%2FhvbtCqpN9eEwYoxClfg%3D%3D" x="27.22" y="166.78" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="38.69" y="140.88" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="39.19" y="156.35" size="1.27" layer="27" align="center"/>
 </element>
-<element name="L12" library="SamacSys_Parts" package="WE-PD_1260/1245/1280/121054" value="74477010" x="68" y="133" smashed="yes">
-<attribute name="ARROW_PART_NUMBER" value="" x="50.22" y="150.78" size="1.778" layer="27" display="off"/>
-<attribute name="ARROW_PRICE-STOCK" value="" x="50.22" y="150.78" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value="SMD-Shielded Power Inductors WE-PD" x="50.22" y="150.78" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="mm" x="50.22" y="150.78" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Wurth Elektronik" x="50.22" y="150.78" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="74477010" x="50.22" y="150.78" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="710-74477010" x="50.22" y="150.78" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/74477010/?qs=E%2F%2FhvbtCqpN9eEwYoxClfg%3D%3D" x="50.22" y="150.78" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="61.69" y="124.88" size="1.27" layer="25" align="center"/>
-<attribute name="VALUE" x="62.19" y="140.35" size="1.27" layer="27" align="center"/>
+<element name="L12" library="SamacSys_Parts" package="WE-PD_1260/1245/1280/121054" value="74477010" x="45" y="136" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="" x="27.22" y="153.78" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="" x="27.22" y="153.78" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="SMD-Shielded Power Inductors WE-PD" x="27.22" y="153.78" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="mm" x="27.22" y="153.78" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Wurth Elektronik" x="27.22" y="153.78" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="74477010" x="27.22" y="153.78" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="710-74477010" x="27.22" y="153.78" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/74477010/?qs=E%2F%2FhvbtCqpN9eEwYoxClfg%3D%3D" x="27.22" y="153.78" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="38.69" y="127.88" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="39.19" y="143.35" size="1.27" layer="27" align="center"/>
 </element>
 </elements>
 <signals>
@@ -2048,41 +2048,41 @@ design rules under a new name.</description>
 <contactref element="IC4" pad="41"/>
 <contactref element="C78" pad="2"/>
 <contactref element="C77" pad="2"/>
-<wire x1="-33.85" y1="241" x2="-32.15" y2="246" width="0" layer="19" extent="1-1"/>
-<wire x1="-33.85" y1="231" x2="-33.85" y2="241" width="0" layer="19" extent="1-1"/>
-<wire x1="-32.15" y1="221" x2="-33.85" y2="231" width="0" layer="19" extent="1-1"/>
-<wire x1="-33.85" y1="206" x2="-32.15" y2="221" width="0" layer="19" extent="1-1"/>
-<wire x1="-32.15" y1="201" x2="-33.85" y2="206" width="0" layer="19" extent="1-1"/>
-<wire x1="-32.15" y1="185" x2="-32.15" y2="201" width="0" layer="19" extent="1-1"/>
-<wire x1="-24.85" y1="185" x2="-32.15" y2="185" width="0" layer="19" extent="1-1"/>
-<wire x1="-38.85" y1="156" x2="-32.15" y2="185" width="0" layer="19" extent="1-1"/>
-<wire x1="-37.15" y1="151" x2="-38.85" y2="156" width="0" layer="19" extent="1-1"/>
-<wire x1="-37.15" y1="146" x2="-37.15" y2="151" width="0" layer="19" extent="1-1"/>
-<wire x1="-37.15" y1="141" x2="-37.15" y2="146" width="0" layer="19" extent="1-1"/>
-<wire x1="-37.15" y1="136" x2="-37.15" y2="141" width="0" layer="19" extent="1-1"/>
-<wire x1="-37.15" y1="131" x2="-37.15" y2="136" width="0" layer="19" extent="1-1"/>
-<wire x1="-37.15" y1="116" x2="-37.15" y2="131" width="0" layer="19" extent="1-1"/>
-<wire x1="-37.15" y1="98" x2="-37.15" y2="116" width="0" layer="19" extent="1-1"/>
-<wire x1="-38.85" y1="66" x2="-37.15" y2="98" width="0" layer="19" extent="1-1"/>
-<wire x1="12.212" y1="136.952" x2="-37.15" y2="136" width="0" layer="19" extent="1-1"/>
-<wire x1="12.212" y1="136.318" x2="12.212" y2="136.952" width="0" layer="19" extent="1-1"/>
-<wire x1="16" y1="136" x2="12.212" y2="136.318" width="0" layer="19" extent="1-1"/>
-<wire x1="19.788" y1="136.318" x2="16" y2="136" width="0" layer="19" extent="1-1"/>
-<wire x1="19.788" y1="135.682" x2="19.788" y2="136.318" width="0" layer="19" extent="1-1"/>
-<wire x1="19.788" y1="140.762" x2="19.788" y2="136.318" width="0" layer="19" extent="1-1"/>
-<wire x1="19.788" y1="141.398" x2="19.788" y2="140.762" width="0" layer="19" extent="1-1"/>
-<wire x1="19.788" y1="131.238" x2="19.788" y2="135.682" width="0" layer="19" extent="1-1"/>
-<wire x1="19.788" y1="130.602" x2="19.788" y2="131.238" width="0" layer="19" extent="1-1"/>
-<wire x1="12.212" y1="131.238" x2="12.212" y2="136.318" width="0" layer="19" extent="1-1"/>
-<wire x1="12.212" y1="130.602" x2="12.212" y2="131.238" width="0" layer="19" extent="1-1"/>
-<wire x1="27" y1="134" x2="19.788" y2="135.682" width="0" layer="19" extent="1-1"/>
-<wire x1="13" y1="122" x2="12.212" y2="130.602" width="0" layer="19" extent="1-1"/>
-<wire x1="27" y1="147" x2="19.788" y2="141.398" width="0" layer="19" extent="1-1"/>
-<wire x1="27" y1="121" x2="19.788" y2="130.602" width="0" layer="19" extent="1-1"/>
-<wire x1="27" y1="108" x2="27" y2="121" width="0" layer="19" extent="1-1"/>
-<wire x1="56" y1="134" x2="27" y2="134" width="0" layer="19" extent="1-1"/>
-<wire x1="56" y1="122" x2="56" y2="134" width="0" layer="19" extent="1-1"/>
-<wire x1="-6" y1="8.5" x2="-38.85" y2="66" width="0" layer="19" extent="1-1"/>
+<wire x1="71" y1="136" x2="71" y2="149" width="0" layer="19" extent="1-1"/>
+<wire x1="71" y1="123" x2="71" y2="136" width="0" layer="19" extent="1-1"/>
+<wire x1="71" y1="110" x2="71" y2="123" width="0" layer="19" extent="1-1"/>
+<wire x1="30" y1="147" x2="71" y2="149" width="0" layer="19" extent="1-1"/>
+<wire x1="25.788" y1="137.398" x2="30" y2="147" width="0" layer="19" extent="1-1"/>
+<wire x1="25.788" y1="136.762" x2="25.788" y2="137.398" width="0" layer="19" extent="1-1"/>
+<wire x1="25.788" y1="131.682" x2="25.788" y2="136.762" width="0" layer="19" extent="1-1"/>
+<wire x1="25.788" y1="131.048" x2="25.788" y2="131.682" width="0" layer="19" extent="1-1"/>
+<wire x1="22" y1="132" x2="25.788" y2="131.682" width="0" layer="19" extent="1-1"/>
+<wire x1="18.212" y1="132.318" x2="22" y2="132" width="0" layer="19" extent="1-1"/>
+<wire x1="18.212" y1="131.682" x2="18.212" y2="132.318" width="0" layer="19" extent="1-1"/>
+<wire x1="18.212" y1="136.762" x2="18.212" y2="132.318" width="0" layer="19" extent="1-1"/>
+<wire x1="18.212" y1="137.398" x2="18.212" y2="136.762" width="0" layer="19" extent="1-1"/>
+<wire x1="18.212" y1="127.238" x2="18.212" y2="131.682" width="0" layer="19" extent="1-1"/>
+<wire x1="18.212" y1="126.602" x2="18.212" y2="127.238" width="0" layer="19" extent="1-1"/>
+<wire x1="13" y1="117" x2="18.212" y2="126.602" width="0" layer="19" extent="1-1"/>
+<wire x1="30" y1="116" x2="25.788" y2="131.048" width="0" layer="19" extent="1-1"/>
+<wire x1="-37.15" y1="116" x2="13" y2="117" width="0" layer="19" extent="1-1"/>
+<wire x1="-50.15" y1="109" x2="-37.15" y2="116" width="0" layer="19" extent="1-1"/>
+<wire x1="-51.85" y1="114" x2="-50.15" y2="109" width="0" layer="19" extent="1-1"/>
+<wire x1="-37.15" y1="131" x2="-37.15" y2="116" width="0" layer="19" extent="1-1"/>
+<wire x1="-37.15" y1="136" x2="-37.15" y2="131" width="0" layer="19" extent="1-1"/>
+<wire x1="-37.15" y1="141" x2="-37.15" y2="136" width="0" layer="19" extent="1-1"/>
+<wire x1="-37.15" y1="146" x2="-37.15" y2="141" width="0" layer="19" extent="1-1"/>
+<wire x1="-37.15" y1="151" x2="-37.15" y2="146" width="0" layer="19" extent="1-1"/>
+<wire x1="-38.85" y1="156" x2="-37.15" y2="151" width="0" layer="19" extent="1-1"/>
+<wire x1="-50.15" y1="154" x2="-38.85" y2="156" width="0" layer="19" extent="1-1"/>
+<wire x1="-51.85" y1="149" x2="-50.15" y2="154" width="0" layer="19" extent="1-1"/>
+<wire x1="-51.85" y1="139" x2="-51.85" y2="149" width="0" layer="19" extent="1-1"/>
+<wire x1="-50.15" y1="129" x2="-51.85" y2="139" width="0" layer="19" extent="1-1"/>
+<wire x1="-50.15" y1="93" x2="-50.15" y2="109" width="0" layer="19" extent="1-1"/>
+<wire x1="-42.85" y1="93" x2="-50.15" y2="93" width="0" layer="19" extent="1-1"/>
+<wire x1="-37.15" y1="98" x2="-42.85" y2="93" width="0" layer="19" extent="1-1"/>
+<wire x1="-38.85" y1="66" x2="-42.85" y2="93" width="0" layer="19" extent="1-1"/>
+<wire x1="-52" y1="61.5" x2="-38.85" y2="66" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PVDD">
 <contactref element="IC4" pad="38"/>
@@ -2093,126 +2093,126 @@ design rules under a new name.</description>
 <contactref element="IC4" pad="29"/>
 <contactref element="C78" pad="1"/>
 <contactref element="C77" pad="1"/>
-<wire x1="18" y1="122" x2="51" y2="122" width="0" layer="19" extent="1-1"/>
-<wire x1="19.788" y1="133.142" x2="18" y2="122" width="0" layer="19" extent="1-1"/>
-<wire x1="19.788" y1="133.778" x2="19.788" y2="133.142" width="0" layer="19" extent="1-1"/>
-<wire x1="19.788" y1="134.412" x2="19.788" y2="133.778" width="0" layer="19" extent="1-1"/>
-<wire x1="19.788" y1="137.588" x2="19.788" y2="134.412" width="0" layer="19" extent="1-1"/>
-<wire x1="19.788" y1="138.222" x2="19.788" y2="137.588" width="0" layer="19" extent="1-1"/>
-<wire x1="19.788" y1="138.858" x2="19.788" y2="138.222" width="0" layer="19" extent="1-1"/>
+<wire x1="18.212" y1="134.222" x2="18.212" y2="134.858" width="0" layer="19" extent="1-1"/>
+<wire x1="18.212" y1="133.588" x2="18.212" y2="134.222" width="0" layer="19" extent="1-1"/>
+<wire x1="18.212" y1="130.412" x2="18.212" y2="133.588" width="0" layer="19" extent="1-1"/>
+<wire x1="18.212" y1="129.778" x2="18.212" y2="130.412" width="0" layer="19" extent="1-1"/>
+<wire x1="18.212" y1="129.142" x2="18.212" y2="129.778" width="0" layer="19" extent="1-1"/>
+<wire x1="13" y1="122" x2="18.212" y2="129.142" width="0" layer="19" extent="1-1"/>
+<wire x1="30" y1="121" x2="18.212" y2="129.142" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$83">
 <contactref element="IC4" pad="28"/>
 <contactref element="IC4" pad="27"/>
 <contactref element="C71" pad="2"/>
 <contactref element="L12" pad="1"/>
-<wire x1="19.788" y1="132.508" x2="63.05" y2="133" width="0" layer="19" extent="1-1"/>
-<wire x1="19.788" y1="131.872" x2="19.788" y2="132.508" width="0" layer="19" extent="1-1"/>
-<wire x1="-32.15" y1="216" x2="19.788" y2="132.508" width="0" layer="19" extent="1-1"/>
+<wire x1="18.212" y1="135.492" x2="40.05" y2="136" width="0" layer="19" extent="1-1"/>
+<wire x1="18.212" y1="136.128" x2="18.212" y2="135.492" width="0" layer="19" extent="1-1"/>
+<wire x1="-50.15" y1="124" x2="18.212" y2="135.492" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$84">
 <contactref element="IC4" pad="44"/>
 <contactref element="C61" pad="1"/>
-<wire x1="19.788" y1="142.668" x2="-28.85" y2="250" width="0" layer="19" extent="1-1"/>
+<wire x1="-46.85" y1="158" x2="18.212" y2="125.332" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$85">
 <contactref element="IC4" pad="43"/>
 <contactref element="C62" pad="1"/>
-<wire x1="19.788" y1="142.032" x2="-28.85" y2="245" width="0" layer="19" extent="1-1"/>
+<wire x1="-46.85" y1="153" x2="18.212" y2="125.968" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$86">
 <contactref element="C61" pad="2"/>
 <contactref element="IC4" pad="39"/>
 <contactref element="IC4" pad="40"/>
 <contactref element="L9" pad="1"/>
-<wire x1="19.788" y1="140.128" x2="-27.15" y2="250" width="0" layer="19" extent="1-1"/>
-<wire x1="19.788" y1="139.492" x2="19.788" y2="140.128" width="0" layer="19" extent="1-1"/>
-<wire x1="63.05" y1="119" x2="19.788" y2="139.492" width="0" layer="19" extent="1-1"/>
+<wire x1="18.212" y1="127.872" x2="40.05" y2="123" width="0" layer="19" extent="1-1"/>
+<wire x1="18.212" y1="128.508" x2="18.212" y2="127.872" width="0" layer="19" extent="1-1"/>
+<wire x1="-45.15" y1="158" x2="18.212" y2="128.508" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$87">
 <contactref element="C62" pad="2"/>
 <contactref element="IC4" pad="35"/>
 <contactref element="L10" pad="1"/>
-<wire x1="19.788" y1="136.952" x2="-27.15" y2="245" width="0" layer="19" extent="1-1"/>
-<wire x1="63.05" y1="106" x2="19.788" y2="136.952" width="0" layer="19" extent="1-1"/>
+<wire x1="40.05" y1="110" x2="18.212" y2="131.048" width="0" layer="19" extent="1-1"/>
+<wire x1="-45.15" y1="153" x2="18.212" y2="131.048" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SPAKER_L_0">
 <contactref element="C63" pad="2"/>
 <contactref element="C67" pad="1"/>
 <contactref element="C69" pad="1"/>
 <contactref element="L9" pad="2"/>
-<wire x1="-33.85" y1="236" x2="-33.85" y2="246" width="0" layer="19" extent="1-1"/>
-<wire x1="42" y1="108" x2="-33.85" y2="236" width="0" layer="19" extent="1-1"/>
-<wire x1="72.95" y1="119" x2="42" y2="108" width="0" layer="19" extent="1-1"/>
+<wire x1="49.95" y1="123" x2="56" y2="123" width="0" layer="19" extent="1-1"/>
+<wire x1="-51.85" y1="144" x2="49.95" y2="123" width="0" layer="19" extent="1-1"/>
+<wire x1="-51.85" y1="154" x2="-51.85" y2="144" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SPEAKER_L_1">
 <contactref element="C64" pad="1"/>
 <contactref element="C68" pad="2"/>
 <contactref element="C70" pad="2"/>
 <contactref element="L10" pad="2"/>
-<wire x1="-32.15" y1="226" x2="-32.15" y2="241" width="0" layer="19" extent="1-1"/>
-<wire x1="42" y1="121" x2="-32.15" y2="226" width="0" layer="19" extent="1-1"/>
-<wire x1="72.95" y1="106" x2="42" y2="121" width="0" layer="19" extent="1-1"/>
+<wire x1="49.95" y1="110" x2="56" y2="110" width="0" layer="19" extent="1-1"/>
+<wire x1="-50.15" y1="134" x2="49.95" y2="110" width="0" layer="19" extent="1-1"/>
+<wire x1="-50.15" y1="149" x2="-50.15" y2="134" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$88">
 <contactref element="C69" pad="2"/>
 <contactref element="R23" pad="2"/>
-<wire x1="-32.15" y1="231" x2="-32.15" y2="236" width="0" layer="19" extent="1-1"/>
+<wire x1="-50.15" y1="139" x2="-50.15" y2="144" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$89">
 <contactref element="C70" pad="1"/>
 <contactref element="R24" pad="1"/>
-<wire x1="-33.85" y1="221" x2="-33.85" y2="226" width="0" layer="19" extent="1-1"/>
+<wire x1="-51.85" y1="129" x2="-51.85" y2="134" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$90">
 <contactref element="IC4" pad="32"/>
 <contactref element="C72" pad="2"/>
 <contactref element="L11" pad="1"/>
-<wire x1="19.788" y1="135.048" x2="63.05" y2="146" width="0" layer="19" extent="1-1"/>
-<wire x1="-32.15" y1="211" x2="19.788" y2="135.048" width="0" layer="19" extent="1-1"/>
+<wire x1="18.212" y1="132.952" x2="40.05" y2="149" width="0" layer="19" extent="1-1"/>
+<wire x1="-50.15" y1="119" x2="18.212" y2="132.952" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$91">
 <contactref element="C72" pad="1"/>
 <contactref element="IC4" pad="24"/>
-<wire x1="19.788" y1="129.968" x2="-33.85" y2="211" width="0" layer="19" extent="1-1"/>
+<wire x1="-51.85" y1="119" x2="18.212" y2="138.032" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$92">
 <contactref element="IC4" pad="23"/>
 <contactref element="C71" pad="1"/>
-<wire x1="19.788" y1="129.332" x2="-33.85" y2="216" width="0" layer="19" extent="1-1"/>
+<wire x1="-51.85" y1="124" x2="18.212" y2="138.668" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SPEAKER_R_0">
 <contactref element="C65" pad="2"/>
 <contactref element="C73" pad="1"/>
 <contactref element="C75" pad="1"/>
 <contactref element="L11" pad="2"/>
-<wire x1="42" y1="147" x2="72.95" y2="146" width="0" layer="19" extent="1-1"/>
-<wire x1="-33.85" y1="185" x2="42" y2="147" width="0" layer="19" extent="1-1"/>
-<wire x1="-33.85" y1="196" x2="-33.85" y2="185" width="0" layer="19" extent="1-1"/>
+<wire x1="49.95" y1="149" x2="56" y2="149" width="0" layer="19" extent="1-1"/>
+<wire x1="-51.85" y1="104" x2="49.95" y2="149" width="0" layer="19" extent="1-1"/>
+<wire x1="-51.85" y1="93" x2="-51.85" y2="104" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$93">
 <contactref element="C75" pad="2"/>
 <contactref element="R25" pad="2"/>
-<wire x1="-32.15" y1="196" x2="-32.15" y2="206" width="0" layer="19" extent="1-1"/>
+<wire x1="-50.15" y1="104" x2="-50.15" y2="114" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$94">
 <contactref element="C76" pad="1"/>
 <contactref element="R26" pad="1"/>
-<wire x1="-33.85" y1="191" x2="-33.85" y2="201" width="0" layer="19" extent="1-1"/>
+<wire x1="-51.85" y1="99" x2="-51.85" y2="109" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SPEAKER_R_1">
 <contactref element="C66" pad="1"/>
 <contactref element="C74" pad="2"/>
 <contactref element="C76" pad="2"/>
 <contactref element="L12" pad="2"/>
-<wire x1="42" y1="134" x2="72.95" y2="133" width="0" layer="19" extent="1-1"/>
-<wire x1="-23.15" y1="185" x2="42" y2="134" width="0" layer="19" extent="1-1"/>
-<wire x1="-32.15" y1="191" x2="-23.15" y2="185" width="0" layer="19" extent="1-1"/>
+<wire x1="49.95" y1="136" x2="56" y2="136" width="0" layer="19" extent="1-1"/>
+<wire x1="-41.15" y1="93" x2="49.95" y2="136" width="0" layer="19" extent="1-1"/>
+<wire x1="-50.15" y1="99" x2="-41.15" y2="93" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$95">
 <contactref element="IC4" pad="15"/>
 <contactref element="R27" pad="2"/>
-<wire x1="-37.15" y1="156" x2="12.212" y2="133.778" width="0" layer="19" extent="1-1"/>
+<wire x1="-37.15" y1="156" x2="25.788" y2="134.222" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="OSC_IOP">
 <contactref element="IC4" pad="13"/>
@@ -2223,32 +2223,32 @@ design rules under a new name.</description>
 <signal name="CLIP_OTW">
 <contactref element="IC4" pad="2"/>
 <contactref element="R31" pad="1"/>
-<wire x1="-38.85" y1="61" x2="12.212" y2="142.032" width="0" layer="19" extent="1-1"/>
+<wire x1="-38.85" y1="61" x2="25.788" y2="125.968" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="FAULT">
 <contactref element="IC4" pad="4"/>
 <contactref element="R32" pad="1"/>
-<wire x1="-38.85" y1="56" x2="12.212" y2="140.762" width="0" layer="19" extent="1-1"/>
+<wire x1="-38.85" y1="56" x2="25.788" y2="127.238" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="RESET">
 <contactref element="IC4" pad="5"/>
 <contactref element="R33" pad="1"/>
-<wire x1="-38.85" y1="51" x2="12.212" y2="140.128" width="0" layer="19" extent="1-1"/>
+<wire x1="-38.85" y1="51" x2="25.788" y2="127.872" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$96">
 <contactref element="IC4" pad="3"/>
 <contactref element="C79" pad="1"/>
-<wire x1="-38.85" y1="151" x2="12.212" y2="141.398" width="0" layer="19" extent="1-1"/>
+<wire x1="-38.85" y1="151" x2="25.788" y2="126.602" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$97">
 <contactref element="C80" pad="1"/>
 <contactref element="IC4" pad="8"/>
-<wire x1="-38.85" y1="146" x2="12.212" y2="138.222" width="0" layer="19" extent="1-1"/>
+<wire x1="-38.85" y1="146" x2="25.788" y2="129.778" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$98">
 <contactref element="IC4" pad="9"/>
 <contactref element="C81" pad="1"/>
-<wire x1="-38.85" y1="141" x2="12.212" y2="137.588" width="0" layer="19" extent="1-1"/>
+<wire x1="-38.85" y1="141" x2="25.788" y2="130.412" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="+3V3">
 <contactref element="C82" pad="1"/>
@@ -2256,7 +2256,7 @@ design rules under a new name.</description>
 <contactref element="R31" pad="2"/>
 <contactref element="R32" pad="2"/>
 <contactref element="R33" pad="2"/>
-<wire x1="-38.85" y1="136" x2="12.212" y2="135.682" width="0" layer="19" extent="1-1"/>
+<wire x1="-38.85" y1="136" x2="25.788" y2="132.318" width="0" layer="19" extent="1-1"/>
 <wire x1="-37.15" y1="61" x2="-38.85" y2="136" width="0" layer="19" extent="1-1"/>
 <wire x1="-37.15" y1="56" x2="-37.15" y2="61" width="0" layer="19" extent="1-1"/>
 <wire x1="-37.15" y1="51" x2="-37.15" y2="56" width="0" layer="19" extent="1-1"/>
@@ -2265,20 +2265,20 @@ design rules under a new name.</description>
 <contactref element="C83" pad="1"/>
 <contactref element="IC4" pad="1"/>
 <contactref element="R28" pad="1"/>
-<wire x1="-38.85" y1="131" x2="12.212" y2="142.668" width="0" layer="19" extent="1-1"/>
-<wire x1="-38.85" y1="126" x2="-38.85" y2="131" width="0" layer="19" extent="1-1"/>
+<wire x1="-38.85" y1="126" x2="25.788" y2="125.332" width="0" layer="19" extent="1-1"/>
+<wire x1="-38.85" y1="131" x2="-38.85" y2="126" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$100">
 <contactref element="C84" pad="1"/>
 <contactref element="IC4" pad="22"/>
 <contactref element="R29" pad="1"/>
-<wire x1="-38.85" y1="121" x2="12.212" y2="129.332" width="0" layer="19" extent="1-1"/>
+<wire x1="-38.85" y1="121" x2="25.788" y2="138.668" width="0" layer="19" extent="1-1"/>
 <wire x1="-38.85" y1="116" x2="-38.85" y2="121" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$101">
 <contactref element="IC4" pad="6"/>
 <contactref element="C87" pad="1"/>
-<wire x1="-38.4" y1="91" x2="12.212" y2="139.492" width="0" layer="19" extent="1-1"/>
+<wire x1="-38.4" y1="91" x2="25.788" y2="128.508" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="INPUT_D">
 <contactref element="C87" pad="2"/>
@@ -2286,7 +2286,7 @@ design rules under a new name.</description>
 <signal name="N$102">
 <contactref element="C88" pad="1"/>
 <contactref element="IC4" pad="7"/>
-<wire x1="-38.4" y1="85" x2="12.212" y2="138.858" width="0" layer="19" extent="1-1"/>
+<wire x1="-38.4" y1="85" x2="25.788" y2="129.142" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="INPUT_C">
 <contactref element="C88" pad="2"/>
@@ -2294,12 +2294,12 @@ design rules under a new name.</description>
 <signal name="N$103">
 <contactref element="IC4" pad="17"/>
 <contactref element="C89" pad="1"/>
-<wire x1="-38.4" y1="79" x2="12.212" y2="132.508" width="0" layer="19" extent="1-1"/>
+<wire x1="-38.4" y1="79" x2="25.788" y2="135.492" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$104">
 <contactref element="C90" pad="1"/>
 <contactref element="IC4" pad="18"/>
-<wire x1="-38.4" y1="72" x2="12.212" y2="131.872" width="0" layer="19" extent="1-1"/>
+<wire x1="-38.4" y1="72" x2="25.788" y2="136.128" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="INPUT_B">
 <contactref element="C89" pad="2"/>
@@ -2310,7 +2310,7 @@ design rules under a new name.</description>
 <signal name="N$105">
 <contactref element="R30" pad="2"/>
 <contactref element="IC4" pad="16"/>
-<wire x1="-37.15" y1="66" x2="12.212" y2="133.142" width="0" layer="19" extent="1-1"/>
+<wire x1="-37.15" y1="66" x2="25.788" y2="134.858" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VDD">
 <contactref element="C85" pad="1"/>
@@ -2318,8 +2318,8 @@ design rules under a new name.</description>
 <contactref element="C86" pad="1"/>
 <contactref element="R29" pad="2"/>
 <contactref element="R28" pad="2"/>
-<wire x1="12.212" y1="129.968" x2="51" y2="134" width="0" layer="19" extent="1-1"/>
-<wire x1="-37.15" y1="126" x2="12.212" y2="129.968" width="0" layer="19" extent="1-1"/>
+<wire x1="25.788" y1="138.032" x2="30" y2="142" width="0" layer="19" extent="1-1"/>
+<wire x1="-37.15" y1="126" x2="25.788" y2="138.032" width="0" layer="19" extent="1-1"/>
 <wire x1="-37.15" y1="121" x2="-37.15" y2="126" width="0" layer="19" extent="1-1"/>
 <wire x1="-38.85" y1="98" x2="-37.15" y2="121" width="0" layer="19" extent="1-1"/>
 </signal>
