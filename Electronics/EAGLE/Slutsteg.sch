@@ -18848,17 +18848,6 @@ I-GVDD = ~7.3A (peak)</text>
 </nets>
 </sheet>
 <sheet>
-<description>TPA3251</description>
-<plain>
-</plain>
-<instances>
-</instances>
-<busses>
-</busses>
-<nets>
-</nets>
-</sheet>
-<sheet>
 <plain>
 </plain>
 <instances>
@@ -19528,7 +19517,6 @@ I-GVDD = ~7.3A (peak)</text>
 <errors>
 <approved hash="113,1,193.571,130.071,FRAME2,,,,,"/>
 <approved hash="113,2,193.571,130.071,FRAME4,,,,,"/>
-<approved hash="113,3,193.571,130.071,FRAME1,,,,,"/>
 </errors>
 </schematic>
 </drawing>
