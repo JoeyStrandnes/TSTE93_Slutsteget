@@ -556,55 +556,37 @@ Source: &lt;a href="http://www.onsemi.com/pub_link/Collateral/MC78M00-D.PDF"&gt;
 </library>
 <library name="OSTYK33108030">
 <packages>
-<package name="OSTYK33108030">
+<package name="OSTYK33108030-2">
 <pad name="1" x="0" y="0" drill="1.7" shape="square" first="yes"/>
 <pad name="2" x="8.25" y="0" drill="1.7"/>
-<pad name="3" x="16.5" y="0" drill="1.7"/>
-<pad name="4" x="24.75" y="0" drill="1.7"/>
-<pad name="5" x="33" y="0" drill="1.7"/>
-<pad name="6" x="41.25" y="0" drill="1.7"/>
-<pad name="7" x="49.5" y="0" drill="1.7"/>
-<pad name="8" x="57.75" y="0" drill="1.7"/>
 <wire x1="-5.1" y1="4.4" x2="-5.1" y2="-10.6" width="0.127" layer="21" locked="yes"/>
-<wire x1="-5.1" y1="4.4" x2="62.85" y2="4.4" width="0.127" layer="21"/>
-<wire x1="62.9" y1="4.4" x2="62.9" y2="-10.6" width="0.127" layer="21" locked="yes"/>
-<wire x1="-5.1" y1="-10.6" x2="62.85" y2="-10.6" width="0.127" layer="21"/>
-<text x="24" y="-7" size="1.27" layer="25">&gt;NAME</text>
+<wire x1="-5.1" y1="4.4" x2="13.35" y2="4.4" width="0.127" layer="21"/>
+<wire x1="13.35" y1="4.4" x2="13.35" y2="-10.6" width="0.127" layer="21"/>
+<wire x1="-5.1" y1="-10.6" x2="13.35" y2="-10.6" width="0.127" layer="21"/>
+<text x="0.87" y="-8" size="1.27" layer="25">&gt;NAME</text>
 </package>
 </packages>
 <symbols>
-<symbol name="OSTYK33108030">
-<wire x1="0" y1="0" x2="0" y2="45.72" width="0.254" layer="94"/>
-<wire x1="0" y1="45.72" x2="10.16" y2="45.72" width="0.254" layer="94"/>
-<wire x1="10.16" y1="45.72" x2="10.16" y2="0" width="0.254" layer="94"/>
+<symbol name="OSTYK33108030-2">
+<wire x1="0" y1="0" x2="0" y2="15.24" width="0.254" layer="94"/>
+<wire x1="0" y1="15.24" x2="10.16" y2="15.24" width="0.254" layer="94"/>
+<wire x1="10.16" y1="15.24" x2="10.16" y2="0" width="0.254" layer="94"/>
 <wire x1="10.16" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
 <pin name="P$1" x="-5.08" y="5.08" visible="pad" length="middle"/>
 <pin name="P$2" x="-5.08" y="10.16" visible="pad" length="middle"/>
-<pin name="P$3" x="-5.08" y="15.24" visible="pad" length="middle"/>
-<pin name="P$4" x="-5.08" y="20.32" visible="pad" length="middle"/>
-<pin name="P$5" x="-5.08" y="25.4" visible="pad" length="middle"/>
-<pin name="P$6" x="-5.08" y="30.48" visible="pad" length="middle"/>
-<pin name="P$7" x="-5.08" y="35.56" visible="pad" length="middle"/>
-<pin name="P$8" x="-5.08" y="40.64" visible="pad" length="middle"/>
-<text x="0" y="48.26" size="1.778" layer="95">&gt;NAME</text>
+<text x="0" y="17.78" size="1.778" layer="95">&gt;NAME</text>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="OSTYK33108030" prefix="CN">
+<deviceset name="OSTYK33102030-2" prefix="CN">
 <gates>
-<gate name="G$1" symbol="OSTYK33108030" x="0" y="0"/>
+<gate name="G$1" symbol="OSTYK33108030-2" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="OSTYK33108030">
+<device name="" package="OSTYK33108030-2">
 <connects>
 <connect gate="G$1" pin="P$1" pad="1"/>
 <connect gate="G$1" pin="P$2" pad="2"/>
-<connect gate="G$1" pin="P$3" pad="3"/>
-<connect gate="G$1" pin="P$4" pad="4"/>
-<connect gate="G$1" pin="P$5" pad="5"/>
-<connect gate="G$1" pin="P$6" pad="6"/>
-<connect gate="G$1" pin="P$7" pad="7"/>
-<connect gate="G$1" pin="P$8" pad="8"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -9139,7 +9121,6 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/2/ECA-1HM471B.p
 <part name="IC1" library="linear" library_urn="urn:adsk.eagle:library:262" deviceset="MC78M" device="" package3d_urn="urn:adsk.eagle:package:16495/2" technology="12CDTG"/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="FRAME2" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A3L-LOC" device=""/>
-<part name="CN1" library="OSTYK33108030" deviceset="OSTYK33108030" device=""/>
 <part name="IC3" library="SamacSys_Parts" deviceset="TPA3251D2DDVR" device=""/>
 <part name="C27" library="TPA3244.dbl" deviceset="SAMACSYS_PARTS_ECA-1HM471B" device="" value="ECA-1HM102B"/>
 <part name="C28" library="TPA3244.dbl" deviceset="SAMACSYS_PARTS_ECA-1HM471B" device="" value="ECA-1HM102B"/>
@@ -9184,13 +9165,13 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/2/ECA-1HM471B.p
 <part name="C50" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1uF/50V"/>
 <part name="C51" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="10uF/16V"/>
 <part name="C52" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="10uF/16V"/>
-<part name="IC4" library="SamacSys_Parts" deviceset="TPA3244DDWR" device=""/>
+<part name="IC4" library="SamacSys_Parts" deviceset="TPA3244DDWR" device="" override_package3d_urn="urn:adsk.eagle:package:27158099/2" override_package_urn="urn:adsk.eagle:footprint:27158100/1"/>
 <part name="C57" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="33nF/25V"/>
 <part name="C58" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="33nF/25V"/>
-<part name="C59" library="SamacSys_Parts" deviceset="PHE426HB7100JR06" device=""/>
-<part name="C60" library="SamacSys_Parts" deviceset="PHE426HB7100JR06" device=""/>
-<part name="C61" library="SamacSys_Parts" deviceset="PHE426HB7100JR06" device=""/>
-<part name="C62" library="SamacSys_Parts" deviceset="PHE426HB7100JR06" device=""/>
+<part name="C59" library="SamacSys_Parts" deviceset="PHE426HB7100JR06" device="" override_package3d_urn="urn:adsk.eagle:package:27154801/2" override_package_urn="urn:adsk.eagle:footprint:27154802/1"/>
+<part name="C60" library="SamacSys_Parts" deviceset="PHE426HB7100JR06" device="" override_package3d_urn="urn:adsk.eagle:package:27154856/2" override_package_urn="urn:adsk.eagle:footprint:27154857/1"/>
+<part name="C61" library="SamacSys_Parts" deviceset="PHE426HB7100JR06" device="" override_package3d_urn="urn:adsk.eagle:package:27154861/2" override_package_urn="urn:adsk.eagle:footprint:27154862/1"/>
+<part name="C62" library="SamacSys_Parts" deviceset="PHE426HB7100JR06" device="" override_package3d_urn="urn:adsk.eagle:package:27154882/2" override_package_urn="urn:adsk.eagle:footprint:27154883/1"/>
 <part name="GND15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C63" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1nF/50V"/>
 <part name="FRAME3" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A3L-LOC" device=""/>
@@ -9208,8 +9189,8 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/2/ECA-1HM471B.p
 <part name="R19" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="3.3R/5%/0.1W"/>
 <part name="C72" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="10nF/50V"/>
 <part name="R20" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="3.3R/5%/0.1W"/>
-<part name="C73" library="SamacSys_Parts" deviceset="ECA-1HM471B" device="" value="ECA-1HM102B"/>
-<part name="C74" library="SamacSys_Parts" deviceset="ECA-1HM471B" device="" value="ECA-1HM102B"/>
+<part name="C73" library="SamacSys_Parts" deviceset="ECA-1HM471B" device="" override_package3d_urn="urn:adsk.eagle:package:27155028/2" override_package_urn="urn:adsk.eagle:footprint:27155054/1" value="ECA-1HM102B"/>
+<part name="C74" library="SamacSys_Parts" deviceset="ECA-1HM471B" device="" override_package3d_urn="urn:adsk.eagle:package:27154914/2" override_package_urn="urn:adsk.eagle:footprint:27154916/1" value="ECA-1HM102B"/>
 <part name="R21" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="20K/5%/0.1W"/>
 <part name="C75" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100nF/50V"/>
 <part name="C76" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="10nF/50V"/>
@@ -9217,7 +9198,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/2/ECA-1HM471B.p
 <part name="R22" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="3.3R/5%/0.1W"/>
 <part name="C78" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100nF/50V"/>
 <part name="R23" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="3.3R/5%/0.1W"/>
-<part name="C79" library="SamacSys_Parts" deviceset="ECA-1HM471B" device=""/>
+<part name="C79" library="SamacSys_Parts" deviceset="ECA-1HM471B" device="" override_package3d_urn="urn:adsk.eagle:package:27158126/2" override_package_urn="urn:adsk.eagle:footprint:27158127/1"/>
 <part name="C80" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100nF/50V"/>
 <part name="C81" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="10uF/16V"/>
 <part name="C82" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="10uF/16V"/>
@@ -9237,12 +9218,14 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/2/ECA-1HM471B.p
 <part name="+3V7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="R27" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="20K/5%/0.1W"/>
 <part name="+3V8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="L9" library="SamacSys_Parts" deviceset="74477010" device=""/>
-<part name="L10" library="SamacSys_Parts" deviceset="74477010" device=""/>
-<part name="L11" library="SamacSys_Parts" deviceset="74477010" device=""/>
-<part name="L12" library="SamacSys_Parts" deviceset="74477010" device=""/>
+<part name="L9" library="SamacSys_Parts" deviceset="74477010" device="" override_package3d_urn="urn:adsk.eagle:package:27154887/2" override_package_urn="urn:adsk.eagle:footprint:27154892/1"/>
+<part name="L10" library="SamacSys_Parts" deviceset="74477010" device="" override_package3d_urn="urn:adsk.eagle:package:27154899/2" override_package_urn="urn:adsk.eagle:footprint:27154900/1"/>
+<part name="L11" library="SamacSys_Parts" deviceset="74477010" device="" override_package3d_urn="urn:adsk.eagle:package:27154902/2" override_package_urn="urn:adsk.eagle:footprint:27154903/1"/>
+<part name="L12" library="SamacSys_Parts" deviceset="74477010" device="" override_package3d_urn="urn:adsk.eagle:package:27154904/2" override_package_urn="urn:adsk.eagle:footprint:27154905/1"/>
 <part name="C85" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1uF/50V"/>
 <part name="C86" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1uF/50V"/>
+<part name="CN2" library="OSTYK33108030" deviceset="OSTYK33102030-2" device=""/>
+<part name="CN3" library="OSTYK33108030" deviceset="OSTYK33102030-2" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -9262,8 +9245,11 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/2/ECA-1HM471B.p
 <attribute name="LAST_DATE_TIME" x="344.17" y="10.16" size="2.286" layer="94"/>
 <attribute name="SHEET" x="357.505" y="5.08" size="2.54" layer="94"/>
 </instance>
-<instance part="CN1" gate="G$1" x="345.44" y="116.84" smashed="yes">
-<attribute name="NAME" x="345.44" y="165.1" size="1.778" layer="95"/>
+<instance part="CN2" gate="G$1" x="342.9" y="210.82" smashed="yes">
+<attribute name="NAME" x="342.9" y="228.6" size="1.778" layer="95"/>
+</instance>
+<instance part="CN3" gate="G$1" x="342.9" y="182.88" smashed="yes">
+<attribute name="NAME" x="342.9" y="200.66" size="1.778" layer="95"/>
 </instance>
 </instances>
 <busses>
@@ -9274,6 +9260,34 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/2/ECA-1HM471B.p
 <pinref part="IC1" gate="G$1" pin="GND"/>
 <pinref part="GND1" gate="1" pin="GND"/>
 <wire x1="35.56" y1="203.2" x2="35.56" y2="172.72" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="SPEAKER_L_0" class="0">
+<segment>
+<pinref part="CN2" gate="G$1" pin="P$2"/>
+<wire x1="337.82" y1="220.98" x2="332.74" y2="220.98" width="0.1524" layer="91"/>
+<label x="332.74" y="220.98" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="SPEAKER_L_1" class="0">
+<segment>
+<pinref part="CN2" gate="G$1" pin="P$1"/>
+<wire x1="337.82" y1="215.9" x2="332.74" y2="215.9" width="0.1524" layer="91"/>
+<label x="332.74" y="215.9" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="SPEAKER_R_0" class="0">
+<segment>
+<pinref part="CN3" gate="G$1" pin="P$2"/>
+<wire x1="337.82" y1="193.04" x2="332.74" y2="193.04" width="0.1524" layer="91"/>
+<label x="332.74" y="193.04" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="SPEAKER_R_1" class="0">
+<segment>
+<pinref part="CN3" gate="G$1" pin="P$1"/>
+<wire x1="337.82" y1="187.96" x2="332.74" y2="187.96" width="0.1524" layer="91"/>
+<label x="332.74" y="187.96" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
@@ -9704,7 +9718,7 @@ I-GVDD = ~7.3A (peak)</text>
 <pinref part="GND21" gate="1" pin="GND"/>
 </segment>
 </net>
-<net name="N$43" class="0">
+<net name="OUT_A" class="0">
 <segment>
 <pinref part="IC4" gate="G$1" pin="OUT_A_2"/>
 <wire x1="193.04" y1="132.08" x2="195.58" y2="132.08" width="0.1524" layer="91"/>
@@ -9736,7 +9750,7 @@ I-GVDD = ~7.3A (peak)</text>
 <pinref part="C58" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="N$46" class="0">
+<net name="OUT_D" class="0">
 <segment>
 <pinref part="C57" gate="G$1" pin="2"/>
 <wire x1="195.58" y1="162.56" x2="195.58" y2="160.02" width="0.1524" layer="91"/>
@@ -9754,7 +9768,7 @@ I-GVDD = ~7.3A (peak)</text>
 <pinref part="L9" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="N$47" class="0">
+<net name="OUT_C" class="0">
 <segment>
 <pinref part="C58" gate="G$1" pin="2"/>
 <pinref part="IC4" gate="G$1" pin="OUT_C"/>
@@ -9765,25 +9779,6 @@ I-GVDD = ~7.3A (peak)</text>
 <wire x1="231.14" y1="129.54" x2="241.3" y2="129.54" width="0.1524" layer="91"/>
 <junction x="231.14" y="149.86"/>
 <pinref part="L10" gate="G$1" pin="1"/>
-</segment>
-</net>
-<net name="SPAKER_L_0" class="0">
-<segment>
-<pinref part="C59" gate="G$1" pin="2"/>
-<wire x1="261.62" y1="180.34" x2="276.86" y2="180.34" width="0.1524" layer="91"/>
-<wire x1="276.86" y1="180.34" x2="276.86" y2="177.8" width="0.1524" layer="91"/>
-<pinref part="C63" gate="G$1" pin="1"/>
-<wire x1="276.86" y1="180.34" x2="304.8" y2="180.34" width="0.1524" layer="91"/>
-<wire x1="304.8" y1="180.34" x2="304.8" y2="177.8" width="0.1524" layer="91"/>
-<junction x="276.86" y="180.34"/>
-<pinref part="C65" gate="G$1" pin="1"/>
-<wire x1="327.66" y1="177.8" x2="327.66" y2="180.34" width="0.1524" layer="91"/>
-<wire x1="327.66" y1="180.34" x2="304.8" y2="180.34" width="0.1524" layer="91"/>
-<junction x="304.8" y="180.34"/>
-<wire x1="327.66" y1="180.34" x2="347.98" y2="180.34" width="0.1524" layer="91"/>
-<junction x="327.66" y="180.34"/>
-<label x="347.98" y="180.34" size="1.778" layer="95" xref="yes"/>
-<pinref part="L9" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="SPEAKER_L_1" class="0">
@@ -9819,7 +9814,7 @@ I-GVDD = ~7.3A (peak)</text>
 <wire x1="327.66" y1="139.7" x2="327.66" y2="142.24" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$50" class="0">
+<net name="OUT_B" class="0">
 <segment>
 <pinref part="IC4" gate="G$1" pin="OUT_B"/>
 <wire x1="193.04" y1="142.24" x2="228.6" y2="142.24" width="0.1524" layer="91"/>
@@ -10105,6 +10100,25 @@ I-GVDD = ~7.3A (peak)</text>
 <pinref part="C85" gate="G$1" pin="2"/>
 <pinref part="IC4" gate="G$1" pin="DVDD"/>
 <wire x1="137.16" y1="144.78" x2="152.4" y2="144.78" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="SPEAKER_L_0" class="0">
+<segment>
+<pinref part="C63" gate="G$1" pin="1"/>
+<wire x1="261.62" y1="180.34" x2="276.86" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="276.86" y1="180.34" x2="304.8" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="304.8" y1="180.34" x2="304.8" y2="177.8" width="0.1524" layer="91"/>
+<pinref part="C65" gate="G$1" pin="1"/>
+<wire x1="327.66" y1="177.8" x2="327.66" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="327.66" y1="180.34" x2="304.8" y2="180.34" width="0.1524" layer="91"/>
+<junction x="304.8" y="180.34"/>
+<wire x1="327.66" y1="180.34" x2="347.98" y2="180.34" width="0.1524" layer="91"/>
+<junction x="327.66" y="180.34"/>
+<label x="347.98" y="180.34" size="1.778" layer="95" xref="yes"/>
+<pinref part="L9" gate="G$1" pin="2"/>
+<pinref part="C59" gate="G$1" pin="2"/>
+<wire x1="276.86" y1="177.8" x2="276.86" y2="180.34" width="0.1524" layer="91"/>
+<junction x="276.86" y="180.34"/>
 </segment>
 </net>
 </nets>
@@ -10829,6 +10843,11 @@ will not be understood (or retained) with this version.
 Since Version 8.3, EAGLE supports the association of 3D packages
 with devices in libraries, schematics, and board files. Those 3D
 packages will not be understood (or retained) with this version.
+</note>
+<note version="9.4" severity="warning">
+Since Version 9.4, EAGLE supports the overriding of 3D packages
+in schematics and board files. Those overridden 3d packages
+will not be understood (or retained) with this version.
 </note>
 <note version="8.4" severity="warning">
 Since Version 8.4, EAGLE supports properties for SPICE simulation. 
