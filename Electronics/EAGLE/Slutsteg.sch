@@ -9912,8 +9912,8 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/2/ECA-1HM471B.p
 <part name="L12" library="SamacSys_Parts" deviceset="74477010" device="" override_package3d_urn="urn:adsk.eagle:package:27154904/2" override_package_urn="urn:adsk.eagle:footprint:27154905/1"/>
 <part name="C85" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1uF/50V"/>
 <part name="C86" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1uF/50V"/>
-<part name="CN2" library="OSTYK33108030" deviceset="OSTYK33102030-2" device=""/>
-<part name="CN3" library="OSTYK33108030" deviceset="OSTYK33102030-2" device=""/>
+<part name="CN2" library="OSTYK33108030" deviceset="OSTYK33102030-2" device="" override_package3d_urn="urn:adsk.eagle:package:27162182/2" override_package_urn="urn:adsk.eagle:footprint:27162183/1"/>
+<part name="CN3" library="OSTYK33108030" deviceset="OSTYK33102030-2" device="" override_package3d_urn="urn:adsk.eagle:package:27162207/2" override_package_urn="urn:adsk.eagle:footprint:27162209/1"/>
 <part name="FRAME4" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A3L-LOC" device=""/>
 <part name="IC8" library="SamacSys_Parts" deviceset="ESP32-WROVER-IE__16MB_" device="" override_package3d_urn="urn:adsk.eagle:package:27158165/2" override_package_urn="urn:adsk.eagle:footprint:27158167/1" value="ESP32-WROVER-IE-4MB"/>
 <part name="GND25" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
