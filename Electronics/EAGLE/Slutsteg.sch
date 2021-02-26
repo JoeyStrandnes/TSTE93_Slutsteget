@@ -9231,7 +9231,6 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/2/ECA-1HM471B.p
 <part name="GND21" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="VDD4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VDD" device=""/>
 <part name="VDD5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VDD" device=""/>
-<part name="+3V5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="R25" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="20K/5%/0.1W"/>
 <part name="+3V6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="R26" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="20K/5%/0.1W"/>
@@ -9471,9 +9470,6 @@ I-GVDD = ~7.3A (peak)</text>
 </instance>
 <instance part="VDD5" gate="G$1" x="111.76" y="198.12" smashed="yes">
 <attribute name="VALUE" x="109.22" y="200.66" size="1.778" layer="96"/>
-</instance>
-<instance part="+3V5" gate="G$1" x="149.86" y="193.04" smashed="yes">
-<attribute name="VALUE" x="149.86" y="193.04" size="1.778" layer="96"/>
 </instance>
 <instance part="R25" gate="G$1" x="96.52" y="180.34" smashed="yes" rot="R90">
 <attribute name="NAME" x="97.79" y="184.3786" size="1.778" layer="95"/>
@@ -9978,15 +9974,6 @@ I-GVDD = ~7.3A (peak)</text>
 </net>
 <net name="+3V3" class="0">
 <segment>
-<pinref part="IC4" gate="G$1" pin="DVDD"/>
-<wire x1="137.16" y1="144.78" x2="149.86" y2="144.78" width="0.1524" layer="91"/>
-<wire x1="149.86" y1="144.78" x2="152.4" y2="144.78" width="0.1524" layer="91"/>
-<wire x1="149.86" y1="144.78" x2="149.86" y2="190.5" width="0.1524" layer="91"/>
-<junction x="149.86" y="144.78"/>
-<pinref part="+3V5" gate="G$1" pin="+3V3"/>
-<pinref part="C85" gate="G$1" pin="2"/>
-</segment>
-<segment>
 <pinref part="+3V6" gate="G$1" pin="+3V3"/>
 <pinref part="R25" gate="G$1" pin="2"/>
 <wire x1="96.52" y1="190.5" x2="96.52" y2="185.42" width="0.1524" layer="91"/>
@@ -10111,6 +10098,13 @@ I-GVDD = ~7.3A (peak)</text>
 <pinref part="R22" gate="G$1" pin="2"/>
 <wire x1="111.76" y1="185.42" x2="111.76" y2="195.58" width="0.1524" layer="91"/>
 <pinref part="VDD5" gate="G$1" pin="VDD"/>
+</segment>
+</net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="C85" gate="G$1" pin="2"/>
+<pinref part="IC4" gate="G$1" pin="DVDD"/>
+<wire x1="137.16" y1="144.78" x2="152.4" y2="144.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
