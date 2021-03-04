@@ -523,16 +523,16 @@ DIN A3, landscape with location and doc. field</description>
 <wire x1="17.5" y1="-5.75" x2="-2.5" y2="-5.75" width="0.1" layer="51"/>
 <wire x1="-2.5" y1="-5.75" x2="-2.5" y2="5.75" width="0.1" layer="51"/>
 </package>
-<package name="CAPPRD500W65D1000H2200">
-<description>&lt;b&gt;10x20&lt;/b&gt;&lt;br&gt;
+<package name="CAPPRD350W60D825H1300">
+<description>&lt;b&gt;Rubycon 8x11.5&lt;/b&gt;&lt;br&gt;
 </description>
-<pad name="1" x="0" y="0" drill="0.85" diameter="1.275" shape="square"/>
-<pad name="2" x="5" y="0" drill="0.85" diameter="1.275"/>
+<pad name="1" x="0" y="0" drill="0.8" diameter="1.2" shape="square"/>
+<pad name="2" x="3.5" y="0" drill="0.8" diameter="1.2"/>
 <text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
 <text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<circle x="2.5" y="0" radius="5.5" width="0.05" layer="21"/>
-<circle x="2.5" y="0" radius="5" width="0.2" layer="25"/>
-<circle x="2.5" y="0" radius="5" width="0.1" layer="51"/>
+<circle x="1.75" y="0" radius="4.625" width="0.05" layer="21"/>
+<circle x="1.75" y="0" radius="4.125" width="0.2" layer="25"/>
+<circle x="1.75" y="0" radius="4.125" width="0.1" layer="51"/>
 </package>
 <package name="ESP32WROVERE8MB">
 <description>&lt;b&gt;ESP32-WROVER-E (8MB)-1&lt;/b&gt;&lt;br&gt;
@@ -763,6 +763,35 @@ DIN A3, landscape with location and doc. field</description>
 <wire x1="-2.95" y1="3.25" x2="-0.85" y2="3.25" width="0.2" layer="21"/>
 <circle x="-5.15" y="3.3" radius="0.125" width="0.25" layer="25"/>
 </package>
+<package name="INDPM122122X600N">
+<description>&lt;b&gt;12.2x12.2&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-5.05" y="0" dx="5.2" dy="3.45" layer="1" rot="R90"/>
+<smd name="2" x="5.05" y="0" dx="5.2" dy="3.45" layer="1" rot="R90"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-7.025" y1="6.5" x2="7.025" y2="6.5" width="0.05" layer="51"/>
+<wire x1="7.025" y1="6.5" x2="7.025" y2="-6.5" width="0.05" layer="51"/>
+<wire x1="7.025" y1="-6.5" x2="-7.025" y2="-6.5" width="0.05" layer="51"/>
+<wire x1="-7.025" y1="-6.5" x2="-7.025" y2="6.5" width="0.05" layer="51"/>
+<wire x1="-6.1" y1="6.1" x2="6.1" y2="6.1" width="0.1" layer="51"/>
+<wire x1="6.1" y1="6.1" x2="6.1" y2="-6.1" width="0.1" layer="51"/>
+<wire x1="6.1" y1="-6.1" x2="-6.1" y2="-6.1" width="0.1" layer="51"/>
+<wire x1="-6.1" y1="-6.1" x2="-6.1" y2="6.1" width="0.1" layer="51"/>
+<wire x1="6.1" y1="6.1" x2="-6.1" y2="6.1" width="0.2" layer="21"/>
+<wire x1="-6.1" y1="-6.1" x2="6.1" y2="-6.1" width="0.2" layer="21"/>
+</package>
+<package name="CAPPRD500W60D1300H2650">
+<description>&lt;b&gt;UVY 13X26.5&lt;/b&gt;&lt;br&gt;
+</description>
+<pad name="1" x="0" y="0" drill="0.8" diameter="1.2" shape="square"/>
+<pad name="2" x="5" y="0" drill="0.8" diameter="1.2"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<circle x="2.5" y="0" radius="7" width="0.05" layer="21"/>
+<circle x="2.5" y="0" radius="6.5" width="0.2" layer="25"/>
+<circle x="2.5" y="0" radius="6.5" width="0.1" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="74477010">
@@ -901,7 +930,7 @@ DIN A3, landscape with location and doc. field</description>
 <pin name="1" x="0" y="0" visible="pad" length="middle"/>
 <pin name="2" x="12.7" y="0" visible="pad" length="middle" rot="R180"/>
 </symbol>
-<symbol name="ECA-1HM471B">
+<symbol name="16PK470MEFC8X11.5">
 <wire x1="5.08" y1="2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
 <wire x1="5.842" y1="-2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
 <wire x1="5.842" y1="-2.54" x2="5.842" y2="2.54" width="0.254" layer="94"/>
@@ -1062,6 +1091,36 @@ DIN A3, landscape with location and doc. field</description>
 <pin name="VOUT_1" x="0" y="-2.54" length="middle"/>
 <pin name="VIN" x="0" y="-5.08" length="middle"/>
 <pin name="VOUT_2" x="35.56" y="0" length="middle" rot="R180"/>
+</symbol>
+<symbol name="48100SC">
+<wire x1="5.08" y1="0" x2="7.62" y2="0" width="0.254" layer="94" curve="-175.4"/>
+<wire x1="7.62" y1="0" x2="10.16" y2="0" width="0.254" layer="94" curve="-175.4"/>
+<wire x1="10.16" y1="0" x2="12.7" y2="0" width="0.254" layer="94" curve="-175.4"/>
+<wire x1="12.7" y1="0" x2="15.24" y2="0" width="0.254" layer="94" curve="-175.4"/>
+<text x="16.51" y="6.35" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="16.51" y="3.81" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="1" x="0" y="0" visible="pad" length="middle"/>
+<pin name="2" x="20.32" y="0" visible="pad" length="middle" rot="R180"/>
+</symbol>
+<symbol name="UVY1H102MHD">
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="5.842" y1="-2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="5.842" y1="-2.54" x2="5.842" y2="2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.842" y2="2.54" width="0.254" layer="94"/>
+<wire x1="4.572" y1="1.27" x2="3.556" y2="1.27" width="0.254" layer="94"/>
+<wire x1="4.064" y1="1.778" x2="4.064" y2="0.762" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="5.08" y2="0" width="0.254" layer="94"/>
+<wire x1="7.62" y1="0" x2="10.16" y2="0" width="0.254" layer="94"/>
+<text x="8.89" y="6.35" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="8.89" y="3.81" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="+" x="0" y="0" visible="pad" length="short"/>
+<pin name="-" x="12.7" y="0" visible="pad" length="short" rot="R180"/>
+<polygon width="0.254" layer="94">
+<vertex x="7.62" y="2.54"/>
+<vertex x="7.62" y="-2.54"/>
+<vertex x="6.858" y="-2.54"/>
+<vertex x="6.858" y="2.54"/>
+</polygon>
 </symbol>
 </symbols>
 <devicesets>
@@ -1286,28 +1345,28 @@ Source: &lt;a href="https://api.kemet.com/component-edge/download/datasheet/PHE4
 </device>
 </devices>
 </deviceset>
-<deviceset name="ECA-1HM471B" prefix="C">
-<description>&lt;b&gt;Panasonic 470uF 50 V Aluminium Electrolytic Capacitor, M Series 2000h 10 x 20mm&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="https://componentsearchengine.com/Datasheets/2/ECA-1HM471B.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<deviceset name="16PK470MEFC8X11.5" prefix="C">
+<description>&lt;b&gt;Rubycon 470uF 16 V dc Aluminium Electrolytic Capacitor, PK Series 2000h 8 Dia. x 11.5mm&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://rs.componentsearchengine.com/Datasheets/2/16PK470MEFC8X11.5.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
-<gate name="G$1" symbol="ECA-1HM471B" x="0" y="0"/>
+<gate name="G$1" symbol="16PK470MEFC8X11.5" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="CAPPRD500W65D1000H2200">
+<device name="" package="CAPPRD350W60D825H1300">
 <connects>
 <connect gate="G$1" pin="+" pad="1"/>
 <connect gate="G$1" pin="-" pad="2"/>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="ARROW_PART_NUMBER" value="ECA-1HM471B" constant="no"/>
-<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/eca-1hm471b/panasonic" constant="no"/>
-<attribute name="DESCRIPTION" value="Panasonic 470uF 50 V Aluminium Electrolytic Capacitor, M Series 2000h 10 x 20mm" constant="no"/>
-<attribute name="HEIGHT" value="22mm" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="Panasonic" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="ECA-1HM471B" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="667-ECA-1HM471B" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Panasonic/ECA-1HM471B/?qs=RQTRNQENgbttVw3qXUS4Ew%3D%3D" constant="no"/>
+<attribute name="ARROW_PART_NUMBER" value="16PK470MEFC8X11.5" constant="no"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/16pk470mefc8x11.5/rubycon" constant="no"/>
+<attribute name="DESCRIPTION" value="Rubycon 470uF 16 V dc Aluminium Electrolytic Capacitor, PK Series 2000h 8 Dia. x 11.5mm" constant="no"/>
+<attribute name="HEIGHT" value="13mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Rubycon" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="16PK470MEFC8X11.5" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="232-16PK470MEFC8X115" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=232-16PK470MEFC8X115" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -1567,6 +1626,60 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/2/SPX1117M3-L-3
 <attribute name="MANUFACTURER_PART_NUMBER" value="SPX1117M3-L-3-3/TR" constant="no"/>
 <attribute name="MOUSER_PART_NUMBER" value="701-SPX1117M3-L-33TR" constant="no"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=701-SPX1117M3-L-33TR" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="48100SC" prefix="L">
+<description>&lt;b&gt;Murata Shielded Wire-wound SMD Inductor 10 uH +/-20% 4.5A Idc Q:32&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://www.mouser.co.uk/datasheet/2/281/kmp_4800s-46629.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="48100SC" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDPM122122X600N">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="ARROW_PART_NUMBER" value="48100SC" constant="no"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/48100sc/murata-power-solutions" constant="no"/>
+<attribute name="DESCRIPTION" value="Murata Shielded Wire-wound SMD Inductor 10 uH +/-20% 4.5A Idc Q:32" constant="no"/>
+<attribute name="HEIGHT" value="6mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Murata Electronics" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="48100SC" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="580-48100SC" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Murata-Power-Solutions/48100SC/?qs=ocmcTMnGEDiRVh3BIgymNQ%3D%3D" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="UVY1H102MHD" prefix="C">
+<description>&lt;b&gt;Al Cap Radial VY series 1000uF 50V Nichicon 1000uF 50 V Aluminium Electrolytic Capacitor, VY Series 1000h 12.5 Dia. x 25mm&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/UVY1H102MHD.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="UVY1H102MHD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="CAPPRD500W60D1300H2650">
+<connects>
+<connect gate="G$1" pin="+" pad="1"/>
+<connect gate="G$1" pin="-" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="ARROW_PART_NUMBER" value="UVY1H102MHD" constant="no"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/uvy1h102mhd/nichicon" constant="no"/>
+<attribute name="DESCRIPTION" value="Al Cap Radial VY series 1000uF 50V Nichicon 1000uF 50 V Aluminium Electrolytic Capacitor, VY Series 1000h 12.5 Dia. x 25mm" constant="no"/>
+<attribute name="HEIGHT" value="26.5mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Nichicon" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="UVY1H102MHD" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="647-UVY1H102MHD" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Nichicon/UVY1H102MHD/?qs=2y3HzBpM7VZovYRyLKWf6g%3D%3D" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -9415,74 +9528,6 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="TPA3244.dbl">
-<description>Generated from &lt;b&gt;TPA3244.dbl.sch&lt;/b&gt;&lt;p&gt;
-by exp-lbrs.ulp</description>
-<packages>
-<package name="SAMACSYS_PARTS_CAPPRD500W65D1000H2200">
-<description>&lt;b&gt;10x20&lt;/b&gt;&lt;br&gt;</description>
-<circle x="2.5" y="0" radius="5.5" width="0.05" layer="21"/>
-<circle x="2.5" y="0" radius="5" width="0.2" layer="25"/>
-<circle x="2.5" y="0" radius="5" width="0.1" layer="51"/>
-<pad name="1" x="0" y="0" drill="0.85" diameter="1.275" shape="square"/>
-<pad name="2" x="5" y="0" drill="0.85" diameter="1.275"/>
-<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
-</package>
-</packages>
-<symbols>
-<symbol name="SAMACSYS_PARTS_ECA-1HM471B">
-<wire x1="5.08" y1="2.54" x2="5.08" y2="0" width="0.254" layer="94"/>
-<wire x1="5.08" y1="0" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="5.842" y1="-2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="5.842" y1="-2.54" x2="5.842" y2="2.54" width="0.254" layer="94"/>
-<wire x1="5.08" y1="2.54" x2="5.842" y2="2.54" width="0.254" layer="94"/>
-<wire x1="4.572" y1="1.27" x2="3.556" y2="1.27" width="0.254" layer="94"/>
-<wire x1="4.064" y1="1.778" x2="4.064" y2="0.762" width="0.254" layer="94"/>
-<wire x1="2.54" y1="0" x2="5.08" y2="0" width="0.254" layer="94"/>
-<wire x1="7.62" y1="0" x2="10.16" y2="0" width="0.254" layer="94"/>
-<pin name="+" x="0" y="0" visible="pad" length="short"/>
-<pin name="-" x="12.7" y="0" visible="pad" length="short" rot="R180"/>
-<text x="8.89" y="6.35" size="1.778" layer="95" align="center-left">&gt;NAME</text>
-<text x="8.89" y="3.81" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
-<polygon width="0.254" layer="94">
-<vertex x="7.62" y="2.54"/>
-<vertex x="7.62" y="-2.54"/>
-<vertex x="6.858" y="-2.54"/>
-<vertex x="6.858" y="2.54"/>
-</polygon>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="SAMACSYS_PARTS_ECA-1HM471B" prefix="C">
-<description>&lt;b&gt;Panasonic 470uF 50 V Aluminium Electrolytic Capacitor, M Series 2000h 10 x 20mm&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="https://componentsearchengine.com/Datasheets/2/ECA-1HM471B.pdf"&gt; Datasheet &lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="SAMACSYS_PARTS_ECA-1HM471B" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SAMACSYS_PARTS_CAPPRD500W65D1000H2200">
-<connects>
-<connect gate="G$1" pin="+" pad="1"/>
-<connect gate="G$1" pin="-" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="ARROW_PART_NUMBER" value="ECA-1HM471B" constant="no"/>
-<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/eca-1hm471b/panasonic" constant="no"/>
-<attribute name="DESCRIPTION" value="Panasonic 470uF 50 V Aluminium Electrolytic Capacitor, M Series 2000h 10 x 20mm" constant="no"/>
-<attribute name="HEIGHT" value="22mm" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="Panasonic" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="ECA-1HM471B" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="667-ECA-1HM471B" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Panasonic/ECA-1HM471B/?qs=RQTRNQENgbttVw3qXUS4Ew%3D%3D" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="PDB181-K420F-103A2">
 <packages>
 <package name="SW_420F-103A2_BRN">
@@ -9570,8 +9615,8 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/2/ECA-1HM471B.p
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A3L-LOC" device=""/>
 <part name="IC7" library="SamacSys_Parts" deviceset="TPA3251D2DDVR" device=""/>
-<part name="C63" library="TPA3244.dbl" deviceset="SAMACSYS_PARTS_ECA-1HM471B" device="" value="ECA-1HM102B"/>
-<part name="C64" library="TPA3244.dbl" deviceset="SAMACSYS_PARTS_ECA-1HM471B" device="" value="ECA-1HM102B"/>
+<part name="C63" library="SamacSys_Parts" deviceset="UVY1H102MHD" device="" value="ECA-1HM102B"/>
+<part name="C64" library="SamacSys_Parts" deviceset="UVY1H102MHD" device="" value="ECA-1HM102B"/>
 <part name="L5" library="SamacSys_Parts" deviceset="74477010" device=""/>
 <part name="L6" library="SamacSys_Parts" deviceset="74477010" device=""/>
 <part name="L8" library="SamacSys_Parts" deviceset="74477010" device=""/>
@@ -9605,7 +9650,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/2/ECA-1HM471B.p
 <part name="C57" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1uF/50V"/>
 <part name="C59" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1uF/50V"/>
 <part name="C52" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100nF/50V"/>
-<part name="C47" library="TPA3244.dbl" deviceset="SAMACSYS_PARTS_ECA-1HM471B" device="" value="ECA-1HM471B"/>
+<part name="C47" library="SamacSys_Parts" deviceset="16PK470MEFC8X11.5" device="" value="ECA-1HM471B"/>
 <part name="C53" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100nF/50V"/>
 <part name="C51" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100nF/50V"/>
 <part name="C49" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="10nF/50V"/>
@@ -9637,8 +9682,8 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/2/ECA-1HM471B.p
 <part name="R21" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="3.3R/5%/0.1W"/>
 <part name="C44" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="10nF/50V"/>
 <part name="R22" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="3.3R/5%/0.1W"/>
-<part name="C31" library="SamacSys_Parts" deviceset="ECA-1HM471B" device="" override_package3d_urn="urn:adsk.eagle:package:27155028/2" override_package_urn="urn:adsk.eagle:footprint:27155054/1" value="ECA-1HM102B"/>
-<part name="C30" library="SamacSys_Parts" deviceset="ECA-1HM471B" device="" override_package3d_urn="urn:adsk.eagle:package:27154914/2" override_package_urn="urn:adsk.eagle:footprint:27154916/1" value="ECA-1HM102B"/>
+<part name="C31" library="SamacSys_Parts" deviceset="UVY1H102MHD" device="" override_package3d_urn="urn:adsk.eagle:package:27155028/2" override_package_urn="urn:adsk.eagle:footprint:27155054/1" override_locally_modified="yes" value="ECA-1HM102B"/>
+<part name="C30" library="SamacSys_Parts" deviceset="UVY1H102MHD" device="" override_package3d_urn="urn:adsk.eagle:package:27154914/2" override_package_urn="urn:adsk.eagle:footprint:27154916/1" override_locally_modified="yes" value="ECA-1HM102B"/>
 <part name="R17" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="20K/5%/0.1W"/>
 <part name="C16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100nF/50V"/>
 <part name="C17" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="10nF/50V"/>
@@ -9646,7 +9691,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/2/ECA-1HM471B.p
 <part name="R15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="3.3R/5%/0.1W"/>
 <part name="C26" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100nF/50V"/>
 <part name="R18" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="3.3R/5%/0.1W"/>
-<part name="C18" library="SamacSys_Parts" deviceset="ECA-1HM471B" device="" override_package3d_urn="urn:adsk.eagle:package:27158126/2" override_package_urn="urn:adsk.eagle:footprint:27158127/1"/>
+<part name="C18" library="SamacSys_Parts" deviceset="16PK470MEFC8X11.5" device="" override_package3d_urn="urn:adsk.eagle:package:27158126/2" override_package_urn="urn:adsk.eagle:footprint:27158127/1" override_locally_modified="yes"/>
 <part name="C19" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100nF/50V"/>
 <part name="R16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="20K/5%/0.1W"/>
 <part name="GND17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -9662,10 +9707,10 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/2/ECA-1HM471B.p
 <part name="+3V7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="R12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="20K/5%/0.1W"/>
 <part name="+3V8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="L1" library="SamacSys_Parts" deviceset="74477010" device="" override_package3d_urn="urn:adsk.eagle:package:27154887/2" override_package_urn="urn:adsk.eagle:footprint:27154892/1"/>
-<part name="L2" library="SamacSys_Parts" deviceset="74477010" device="" override_package3d_urn="urn:adsk.eagle:package:27154899/2" override_package_urn="urn:adsk.eagle:footprint:27154900/1"/>
-<part name="L3" library="SamacSys_Parts" deviceset="74477010" device="" override_package3d_urn="urn:adsk.eagle:package:27154902/2" override_package_urn="urn:adsk.eagle:footprint:27154903/1"/>
-<part name="L4" library="SamacSys_Parts" deviceset="74477010" device="" override_package3d_urn="urn:adsk.eagle:package:27154904/2" override_package_urn="urn:adsk.eagle:footprint:27154905/1"/>
+<part name="L1" library="SamacSys_Parts" deviceset="48100SC" device="" override_package3d_urn="urn:adsk.eagle:package:27154887/2" override_package_urn="urn:adsk.eagle:footprint:27154892/1" override_locally_modified="yes"/>
+<part name="L2" library="SamacSys_Parts" deviceset="48100SC" device="" override_package3d_urn="urn:adsk.eagle:package:27154899/2" override_package_urn="urn:adsk.eagle:footprint:27154900/1" override_locally_modified="yes"/>
+<part name="L3" library="SamacSys_Parts" deviceset="48100SC" device="" override_package3d_urn="urn:adsk.eagle:package:27154902/2" override_package_urn="urn:adsk.eagle:footprint:27154903/1" override_locally_modified="yes"/>
+<part name="L4" library="SamacSys_Parts" deviceset="48100SC" device="" override_package3d_urn="urn:adsk.eagle:package:27154904/2" override_package_urn="urn:adsk.eagle:footprint:27154905/1" override_locally_modified="yes"/>
 <part name="C20" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1uF/50V"/>
 <part name="C23" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1uF/50V"/>
 <part name="CN1" library="OSTYK33108030" deviceset="OSTYK33102030-2" device="" override_package3d_urn="urn:adsk.eagle:package:27162182/2" override_package_urn="urn:adsk.eagle:footprint:27162183/1"/>
@@ -11227,11 +11272,12 @@ I-GVDD = ~7.3A (peak)</text>
 <net name="RESET" class="0">
 <segment>
 <pinref part="IC6" gate="G$1" pin="!RESET"/>
-<wire x1="152.4" y1="162.56" x2="71.12" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="162.56" x2="76.2" y2="162.56" width="0.1524" layer="91"/>
 <label x="71.12" y="162.56" size="0.8128" layer="95" rot="R180" xref="yes"/>
 <pinref part="R12" gate="G$1" pin="1"/>
-<wire x1="76.2" y1="175.26" x2="71.12" y2="162.56" width="0.1524" layer="91"/>
-<junction x="71.12" y="162.56"/>
+<wire x1="76.2" y1="175.26" x2="76.2" y2="162.56" width="0.1524" layer="91"/>
+<junction x="76.2" y="162.56"/>
+<wire x1="76.2" y1="162.56" x2="71.12" y2="162.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$56" class="0">
