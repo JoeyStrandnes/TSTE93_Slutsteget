@@ -9555,6 +9555,99 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/2/ECA-1HM471B.p
 </deviceset>
 </devicesets>
 </library>
+<library name="jack_04">
+<packages>
+<package name="JW-PJ-307-4">
+<pad name="2" x="3" y="5" drill="0.7" diameter="1.4224" shape="long"/>
+<rectangle x1="2.25" y1="4.6" x2="3.75" y2="5.4" layer="46"/>
+<pad name="5" x="3" y="-5" drill="0.7" diameter="1.4224" shape="long"/>
+<rectangle x1="2.25" y1="-5.4" x2="3.75" y2="-4.6" layer="46"/>
+<hole x="-4.5" y="5" drill="1.2"/>
+<hole x="-2" y="5" drill="1.2"/>
+<hole x="3" y="0" drill="1.2"/>
+<hole x="-4.5" y="-5" drill="1.2"/>
+<hole x="-2" y="-5" drill="1.2"/>
+<pad name="1" x="-2" y="0" drill="0.7" diameter="1.4224" shape="long" rot="R90"/>
+<rectangle x1="-2.75" y1="-0.4" x2="-1.25" y2="0.4" layer="46" rot="R90"/>
+<wire x1="-5.5" y1="6" x2="-5.5" y2="-6" width="0.127" layer="21"/>
+<wire x1="-5.5" y1="-6" x2="5.5" y2="-6" width="0.127" layer="21"/>
+<wire x1="5.5" y1="-6" x2="5.5" y2="6" width="0.127" layer="21"/>
+<wire x1="5.5" y1="6" x2="-5.5" y2="6" width="0.127" layer="21"/>
+<text x="6.5" y="0.54" size="1.27" layer="25">&gt;NAME</text>
+<text x="6.5" y="-1.5" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="JW-PJ-307-4H">
+<pad name="2" x="3" y="5" drill="1.1" shape="long"/>
+<pad name="5" x="3" y="-5" drill="1.1" shape="long"/>
+<hole x="-4.5" y="5" drill="1.2"/>
+<hole x="-2" y="5" drill="1.2"/>
+<hole x="3" y="0" drill="1.2"/>
+<hole x="-4.5" y="-5" drill="1.2"/>
+<hole x="-2" y="-5" drill="1.2"/>
+<pad name="1" x="-2" y="0" drill="1.1" shape="long" rot="R90"/>
+<wire x1="-5.5" y1="6" x2="-5.5" y2="-6" width="0.127" layer="21"/>
+<wire x1="-5.5" y1="-6" x2="5.5" y2="-6" width="0.127" layer="21"/>
+<wire x1="5.5" y1="-6" x2="5.5" y2="6" width="0.127" layer="21"/>
+<wire x1="5.5" y1="6" x2="-5.5" y2="6" width="0.127" layer="21"/>
+<text x="6.5" y="0.54" size="1.27" layer="25">&gt;NAME</text>
+<text x="6.5" y="-1.5" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="JW-PJ-307-4">
+<pin name="1" x="7.62" y="5.08" visible="off" length="short" direction="pas" rot="R180"/>
+<pin name="5" x="7.62" y="-5.08" visible="off" length="short" direction="pas" rot="R180"/>
+<wire x1="-5.588" y1="2.54" x2="-5.588" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="-5.588" y1="-5.08" x2="-4.572" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="-4.572" y1="-5.08" x2="-4.572" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-4.572" y1="2.54" x2="-5.08" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="2.54" x2="-5.588" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="5.08" x2="-5.08" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="5.08" x2="-5.08" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="0" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="0" y1="-5.08" x2="-0.508" y2="-4.318" width="0.1524" layer="94"/>
+<wire x1="-0.508" y1="-4.318" x2="-1.016" y2="-5.08" width="0.1524" layer="94"/>
+<text x="5.588" y="-4.572" size="1.27" layer="97">5</text>
+<text x="5.588" y="5.588" size="1.27" layer="97">1</text>
+<text x="-2.54" y="7.62" size="1.778" layer="95">&gt;NAME</text>
+<text x="-2.54" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="2" x="7.62" y="2.54" visible="off" length="short" direction="pas" rot="R180"/>
+<text x="5.588" y="3.048" size="1.27" layer="97">2</text>
+<wire x1="5.08" y1="2.54" x2="-1.524" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-1.524" y1="2.54" x2="-2.032" y2="1.778" width="0.1524" layer="94"/>
+<wire x1="-2.032" y1="1.778" x2="-2.54" y2="2.54" width="0.1524" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="JW-PJ-307-4" prefix="J">
+<gates>
+<gate name="G$1" symbol="JW-PJ-307-4" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="JW-PJ-307-4">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="5" pad="5"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="H" package="JW-PJ-307-4H">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="5" pad="5"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -9777,6 +9870,8 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/2/ECA-1HM471B.p
 <part name="C25" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1uF/50V"/>
 <part name="C78" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1uF/50V"/>
 <part name="C79" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1uF/50V"/>
+<part name="J2" library="jack_04" deviceset="JW-PJ-307-4" device="H"/>
+<part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -9835,6 +9930,13 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/2/ECA-1HM471B.p
 <instance part="GND2" gate="1" x="101.6" y="157.48" smashed="yes">
 <attribute name="VALUE" x="99.06" y="154.94" size="1.778" layer="96"/>
 </instance>
+<instance part="J2" gate="G$1" x="327.66" y="99.06" smashed="yes">
+<attribute name="NAME" x="325.12" y="106.68" size="1.778" layer="95"/>
+<attribute name="VALUE" x="320.04" y="88.9" size="1.778" layer="96"/>
+</instance>
+<instance part="GND10" gate="1" x="368.3" y="91.44" smashed="yes">
+<attribute name="VALUE" x="365.76" y="88.9" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -9861,6 +9963,12 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/2/ECA-1HM471B.p
 <pinref part="IC1" gate="G$1" pin="ADJ/GND"/>
 <wire x1="101.6" y1="160.02" x2="101.6" y2="198.12" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="198.12" x2="111.76" y2="198.12" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND10" gate="1" pin="GND"/>
+<pinref part="J2" gate="G$1" pin="1"/>
+<wire x1="368.3" y1="93.98" x2="368.3" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="368.3" y1="104.14" x2="335.28" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SPEAKER_L_0" class="0">
@@ -9930,6 +10038,20 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/2/ECA-1HM471B.p
 <wire x1="149.86" y1="198.12" x2="147.32" y2="198.12" width="0.1524" layer="91"/>
 <wire x1="149.86" y1="198.12" x2="154.94" y2="198.12" width="0.1524" layer="91"/>
 <junction x="149.86" y="198.12"/>
+</segment>
+</net>
+<net name="SIG_IN_RIGHT" class="0">
+<segment>
+<pinref part="J2" gate="G$1" pin="2"/>
+<wire x1="335.28" y1="101.6" x2="340.36" y2="101.6" width="0.1524" layer="91"/>
+<label x="340.36" y="101.6" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="SIG_IN_LEFT" class="0">
+<segment>
+<pinref part="J2" gate="G$1" pin="5"/>
+<wire x1="335.28" y1="93.98" x2="340.36" y2="93.98" width="0.1524" layer="91"/>
+<label x="340.36" y="93.98" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
@@ -12700,10 +12822,6 @@ I-GVDD = ~7.3A (peak)</text>
 </sheet>
 </sheets>
 <errors>
-<approved hash="104,3,152.4,172.72,IC4,GVDD_CD,N$59,,,"/>
-<approved hash="104,3,193.04,162.56,IC4,OUT_D_2,N$46,,,"/>
-<approved hash="113,1,193.571,130.071,FRAME2,,,,,"/>
-<approved hash="113,4,193.571,130.071,FRAME5,,,,,"/>
 <approved hash="113,3,193.571,130.071,FRAME3,,,,,"/>
 </errors>
 </schematic>
