@@ -5,7 +5,7 @@
 <description></description>
 <attributes>
 <attribute name="AIRWIRES" value="YES"/>
-<attribute name="BOARDSIZE" value="2079 x 6361 mil"/>
+<attribute name="BOARDSIZE" value="2079 x 6792 mil"/>
 <attribute name="LAYERS" value="1: 1"/>
 </attributes>
 <drawings>
@@ -8254,6 +8254,10 @@ DIN A3, landscape with location and doc. field</description>
 <part name="R11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10K/5%/0.1W"/>
 <part name="SW2" library="PDB181-K420F-103A2" deviceset="PDB181-K420F-103A2" device=""/>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A3L-LOC" device=""/>
+<part name="C10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100nF/25V"/>
+<part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="C11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100nF/25V"/>
+<part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -8421,6 +8425,20 @@ DIN A3, landscape with location and doc. field</description>
 <attribute name="LAST_DATE_TIME" x="344.17" y="10.16" size="2.286" layer="94"/>
 <attribute name="SHEET" x="357.505" y="5.08" size="2.54" layer="94"/>
 </instance>
+<instance part="C10" gate="G$1" x="162.56" y="99.06" smashed="yes" rot="R90">
+<attribute name="NAME" x="162.179" y="100.584" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="167.259" y="100.584" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="GND8" gate="1" x="172.72" y="99.06" smashed="yes" rot="MR270">
+<attribute name="VALUE" x="175.26" y="101.6" size="1.778" layer="96" rot="MR270"/>
+</instance>
+<instance part="C11" gate="G$1" x="101.6" y="215.9" smashed="yes" rot="R90">
+<attribute name="NAME" x="101.219" y="217.424" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="106.299" y="217.424" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="GND9" gate="1" x="111.76" y="215.9" smashed="yes" rot="MR270">
+<attribute name="VALUE" x="114.3" y="218.44" size="1.778" layer="96" rot="MR270"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -8462,6 +8480,16 @@ DIN A3, landscape with location and doc. field</description>
 <wire x1="228.6" y1="185.42" x2="243.84" y2="185.42" width="0.1524" layer="91"/>
 <pinref part="GND7" gate="1" pin="GND"/>
 <wire x1="243.84" y1="144.78" x2="243.84" y2="185.42" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND8" gate="1" pin="GND"/>
+<pinref part="C10" gate="G$1" pin="2"/>
+<wire x1="170.18" y1="99.06" x2="167.64" y2="99.06" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND9" gate="1" pin="GND"/>
+<pinref part="C11" gate="G$1" pin="2"/>
+<wire x1="109.22" y1="215.9" x2="106.68" y2="215.9" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -8522,8 +8550,11 @@ DIN A3, landscape with location and doc. field</description>
 <segment>
 <pinref part="VDD4" gate="G$1" pin="VDD"/>
 <pinref part="IC2" gate="G$1" pin="VCC+"/>
-<wire x1="160.02" y1="109.22" x2="160.02" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="109.22" x2="160.02" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="99.06" x2="160.02" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="73.66" x2="172.72" y2="73.66" width="0.1524" layer="91"/>
+<pinref part="C10" gate="G$1" pin="1"/>
+<junction x="160.02" y="99.06"/>
 </segment>
 <segment>
 <pinref part="VDD3" gate="G$1" pin="VDD"/>
@@ -8534,7 +8565,11 @@ DIN A3, landscape with location and doc. field</description>
 <pinref part="IC1" gate="G$1" pin="VCC+"/>
 <wire x1="157.48" y1="185.42" x2="93.98" y2="185.42" width="0.1524" layer="91"/>
 <pinref part="VDD5" gate="G$1" pin="VDD"/>
-<wire x1="93.98" y1="185.42" x2="93.98" y2="231.14" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="185.42" x2="93.98" y2="215.9" width="0.1524" layer="91"/>
+<pinref part="C11" gate="G$1" pin="1"/>
+<wire x1="93.98" y1="215.9" x2="93.98" y2="231.14" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="215.9" x2="93.98" y2="215.9" width="0.1524" layer="91"/>
+<junction x="93.98" y="215.9"/>
 </segment>
 </net>
 <net name="RIGHT" class="0">
@@ -8801,11 +8836,6 @@ DIN A3, landscape with location and doc. field</description>
 </net>
 <net name="BASE_OUT" class="0">
 <segment>
-<pinref part="IC2" gate="G$1" pin="OUTPUT_2"/>
-<wire x1="172.72" y1="66.04" x2="170.18" y2="66.04" width="0.1524" layer="91"/>
-<label x="170.18" y="66.04" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
 <pinref part="R5" gate="G$1" pin="1"/>
 <wire x1="93.98" y1="86.36" x2="93.98" y2="88.9" width="0.1524" layer="91"/>
 <pinref part="C4" gate="G$1" pin="1"/>
@@ -8814,6 +8844,13 @@ DIN A3, landscape with location and doc. field</description>
 <wire x1="116.84" y1="88.9" x2="121.92" y2="88.9" width="0.1524" layer="91"/>
 <junction x="116.84" y="88.9"/>
 <label x="121.92" y="88.9" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="BASE_VOLUME" class="0">
+<segment>
+<pinref part="IC2" gate="G$1" pin="OUTPUT_2"/>
+<wire x1="172.72" y1="66.04" x2="170.18" y2="66.04" width="0.1524" layer="91"/>
+<label x="172.72" y="66.04" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
@@ -10450,6 +10487,18 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="-58.9534" y="-172.0088" size="1.27" layer="21" ratio="6" rot="SR0"/>
 <attribute name="VENDOR" value="Bourns Electronics" x="-80.01" y="-144.78" size="1.778" layer="27" display="off"/>
 </element>
+<element name="C10" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100nF/25V" x="-63.5" y="-200.66" smashed="yes">
+<attribute name="NAME" x="-64.135" y="-200.025" size="1.27" layer="25"/>
+<attribute name="POPULARITY" value="73" x="-63.5" y="-200.66" size="1.778" layer="27" display="off"/>
+<attribute name="SPICEPREFIX" value="C" x="-63.5" y="-200.66" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-64.135" y="-202.565" size="1.27" layer="27"/>
+</element>
+<element name="C11" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100nF/25V" x="-63.5" y="-205.74" smashed="yes">
+<attribute name="NAME" x="-64.135" y="-205.105" size="1.27" layer="25"/>
+<attribute name="POPULARITY" value="73" x="-63.5" y="-205.74" size="1.778" layer="27" display="off"/>
+<attribute name="SPICEPREFIX" value="C" x="-63.5" y="-205.74" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-64.135" y="-207.645" size="1.27" layer="27"/>
+</element>
 </elements>
 <signals>
 <signal name="GND">
@@ -10460,12 +10509,16 @@ design rules under a new name.</description>
 <contactref element="C5" pad="2"/>
 <contactref element="C3" pad="1"/>
 <contactref element="IC1" pad="11"/>
+<contactref element="C10" pad="2"/>
+<contactref element="C11" pad="2"/>
 <wire x1="-53.76" y1="-104.14" x2="-59.518" y2="-123.19" width="0" layer="19" extent="1-1"/>
 <wire x1="-55.46" y1="-100.33" x2="-53.76" y2="-104.14" width="0" layer="19" extent="1-1"/>
 <wire x1="-55.46" y1="-81.28" x2="-55.46" y2="-100.33" width="0" layer="19" extent="1-1"/>
 <wire x1="-55.46" y1="-77.47" x2="-55.46" y2="-81.28" width="0" layer="19" extent="1-1"/>
 <wire x1="-50.628" y1="-68.58" x2="-55.46" y2="-77.47" width="0" layer="19" extent="1-1"/>
 <wire x1="-37.68" y1="-41.91" x2="-50.628" y2="-68.58" width="0" layer="19" extent="1-1"/>
+<wire x1="-62.65" y1="-200.66" x2="-59.518" y2="-123.19" width="0" layer="19" extent="1-1"/>
+<wire x1="-62.65" y1="-205.74" x2="-62.65" y2="-200.66" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$1">
 <contactref element="R12" pad="1"/>
@@ -10497,10 +10550,14 @@ design rules under a new name.</description>
 <contactref element="IC2" pad="4"/>
 <contactref element="R9" pad="2"/>
 <contactref element="IC1" pad="4"/>
+<contactref element="C10" pad="1"/>
+<contactref element="C11" pad="1"/>
 <wire x1="-53.76" y1="-96.52" x2="-64.942" y2="-123.19" width="0" layer="19" extent="1-1"/>
 <wire x1="-53.76" y1="-85.09" x2="-53.76" y2="-96.52" width="0" layer="19" extent="1-1"/>
 <wire x1="-56.052" y1="-68.58" x2="-53.76" y2="-85.09" width="0" layer="19" extent="1-1"/>
 <wire x1="-35.98" y1="-38.1" x2="-56.052" y2="-68.58" width="0" layer="19" extent="1-1"/>
+<wire x1="-64.35" y1="-200.66" x2="-64.942" y2="-123.19" width="0" layer="19" extent="1-1"/>
+<wire x1="-64.35" y1="-205.74" x2="-64.35" y2="-200.66" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="RIGHT">
 <contactref element="IC2" pad="9"/>
@@ -10642,11 +10699,12 @@ design rules under a new name.</description>
 <wire x1="-59.518" y1="-119.38" x2="-57.2262" y2="-176.53" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="BASE_OUT">
-<contactref element="IC2" pad="7"/>
 <contactref element="R5" pad="1"/>
 <contactref element="C4" pad="1"/>
 <wire x1="-55.46" y1="-119.38" x2="-55.46" y2="-127" width="0" layer="19" extent="1-1"/>
-<wire x1="-56.052" y1="-72.39" x2="-55.46" y2="-119.38" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="BASE_VOLUME">
+<contactref element="IC2" pad="7"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
