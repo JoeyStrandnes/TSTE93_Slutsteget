@@ -10137,8 +10137,8 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/2/ECA-1HM471B.p
 <part name="+3V11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="IC2" library="SamacSys_Parts" deviceset="ZLDO1117G33TA" device="" override_package3d_urn="urn:adsk.eagle:package:27158194/2" override_package_urn="urn:adsk.eagle:footprint:27158195/1"/>
-<part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10uF/50V"/>
-<part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10uF/50V"/>
+<part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10uF/16V"/>
+<part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10uF/16V"/>
 <part name="GND47" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="D1" library="SamacSys_Parts" deviceset="STPS0520Z" device="" override_package3d_urn="urn:adsk.eagle:package:27158217/2" override_package_urn="urn:adsk.eagle:footprint:27158218/1"/>
 <part name="SJ1" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="SJ" device="" package3d_urn="urn:adsk.eagle:package:15471/1" override_package3d_urn="urn:adsk.eagle:package:27158220/2" override_package_urn="urn:adsk.eagle:footprint:15432/1"/>
@@ -10177,6 +10177,9 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/2/ECA-1HM471B.p
 <part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k/5%/0.1W"/>
 <part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k/5%/0.1W"/>
 <part name="+3V14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="IC10" library="SamacSys_Parts" deviceset="LM324D" device=""/>
+<part name="CN3" library="OSTYK33108030" deviceset="OSTYK33102030-2" device="" override_package3d_urn="urn:adsk.eagle:package:27162182/2" override_package_urn="urn:adsk.eagle:footprint:27162183/1"/>
+<part name="CN4" library="OSTYK33108030" deviceset="OSTYK33102030-2" device="" override_package3d_urn="urn:adsk.eagle:package:27162207/2" override_package_urn="urn:adsk.eagle:footprint:27162209/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -10201,6 +10204,12 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/2/ECA-1HM471B.p
 </instance>
 <instance part="CN2" gate="G$1" x="342.9" y="182.88" smashed="yes">
 <attribute name="NAME" x="342.9" y="200.66" size="1.778" layer="95"/>
+</instance>
+<instance part="CN3" gate="G$1" x="342.9" y="149.86" smashed="yes">
+<attribute name="NAME" x="342.9" y="167.64" size="1.778" layer="95"/>
+</instance>
+<instance part="CN4" gate="G$1" x="342.9" y="121.92" smashed="yes">
+<attribute name="NAME" x="342.9" y="139.7" size="1.778" layer="95"/>
 </instance>
 </instances>
 <busses>
@@ -10433,6 +10442,10 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/2/ECA-1HM471B.p
 </instance>
 <instance part="+3V14" gate="G$1" x="66.04" y="127" smashed="yes">
 <attribute name="VALUE" x="68.58" y="127" size="1.778" layer="96"/>
+</instance>
+<instance part="IC10" gate="G$1" x="254" y="142.24" smashed="yes">
+<attribute name="NAME" x="288.29" y="149.86" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="285.75" y="147.32" size="1.778" layer="96" align="center-left"/>
 </instance>
 </instances>
 <busses>
