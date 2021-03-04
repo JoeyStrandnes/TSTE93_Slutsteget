@@ -42,8 +42,9 @@ Pottar: https://www.digikey.se/product-detail/en/bourns-inc/PDB181-K420K-503A2/P
 
 Schottky (kanske skippa): https://www.elfa.se/en/schottky-diode-500ma-20v-sod-123-st-stps0520z/p/30170847?track=true&no-cache=true&marketingPopup=false
 
-240 V Connector: https://www.elfa.se/en/inlet-c14-screw-mounting-panel-mount-straight-10a-250vac-rnd-connect-rnd-465-00783/p/30122453?q=ac+connector&pos=10&origPos=10&origPageSize=50&track=true
+240 V Connector: https://www.elfa.se/en/inlet-combi-module-c14-panel-mount-straight-10a-250vac-rnd-connect-rnd-465-00787/p/30122457?q=ac+connector&pos=14&origPos=14&origPageSize=50&track=true
 
+240V -> 36V Power supply: https://www.digikey.com/en/products/detail/cui-inc/VGS-350C-36/13538473
 
 
 
