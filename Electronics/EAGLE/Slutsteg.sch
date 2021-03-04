@@ -9679,8 +9679,6 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/2/ECA-1HM471B.p
 <part name="R40" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="100K/5%/0.1W"/>
 <part name="R43" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="100K/5%/0.1W"/>
 <part name="R42" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="100K/5%/0.1W"/>
-<part name="C78" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uF/25V"/>
-<part name="C79" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uF/25V"/>
 <part name="VDD11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VDD" device=""/>
 <part name="VDD12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VDD" device=""/>
 <part name="GND35" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -9689,7 +9687,6 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/2/ECA-1HM471B.p
 <part name="R37" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="100K/5%/0.1W"/>
 <part name="GND37" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="VDD13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VDD" device=""/>
-<part name="C76" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uF/25V"/>
 <part name="GND38" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R28" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="1K/5%/0.1W"/>
 <part name="R29" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="1K/5%/0.1W"/>
@@ -9777,6 +9774,9 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/2/ECA-1HM471B.p
 <part name="C22" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10uF/16V"/>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="C25" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1uF/50V"/>
+<part name="C78" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1uF/50V"/>
+<part name="C79" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1uF/50V"/>
 </parts>
 <sheets>
 <sheet>
@@ -12141,14 +12141,6 @@ I-GVDD = ~7.3A (peak)</text>
 <attribute name="NAME" x="290.6014" y="92.71" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="295.402" y="92.71" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="C78" gate="G$1" x="304.8" y="88.9" smashed="yes" rot="R270">
-<attribute name="NAME" x="305.181" y="84.836" size="1.778" layer="95"/>
-<attribute name="VALUE" x="307.721" y="94.996" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="C79" gate="G$1" x="304.8" y="78.74" smashed="yes" rot="R270">
-<attribute name="NAME" x="305.181" y="74.676" size="1.778" layer="95"/>
-<attribute name="VALUE" x="297.561" y="82.296" size="1.778" layer="96"/>
-</instance>
 <instance part="VDD11" gate="G$1" x="281.94" y="111.76" smashed="yes">
 <attribute name="VALUE" x="279.4" y="109.22" size="1.778" layer="96" rot="R90"/>
 </instance>
@@ -12175,12 +12167,8 @@ I-GVDD = ~7.3A (peak)</text>
 <instance part="VDD13" gate="G$1" x="149.86" y="111.76" smashed="yes">
 <attribute name="VALUE" x="147.32" y="109.22" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="C76" gate="G$1" x="139.7" y="50.8" smashed="yes">
-<attribute name="NAME" x="141.224" y="51.181" size="1.778" layer="95"/>
-<attribute name="VALUE" x="128.524" y="48.641" size="1.778" layer="96"/>
-</instance>
-<instance part="GND38" gate="1" x="139.7" y="40.64" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="142.24" y="38.1" size="1.778" layer="96" rot="MR0"/>
+<instance part="GND38" gate="1" x="134.62" y="40.64" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="137.16" y="38.1" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="R28" gate="G$1" x="55.88" y="76.2" smashed="yes" rot="R180">
 <attribute name="NAME" x="59.69" y="74.7014" size="1.778" layer="95" rot="R180"/>
@@ -12282,6 +12270,18 @@ I-GVDD = ~7.3A (peak)</text>
 <instance part="GND42" gate="1" x="111.76" y="215.9" smashed="yes" rot="MR270">
 <attribute name="VALUE" x="114.3" y="218.44" size="1.778" layer="96" rot="MR270"/>
 </instance>
+<instance part="C25" gate="G$1" x="302.26" y="88.9" smashed="yes" rot="R90">
+<attribute name="NAME" x="301.879" y="90.424" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="306.959" y="90.424" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="C78" gate="G$1" x="302.26" y="78.74" smashed="yes" rot="R90">
+<attribute name="NAME" x="303.784" y="81.661" size="1.778" layer="95"/>
+<attribute name="VALUE" x="303.784" y="79.121" size="1.778" layer="96"/>
+</instance>
+<instance part="C79" gate="G$1" x="134.62" y="50.8" smashed="yes">
+<attribute name="NAME" x="136.144" y="51.181" size="1.778" layer="95"/>
+<attribute name="VALUE" x="136.144" y="46.101" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -12309,9 +12309,9 @@ I-GVDD = ~7.3A (peak)</text>
 <wire x1="149.86" y1="45.72" x2="149.86" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C76" gate="G$1" pin="2"/>
 <pinref part="GND38" gate="1" pin="GND"/>
-<wire x1="139.7" y1="45.72" x2="139.7" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="45.72" x2="134.62" y2="43.18" width="0.1524" layer="91"/>
+<pinref part="C79" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="C73" gate="G$1" pin="1"/>
@@ -12340,7 +12340,6 @@ I-GVDD = ~7.3A (peak)</text>
 <pinref part="R39" gate="G$1" pin="1"/>
 <pinref part="R40" gate="G$1" pin="2"/>
 <wire x1="281.94" y1="91.44" x2="281.94" y2="88.9" width="0.1524" layer="91"/>
-<pinref part="C78" gate="G$1" pin="2"/>
 <wire x1="281.94" y1="88.9" x2="281.94" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="299.72" y1="88.9" x2="281.94" y2="88.9" width="0.1524" layer="91"/>
 <junction x="281.94" y="88.9"/>
@@ -12348,6 +12347,7 @@ I-GVDD = ~7.3A (peak)</text>
 <wire x1="243.84" y1="76.2" x2="256.54" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="256.54" y1="76.2" x2="256.54" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="256.54" y1="88.9" x2="281.94" y2="88.9" width="0.1524" layer="91"/>
+<pinref part="C25" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$47" class="0">
@@ -12355,7 +12355,6 @@ I-GVDD = ~7.3A (peak)</text>
 <pinref part="R42" gate="G$1" pin="1"/>
 <pinref part="R43" gate="G$1" pin="2"/>
 <wire x1="292.1" y1="91.44" x2="292.1" y2="78.74" width="0.1524" layer="91"/>
-<pinref part="C79" gate="G$1" pin="2"/>
 <wire x1="292.1" y1="78.74" x2="292.1" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="299.72" y1="78.74" x2="292.1" y2="78.74" width="0.1524" layer="91"/>
 <junction x="292.1" y="78.74"/>
@@ -12363,20 +12362,21 @@ I-GVDD = ~7.3A (peak)</text>
 <wire x1="243.84" y1="71.12" x2="269.24" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="269.24" y1="71.12" x2="269.24" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="269.24" y1="78.74" x2="292.1" y2="78.74" width="0.1524" layer="91"/>
+<pinref part="C78" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="SIG_IN_RIGHT" class="0">
 <segment>
-<pinref part="C79" gate="G$1" pin="1"/>
 <wire x1="307.34" y1="78.74" x2="312.42" y2="78.74" width="0.1524" layer="91"/>
 <label x="312.42" y="78.74" size="1.778" layer="95" xref="yes"/>
+<pinref part="C78" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="SIG_IN_LEFT" class="0">
 <segment>
-<pinref part="C78" gate="G$1" pin="1"/>
 <wire x1="307.34" y1="88.9" x2="312.42" y2="88.9" width="0.1524" layer="91"/>
 <label x="312.42" y="88.9" size="1.778" layer="95" xref="yes"/>
+<pinref part="C25" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="VDD" class="0">
@@ -12460,15 +12460,15 @@ I-GVDD = ~7.3A (peak)</text>
 <pinref part="R36" gate="G$1" pin="1"/>
 <pinref part="R37" gate="G$1" pin="2"/>
 <wire x1="149.86" y1="93.98" x2="149.86" y2="76.2" width="0.1524" layer="91"/>
-<pinref part="C76" gate="G$1" pin="1"/>
 <wire x1="149.86" y1="76.2" x2="149.86" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="149.86" y1="58.42" x2="149.86" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="139.7" y1="53.34" x2="139.7" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="139.7" y1="58.42" x2="149.86" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="53.34" x2="134.62" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="58.42" x2="149.86" y2="58.42" width="0.1524" layer="91"/>
 <junction x="149.86" y="58.42"/>
 <pinref part="IC9" gate="G$1" pin="NON-INVERTING_INPUT_1"/>
 <wire x1="172.72" y1="76.2" x2="149.86" y2="76.2" width="0.1524" layer="91"/>
 <junction x="149.86" y="76.2"/>
+<pinref part="C79" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="6V_BUFFER" class="0">
