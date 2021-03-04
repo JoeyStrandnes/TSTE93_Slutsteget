@@ -1,0 +1,56 @@
+100 nF/50V https://www.elfa.se/en/ceramic-capacitor-100nf-50vdc-0603-10-kemet-c0603x104k5rac3316/p/30151488?q=c0603&pos=2&origPos=4&origPageSize=50&track=true
+
+100k resistor: https://www.elfa.se/en/smd-resistor-100mw-100kohm-0603-vishay-crcw0603100kfkea/p/16059753?q=0603&pos=1&origPos=8&origPageSize=50&track=true
+
+10k resistor: https://www.elfa.se/en/smd-resistor-100mw-10kohm-0603-vishay-crcw060310k0fkea/p/16059729?q=0603&pos=2&origPos=7&origPageSize=50&track=true
+
+10 nF/50V: https://www.elfa.se/en/ceramic-capacitor-10nf-50vdc-0603-rnd-components-rnd-1500603b103j500nt/p/30086421?q=c0603&pos=20&origPos=643&origPageSize=50&track=true
+
+10 uF/16V: https://www.elfa.se/en/ceramic-capacitor-10uf-16vdc-0805-10-kemet-c0805c106k4pactu/p/30031719?q=c0805&pos=1&origPos=3&origPageSize=50&track=true
+
+150 nF/25V använder 50V: https://www.elfa.se/en/ceramic-capacitor-150nf-50vdc-0603-10-kemet-c0603c154k5ractu/p/30031633?q=c0603&pos=1&origPos=63&origPageSize=50&track=true
+
+18K resistor: https://www.elfa.se/en/pulse-proof-high-power-thick-film-resistor-18kohm-0603-vishay-crcw060318k0fkeahp/p/30167967?q=0603&pos=5&origPos=1024&origPageSize=50&track=true
+
+1K Resistor: https://www.elfa.se/en/smd-resistor-100mw-1kohm-0603-vishay-crcw06031k00fkea/p/16059705?q=0603&pos=2&origPos=103&origPageSize=50&track=true
+
+1 nF/50V: https://www.elfa.se/en/ceramic-capacitor-1nf-50vdc-0603-rnd-components-rnd-1500603b102j500nt/p/30086416?q=c0603&pos=17&origPos=645&origPageSize=50&track=true
+
+1 uF/50V: https://www.elfa.se/en/ceramic-capacitor-1uf-50vdc-0805-10-rnd-components-rnd-1500805x105k500n3/p/30086815?q=c0805&pos=18&origPos=600&origPageSize=50&track=true
+
+20K resistor: https://www.elfa.se/en/smd-resistor-100mw-20kohm-0603-vishay-crcw060320k0fkea/p/16059736?q=0603&pos=6&origPos=1287&origPageSize=50&track=true
+
+3.3 resistor: https://www.elfa.se/en/smd-resistor-100mw-3ohm-0603-vishay-crcw06033r30fkea/p/30181579?q=0603&pos=1&origPos=45&origPageSize=50&track=true
+
+33 nF/50V: https://www.elfa.se/en/ceramic-capacitor-33nf-50vdc-0603-10-rnd-components-rnd-1500603b333k500nt/p/30086471?q=c0603&pos=7&origPos=629&origPageSize=50&track=true
+
+74477010 (dyr, byter ut Josephs*) induktans: https://www.digikey.se/product-detail/en/w%C3%BCrth-elektronik/74477010/732-1223-1-ND/1639284
+
+*Josephs: https://www.digikey.com/en/products/detail/murata-power-solutions-inc/48100SC/5798454?s=N4IgTCBcDaICwA4CMAGFBlAwiAugXyA
+
+B32652A3684J (kondensator): https://www.digikey.se/product-detail/en/epcos-tdk-electronics/B32652A3684J000/495-1299-ND/592875
+
+Uber kondensatorer: https://www.digikey.com/en/products/detail/nichicon/UVY1H102MHD/2428007
+
+OPAMPS: https://www.elfa.se/en/operational-amplifier-3mhz-20na-soic-st-lm324d/p/17346232?q=%09LM324D&pos=1&origPos=1&origPageSize=50&track=true
+
+Connectors: https://www.digikey.se/product-detail/en/on-shore-technology-inc/OSTYK33102030/ED2963-ND/1588785
+
+Pottar: https://www.digikey.se/product-detail/en/bourns-inc/PDB181-K420K-503A2/PDB181-K420K-503A2-ND/699764
+
+1 uF/250 VDC: https://www.elfa.se/en/capacitor-radial-1uf-160vac-250vdc-kemet-phe426hb7100jr06/p/16557664?track=true&no-cache=true&marketingPopup=false
+
+Schottky (kanske skippa): https://www.elfa.se/en/schottky-diode-500ma-20v-sod-123-st-stps0520z/p/30170847?track=true&no-cache=true&marketingPopup=false
+
+
+
+
+
+
+
+
+
+
+
+
+
