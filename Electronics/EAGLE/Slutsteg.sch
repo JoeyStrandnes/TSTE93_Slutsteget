@@ -9894,7 +9894,6 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <part name="+3V14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="IC10" library="SamacSys_Parts" deviceset="LM324D" device=""/>
 <part name="CN3" library="OSTYK33108030" deviceset="OSTYK33102030-2" device="" override_package3d_urn="urn:adsk.eagle:package:27162182/2" override_package_urn="urn:adsk.eagle:footprint:27162183/1"/>
-<part name="CN4" library="OSTYK33108030" deviceset="OSTYK33102030-2" device="" override_package3d_urn="urn:adsk.eagle:package:27162207/2" override_package_urn="urn:adsk.eagle:footprint:27162209/1"/>
 <part name="IC11" library="SamacSys_Parts" deviceset="L78M12ABDT-TR" device=""/>
 <part name="IC1" library="SamacSys_Parts" deviceset="SPX1117M3-L-3-3_TR" device=""/>
 <part name="VDD2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VDD" device=""/>
@@ -9942,9 +9941,6 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </instance>
 <instance part="CN3" gate="G$1" x="342.9" y="149.86" smashed="yes">
 <attribute name="NAME" x="342.9" y="167.64" size="1.778" layer="95"/>
-</instance>
-<instance part="CN4" gate="G$1" x="342.9" y="121.92" smashed="yes">
-<attribute name="NAME" x="342.9" y="139.7" size="1.778" layer="95"/>
 </instance>
 <instance part="IC11" gate="G$1" x="81.28" y="195.58" smashed="yes" rot="MR0">
 <attribute name="NAME" x="57.15" y="203.2" size="1.778" layer="95" align="center-left"/>
@@ -10099,6 +10095,20 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <pinref part="J2" gate="G$1" pin="5"/>
 <wire x1="332.74" y1="63.5" x2="337.82" y2="63.5" width="0.1524" layer="91"/>
 <label x="337.82" y="63.5" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="SPEAKER_B_0" class="0">
+<segment>
+<pinref part="CN3" gate="G$1" pin="P$2"/>
+<wire x1="337.82" y1="160.02" x2="332.74" y2="160.02" width="0.1524" layer="91"/>
+<label x="332.74" y="160.02" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="SPEAKER_B_1" class="0">
+<segment>
+<pinref part="CN3" gate="G$1" pin="P$1"/>
+<wire x1="337.82" y1="154.94" x2="332.74" y2="154.94" width="0.1524" layer="91"/>
+<label x="332.74" y="154.94" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
@@ -12916,7 +12926,15 @@ I-GVDD = ~7.3A (peak)</text>
 </sheet>
 </sheets>
 <errors>
+<approved hash="104,3,152.4,172.72,IC6,GVDD_CD,N$59,,,"/>
+<approved hash="104,3,193.04,162.56,IC6,OUT_D_2,OUT_D,,,"/>
+<approved hash="104,1,81.28,193.04,IC11,OUTPUT,VDD,,,"/>
+<approved hash="104,1,35.56,195.58,IC11,GND_(THERMALPAD),GND,,,"/>
+<approved hash="113,1,193.571,130.071,FRAME1,,,,,"/>
+<approved hash="113,4,193.571,130.071,FRAME4,,,,,"/>
 <approved hash="113,3,193.571,130.071,FRAME3,,,,,"/>
+<approved hash="113,5,193.571,130.071,FRAME5,,,,,"/>
+<approved hash="113,2,193.571,130.071,FRAME2,,,,,"/>
 </errors>
 </schematic>
 </drawing>
