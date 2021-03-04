@@ -46,7 +46,7 @@ Schottky (kanske skippa): https://www.elfa.se/en/schottky-diode-500ma-20v-sod-12
 
 240V -> 36V Power supply: https://www.digikey.com/en/products/detail/cui-inc/VGS-350C-36/13538473
 
-
+Ferrite core: 
 
 
 
