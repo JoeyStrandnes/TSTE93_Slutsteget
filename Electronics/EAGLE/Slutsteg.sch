@@ -9893,7 +9893,6 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10K/5%/0.1W"/>
 <part name="+3V14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="IC10" library="SamacSys_Parts" deviceset="LM324D" device=""/>
-<part name="CN3" library="OSTYK33108030" deviceset="OSTYK33102030-2" device="" override_package3d_urn="urn:adsk.eagle:package:27162182/2" override_package_urn="urn:adsk.eagle:footprint:27162183/1"/>
 <part name="IC11" library="SamacSys_Parts" deviceset="L78M12ABDT-TR" device=""/>
 <part name="IC1" library="SamacSys_Parts" deviceset="SPX1117M3-L-3-3_TR" device=""/>
 <part name="VDD2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VDD" device=""/>
@@ -9918,6 +9917,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="SW3" library="PDB181-K420F-103A2" deviceset="PDB181-K420F-103A2" device=""/>
 <part name="R45" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10K/5%/0.1W"/>
+<part name="CN3" library="OSTYK33108030" deviceset="OSTYK33102030-2" device="" override_package3d_urn="urn:adsk.eagle:package:27162182/2" override_package_urn="urn:adsk.eagle:footprint:27162183/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -9938,9 +9938,6 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </instance>
 <instance part="CN2" gate="G$1" x="342.9" y="182.88" smashed="yes">
 <attribute name="NAME" x="342.9" y="200.66" size="1.778" layer="95"/>
-</instance>
-<instance part="CN3" gate="G$1" x="342.9" y="149.86" smashed="yes">
-<attribute name="NAME" x="342.9" y="167.64" size="1.778" layer="95"/>
 </instance>
 <instance part="IC11" gate="G$1" x="81.28" y="195.58" smashed="yes" rot="MR0">
 <attribute name="NAME" x="57.15" y="203.2" size="1.778" layer="95" align="center-left"/>
@@ -9979,6 +9976,9 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </instance>
 <instance part="GND10" gate="1" x="365.76" y="60.96" smashed="yes">
 <attribute name="VALUE" x="363.22" y="58.42" size="1.778" layer="96"/>
+</instance>
+<instance part="CN3" gate="G$1" x="342.9" y="154.94" smashed="yes">
+<attribute name="NAME" x="342.9" y="172.72" size="1.778" layer="95"/>
 </instance>
 </instances>
 <busses>
@@ -10100,15 +10100,15 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <net name="SPEAKER_B_0" class="0">
 <segment>
 <pinref part="CN3" gate="G$1" pin="P$2"/>
-<wire x1="337.82" y1="160.02" x2="332.74" y2="160.02" width="0.1524" layer="91"/>
-<label x="332.74" y="160.02" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="337.82" y1="165.1" x2="332.74" y2="165.1" width="0.1524" layer="91"/>
+<label x="332.74" y="165.1" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="SPEAKER_B_1" class="0">
 <segment>
 <pinref part="CN3" gate="G$1" pin="P$1"/>
-<wire x1="337.82" y1="154.94" x2="332.74" y2="154.94" width="0.1524" layer="91"/>
-<label x="332.74" y="154.94" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="337.82" y1="160.02" x2="332.74" y2="160.02" width="0.1524" layer="91"/>
+<label x="332.74" y="160.02" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
