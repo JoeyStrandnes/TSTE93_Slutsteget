@@ -9822,14 +9822,14 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A3L-LOC" device=""/>
 <part name="IC7" library="SamacSys_Parts" deviceset="TPA3251D2DDVR" device=""/>
-<part name="C63" library="SamacSys_Parts" deviceset="UVY1H102MHD" device="" value="ECA-1HM102B"/>
-<part name="C64" library="SamacSys_Parts" deviceset="UVY1H102MHD" device="" value="ECA-1HM102B"/>
-<part name="L5" library="SamacSys_Parts" deviceset="74477010" device=""/>
-<part name="L6" library="SamacSys_Parts" deviceset="74477010" device=""/>
-<part name="L8" library="SamacSys_Parts" deviceset="74477010" device=""/>
-<part name="L7" library="SamacSys_Parts" deviceset="74477010" device=""/>
-<part name="C66" library="SamacSys_Parts" deviceset="B32652A3684J" device=""/>
-<part name="C65" library="SamacSys_Parts" deviceset="B32652A3684J" device=""/>
+<part name="C63" library="SamacSys_Parts" deviceset="UVY1H102MHD" device="" override_package3d_urn="urn:adsk.eagle:package:27317687/2" override_package_urn="urn:adsk.eagle:footprint:27317688/1" value="ECA-1HM102B"/>
+<part name="C64" library="SamacSys_Parts" deviceset="UVY1H102MHD" device="" override_package3d_urn="urn:adsk.eagle:package:27317690/2" override_package_urn="urn:adsk.eagle:footprint:27317691/1" value="ECA-1HM102B"/>
+<part name="L5" library="SamacSys_Parts" deviceset="74477010" device="" override_package3d_urn="urn:adsk.eagle:package:27317569/2" override_package_urn="urn:adsk.eagle:footprint:27317570/1"/>
+<part name="L6" library="SamacSys_Parts" deviceset="74477010" device="" override_package3d_urn="urn:adsk.eagle:package:27317571/2" override_package_urn="urn:adsk.eagle:footprint:27317572/1"/>
+<part name="L8" library="SamacSys_Parts" deviceset="74477010" device="" override_package3d_urn="urn:adsk.eagle:package:27317576/2" override_package_urn="urn:adsk.eagle:footprint:27317577/1"/>
+<part name="L7" library="SamacSys_Parts" deviceset="74477010" device="" override_package3d_urn="urn:adsk.eagle:package:27317573/2" override_package_urn="urn:adsk.eagle:footprint:27317575/1"/>
+<part name="C66" library="SamacSys_Parts" deviceset="B32652A3684J" device="" override_package3d_urn="urn:adsk.eagle:package:27317559/2" override_package_urn="urn:adsk.eagle:footprint:27317560/1"/>
+<part name="C65" library="SamacSys_Parts" deviceset="B32652A3684J" device="" override_package3d_urn="urn:adsk.eagle:package:27317565/2" override_package_urn="urn:adsk.eagle:footprint:27317566/1"/>
 <part name="R23" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="3.3R/5%/0.1W"/>
 <part name="R24" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="3.3R/5%/0.1W"/>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -9889,8 +9889,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <part name="R21" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="3.3R/5%/0.1W"/>
 <part name="C44" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="10nF/50V"/>
 <part name="R22" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="3.3R/5%/0.1W"/>
-<part name="C31" library="SamacSys_Parts" deviceset="UVY1H102MHD" device="" override_package3d_urn="urn:adsk.eagle:package:27155028/2" override_package_urn="urn:adsk.eagle:footprint:27155054/1" override_locally_modified="yes" value="ECA-1HM102B"/>
-<part name="C30" library="SamacSys_Parts" deviceset="UVY1H102MHD" device="" override_package3d_urn="urn:adsk.eagle:package:27154914/2" override_package_urn="urn:adsk.eagle:footprint:27154916/1" override_locally_modified="yes" value="ECA-1HM102B"/>
+<part name="C31" library="SamacSys_Parts" deviceset="UVY1H102MHD" device="" override_package3d_urn="urn:adsk.eagle:package:27155028/4" override_package_urn="urn:adsk.eagle:footprint:27155054/2" value="ECA-1HM102B"/>
+<part name="C30" library="SamacSys_Parts" deviceset="UVY1H102MHD" device="" override_package3d_urn="urn:adsk.eagle:package:27154914/4" override_package_urn="urn:adsk.eagle:footprint:27154916/2" value="ECA-1HM102B"/>
 <part name="R17" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="20K/5%/0.1W"/>
 <part name="C16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100nF/50V"/>
 <part name="C17" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="10nF/50V"/>
@@ -9926,7 +9926,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <part name="C73" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="150nF/50V"/>
 <part name="VDD10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VDD" device=""/>
 <part name="GND24" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="IC9" library="SamacSys_Parts" deviceset="LM324D" device=""/>
+<part name="IC9" library="SamacSys_Parts" deviceset="LM324D" device="" override_package3d_urn="urn:adsk.eagle:package:27317484/2" override_package_urn="urn:adsk.eagle:footprint:27317485/1"/>
 <part name="R40" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="100K/5%/0.1W"/>
 <part name="R43" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="100K/5%/0.1W"/>
 <part name="R42" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="100K/5%/0.1W"/>
@@ -9946,7 +9946,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <part name="R34" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10K/5%/0.1W"/>
 <part name="C75" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="33nF/50V"/>
 <part name="GND39" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="IC8" library="SamacSys_Parts" deviceset="LM324D" device=""/>
+<part name="IC8" library="SamacSys_Parts" deviceset="LM324D" device="" override_package3d_urn="urn:adsk.eagle:package:27317486/2" override_package_urn="urn:adsk.eagle:footprint:27317487/1"/>
 <part name="GND40" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="VDD14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VDD" device=""/>
 <part name="C71" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100nF/50V"/>
@@ -10004,9 +10004,9 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10K/5%/0.1W"/>
 <part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10K/5%/0.1W"/>
 <part name="+3V14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="IC10" library="SamacSys_Parts" deviceset="LM324D" device=""/>
-<part name="IC11" library="SamacSys_Parts" deviceset="L78M12ABDT-TR" device=""/>
-<part name="IC1" library="SamacSys_Parts" deviceset="SPX1117M3-L-3-3_TR" device=""/>
+<part name="IC10" library="SamacSys_Parts" deviceset="LM324D" device="" override_package3d_urn="urn:adsk.eagle:package:27317482/2" override_package_urn="urn:adsk.eagle:footprint:27317483/1"/>
+<part name="IC11" library="SamacSys_Parts" deviceset="L78M12ABDT-TR" device="" override_package3d_urn="urn:adsk.eagle:package:27319245/2" override_package_urn="urn:adsk.eagle:footprint:27319266/1"/>
+<part name="IC1" library="SamacSys_Parts" deviceset="SPX1117M3-L-3-3_TR" device="" override_package3d_urn="urn:adsk.eagle:package:27317584/2" override_package_urn="urn:adsk.eagle:footprint:27317585/1"/>
 <part name="VDD2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VDD" device=""/>
 <part name="VDD3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VDD" device=""/>
 <part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10uF/16V"/>
@@ -10016,7 +10016,6 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <part name="GND49" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C82" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10uF/16V"/>
-<part name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10uF/16V"/>
 <part name="C21" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10uF/16V"/>
 <part name="C24" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10uF/16V"/>
 <part name="C22" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10uF/16V"/>
@@ -10025,12 +10024,13 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <part name="C25" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1uF/50V"/>
 <part name="C78" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1uF/50V"/>
 <part name="C79" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1uF/50V"/>
-<part name="J2" library="jack_04" deviceset="JW-PJ-307-4" device="H"/>
+<part name="J2" library="jack_04" deviceset="JW-PJ-307-4" device="H" override_package3d_urn="urn:adsk.eagle:package:27317704/2" override_package_urn="urn:adsk.eagle:footprint:27317705/1"/>
 <part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="SW3" library="PDB181-K420F-103A2" deviceset="PDB181-K420F-103A2" device=""/>
+<part name="SW3" library="PDB181-K420F-103A2" deviceset="PDB181-K420F-103A2" device="" override_package3d_urn="urn:adsk.eagle:package:27317497/2" override_package_urn="urn:adsk.eagle:footprint:27317498/1"/>
 <part name="R45" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10K/5%/0.1W"/>
 <part name="CN3" library="OSTYK33108030" deviceset="OSTYK33102030-2" device="" override_package3d_urn="urn:adsk.eagle:package:27162182/2" override_package_urn="urn:adsk.eagle:footprint:27162183/1"/>
-<part name="R46" library="Pot-PDB18" deviceset="PDB182-K430K-503A" device=""/>
+<part name="R46" library="Pot-PDB18" deviceset="PDB182-K430K-503A" device="" override_package3d_urn="urn:adsk.eagle:package:27317551/2" override_package_urn="urn:adsk.eagle:footprint:27317552/1"/>
+<part name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100nF/50V"/>
 </parts>
 <sheets>
 <sheet>
@@ -10390,10 +10390,6 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <instance part="VDD3" gate="G$1" x="68.58" y="233.68" smashed="yes">
 <attribute name="VALUE" x="71.12" y="233.68" size="1.778" layer="96"/>
 </instance>
-<instance part="C6" gate="G$1" x="167.64" y="73.66" smashed="yes">
-<attribute name="NAME" x="169.164" y="74.041" size="1.778" layer="95"/>
-<attribute name="VALUE" x="169.164" y="68.961" size="1.778" layer="96"/>
-</instance>
 <instance part="GND7" gate="1" x="264.16" y="35.56" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="266.7" y="33.02" size="1.778" layer="96" rot="MR0"/>
 </instance>
@@ -10407,6 +10403,10 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <instance part="R45" gate="G$1" x="378.46" y="96.52" smashed="yes" rot="R180">
 <attribute name="NAME" x="379.73" y="102.6414" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="384.81" y="99.822" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="C6" gate="G$1" x="167.64" y="73.66" smashed="yes">
+<attribute name="NAME" x="169.164" y="74.041" size="1.778" layer="95"/>
+<attribute name="VALUE" x="169.164" y="68.961" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -10588,8 +10588,21 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <net name="+3V3" class="0">
 <segment>
 <pinref part="+3V11" gate="G$1" pin="+3V3"/>
-<wire x1="15.24" y1="144.78" x2="15.24" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="144.78" x2="15.24" y2="139.7" width="0.1524" layer="91"/>
 <pinref part="R1" gate="G$1" pin="1"/>
+<pinref part="C3" gate="G$1" pin="1"/>
+<wire x1="15.24" y1="139.7" x2="15.24" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="96.52" x2="38.1" y2="106.68" width="0.1524" layer="91"/>
+<pinref part="IC3" gate="G$1" pin="VDD33"/>
+<wire x1="38.1" y1="106.68" x2="78.74" y2="106.68" width="0.1524" layer="91"/>
+<pinref part="C2" gate="G$1" pin="1"/>
+<wire x1="25.4" y1="96.52" x2="25.4" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="106.68" x2="38.1" y2="106.68" width="0.1524" layer="91"/>
+<junction x="38.1" y="106.68"/>
+<wire x1="25.4" y1="106.68" x2="25.4" y2="139.7" width="0.1524" layer="91"/>
+<junction x="25.4" y="106.68"/>
+<wire x1="25.4" y1="139.7" x2="15.24" y2="139.7" width="0.1524" layer="91"/>
+<junction x="15.24" y="139.7"/>
 </segment>
 <segment>
 <pinref part="IC4" gate="G$1" pin="VDD"/>
@@ -10638,18 +10651,6 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <wire x1="40.64" y1="213.36" x2="40.64" y2="226.06" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="213.36" x2="40.64" y2="213.36" width="0.1524" layer="91"/>
 <junction x="40.64" y="213.36"/>
-</segment>
-</net>
-<net name="N$75" class="0">
-<segment>
-<pinref part="C3" gate="G$1" pin="1"/>
-<wire x1="38.1" y1="96.52" x2="38.1" y2="106.68" width="0.1524" layer="91"/>
-<pinref part="IC3" gate="G$1" pin="VDD33"/>
-<wire x1="38.1" y1="106.68" x2="78.74" y2="106.68" width="0.1524" layer="91"/>
-<pinref part="C2" gate="G$1" pin="1"/>
-<wire x1="25.4" y1="96.52" x2="25.4" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="25.4" y1="106.68" x2="38.1" y2="106.68" width="0.1524" layer="91"/>
-<junction x="38.1" y="106.68"/>
 </segment>
 </net>
 <net name="DAC-R_P" class="1">
