@@ -12866,9 +12866,9 @@ I-GVDD = ~7.3A (peak)</text>
 <attribute name="NAME" x="136.144" y="51.181" size="1.778" layer="95"/>
 <attribute name="VALUE" x="136.144" y="46.101" size="1.778" layer="96"/>
 </instance>
-<instance part="R46" gate="A" x="187.96" y="208.28" smashed="yes" rot="R90">
-<attribute name="NAME" x="178.8414" y="223.8756" size="2.0828" layer="95" ratio="6" rot="SR90"/>
-<attribute name="VALUE" x="181.3814" y="223.2406" size="2.0828" layer="96" ratio="6" rot="SR90"/>
+<instance part="R46" gate="A" x="198.12" y="208.28" smashed="yes" rot="MR90">
+<attribute name="NAME" x="207.2386" y="223.8756" size="2.0828" layer="95" ratio="6" rot="SMR90"/>
+<attribute name="VALUE" x="204.6986" y="223.2406" size="2.0828" layer="96" ratio="6" rot="SMR90"/>
 </instance>
 </instances>
 <busses>
@@ -13177,11 +13177,11 @@ I-GVDD = ~7.3A (peak)</text>
 <pinref part="IC8" gate="G$1" pin="INVERTING_INPUT_1"/>
 <pinref part="R35" gate="G$1" pin="1"/>
 <wire x1="157.48" y1="190.5" x2="132.08" y2="190.5" width="0.1524" layer="91"/>
-<pinref part="R46" gate="A" pin="1"/>
 <wire x1="132.08" y1="190.5" x2="127" y2="190.5" width="0.1524" layer="91"/>
 <wire x1="132.08" y1="190.5" x2="132.08" y2="210.82" width="0.1524" layer="91"/>
-<wire x1="132.08" y1="210.82" x2="187.96" y2="210.82" width="0.1524" layer="91"/>
 <junction x="132.08" y="190.5"/>
+<pinref part="R46" gate="A" pin="4"/>
+<wire x1="190.5" y1="210.82" x2="132.08" y2="210.82" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="LEFT_OUT" class="0">
@@ -13189,13 +13189,13 @@ I-GVDD = ~7.3A (peak)</text>
 <pinref part="IC8" gate="G$1" pin="OUTPUT_1"/>
 <wire x1="139.7" y1="193.04" x2="157.48" y2="193.04" width="0.1524" layer="91"/>
 <label x="154.94" y="193.04" size="1.778" layer="95" rot="R90" xref="yes"/>
-<pinref part="R46" gate="A" pin="2"/>
-<wire x1="190.5" y1="246.38" x2="190.5" y2="248.92" width="0.1524" layer="91"/>
-<wire x1="190.5" y1="248.92" x2="187.96" y2="248.92" width="0.1524" layer="91"/>
-<pinref part="R46" gate="A" pin="3"/>
-<wire x1="187.96" y1="248.92" x2="187.96" y2="246.38" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="193.04" x2="139.7" y2="248.92" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="248.92" x2="187.96" y2="248.92" width="0.1524" layer="91"/>
+<pinref part="R46" gate="A" pin="6"/>
+<wire x1="187.96" y1="248.92" x2="190.5" y2="248.92" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="246.38" x2="190.5" y2="248.92" width="0.1524" layer="91"/>
+<pinref part="R46" gate="A" pin="5"/>
+<wire x1="187.96" y1="246.38" x2="187.96" y2="248.92" width="0.1524" layer="91"/>
 <junction x="187.96" y="248.92"/>
 </segment>
 </net>
@@ -13248,8 +13248,8 @@ I-GVDD = ~7.3A (peak)</text>
 <wire x1="251.46" y1="190.5" x2="256.54" y2="190.5" width="0.1524" layer="91"/>
 <junction x="251.46" y="190.5"/>
 <wire x1="251.46" y1="190.5" x2="251.46" y2="210.82" width="0.1524" layer="91"/>
-<pinref part="R46" gate="A" pin="4"/>
-<wire x1="251.46" y1="210.82" x2="195.58" y2="210.82" width="0.1524" layer="91"/>
+<pinref part="R46" gate="A" pin="1"/>
+<wire x1="198.12" y1="210.82" x2="251.46" y2="210.82" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="RIGHT_OUT" class="0">
@@ -13258,12 +13258,12 @@ I-GVDD = ~7.3A (peak)</text>
 <wire x1="228.6" y1="193.04" x2="241.3" y2="193.04" width="0.1524" layer="91"/>
 <wire x1="241.3" y1="193.04" x2="241.3" y2="248.92" width="0.1524" layer="91"/>
 <label x="231.14" y="193.04" size="1.778" layer="95" rot="R90" xref="yes"/>
-<pinref part="R46" gate="A" pin="6"/>
-<wire x1="195.58" y1="246.38" x2="195.58" y2="248.92" width="0.1524" layer="91"/>
-<pinref part="R46" gate="A" pin="5"/>
-<wire x1="195.58" y1="248.92" x2="198.12" y2="248.92" width="0.1524" layer="91"/>
-<wire x1="198.12" y1="248.92" x2="198.12" y2="246.38" width="0.1524" layer="91"/>
 <wire x1="241.3" y1="248.92" x2="198.12" y2="248.92" width="0.1524" layer="91"/>
+<pinref part="R46" gate="A" pin="2"/>
+<wire x1="198.12" y1="248.92" x2="195.58" y2="248.92" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="246.38" x2="195.58" y2="248.92" width="0.1524" layer="91"/>
+<pinref part="R46" gate="A" pin="3"/>
+<wire x1="198.12" y1="246.38" x2="198.12" y2="248.92" width="0.1524" layer="91"/>
 <junction x="198.12" y="248.92"/>
 </segment>
 </net>
@@ -13288,8 +13288,6 @@ I-GVDD = ~7.3A (peak)</text>
 <errors>
 <approved hash="104,3,152.4,172.72,IC6,GVDD_CD,N$59,,,"/>
 <approved hash="104,3,193.04,162.56,IC6,OUT_D_2,OUT_D,,,"/>
-<approved hash="104,1,81.28,193.04,IC11,OUTPUT,VDD,,,"/>
-<approved hash="104,1,35.56,195.58,IC11,GND_(THERMALPAD),GND,,,"/>
 <approved hash="113,1,193.571,130.071,FRAME1,,,,,"/>
 <approved hash="113,4,193.571,130.071,FRAME4,,,,,"/>
 <approved hash="113,3,193.571,130.071,FRAME3,,,,,"/>
