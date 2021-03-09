@@ -12239,19 +12239,19 @@ I-GVDD = ~7.3A (peak)</text>
 </instance>
 <instance part="C60" gate="G$1" x="208.28" y="116.84" smashed="yes">
 <attribute name="NAME" x="209.804" y="117.221" size="1.778" layer="95"/>
-<attribute name="VALUE" x="209.804" y="112.141" size="1.778" layer="96"/>
+<attribute name="VALUE" x="204.724" y="112.141" size="1.778" layer="96"/>
 </instance>
 <instance part="C56" gate="G$1" x="198.12" y="116.84" smashed="yes">
 <attribute name="NAME" x="199.644" y="117.221" size="1.778" layer="95"/>
-<attribute name="VALUE" x="199.644" y="112.141" size="1.778" layer="96"/>
+<attribute name="VALUE" x="194.564" y="112.141" size="1.778" layer="96"/>
 </instance>
 <instance part="C57" gate="G$1" x="200.66" y="157.48" smashed="yes">
 <attribute name="NAME" x="202.184" y="157.861" size="1.778" layer="95"/>
-<attribute name="VALUE" x="202.184" y="152.781" size="1.778" layer="96"/>
+<attribute name="VALUE" x="197.104" y="152.781" size="1.778" layer="96"/>
 </instance>
 <instance part="C59" gate="G$1" x="208.28" y="157.48" smashed="yes">
 <attribute name="NAME" x="209.804" y="157.861" size="1.778" layer="95"/>
-<attribute name="VALUE" x="209.804" y="152.781" size="1.778" layer="96"/>
+<attribute name="VALUE" x="207.264" y="152.781" size="1.778" layer="96"/>
 </instance>
 <instance part="C52" gate="G$1" x="127" y="177.8" smashed="yes">
 <attribute name="NAME" x="128.524" y="178.181" size="1.778" layer="95"/>
