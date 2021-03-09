@@ -82,7 +82,7 @@ void app_main(void){
     rsp_cfg.dest_ch = 2;
     audio_element_handle_t filter = rsp_filter_init(&rsp_cfg);
     audio_pipeline_register(pipeline, filter, "filter");
-    i2s_stream_set_clk(i2s_stream_writer, 48000, 24, 2);
+    i2s_stream_set_clk(i2s_stream_writer, 48000, 16, 2);
     const char *link_tag[3] = {"bt", "filter", "i2s"};
     audio_pipeline_link(pipeline, &link_tag[0], 3);
 
