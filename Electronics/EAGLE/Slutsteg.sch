@@ -11386,6 +11386,8 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="TP9" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2" override_package3d_urn="urn:adsk.eagle:package:27379176/2" override_package_urn="urn:adsk.eagle:footprint:27900/1"/>
 <part name="TP10" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2" override_package3d_urn="urn:adsk.eagle:package:27379176/2" override_package_urn="urn:adsk.eagle:footprint:27900/1"/>
 <part name="TP11" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2" override_package3d_urn="urn:adsk.eagle:package:27379176/2" override_package_urn="urn:adsk.eagle:footprint:27900/1"/>
+<part name="TP6" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2"/>
+<part name="TP7" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2"/>
 </parts>
 <sheets>
 <sheet>
@@ -14139,6 +14141,14 @@ I-GVDD = ~7.3A (peak)</text>
 <attribute name="NAME" x="207.2386" y="223.8756" size="2.0828" layer="95" ratio="6" rot="SMR90"/>
 <attribute name="VALUE" x="204.6986" y="223.2406" size="2.0828" layer="96" ratio="6" rot="SMR90"/>
 </instance>
+<instance part="TP6" gate="G$1" x="48.26" y="83.82" smashed="yes">
+<attribute name="NAME" x="46.99" y="85.09" size="1.778" layer="95"/>
+<attribute name="TP_SIGNAL_NAME" x="49.53" y="82.55" size="1.778" layer="97"/>
+</instance>
+<instance part="TP7" gate="G$1" x="48.26" y="58.42" smashed="yes">
+<attribute name="NAME" x="46.99" y="59.69" size="1.778" layer="95"/>
+<attribute name="TP_SIGNAL_NAME" x="49.53" y="57.15" size="1.778" layer="97"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -14283,8 +14293,12 @@ I-GVDD = ~7.3A (peak)</text>
 </segment>
 <segment>
 <pinref part="R29" gate="G$1" pin="2"/>
-<wire x1="50.8" y1="63.5" x2="45.72" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="63.5" x2="48.26" y2="63.5" width="0.1524" layer="91"/>
 <label x="45.72" y="63.5" size="0.8128" layer="95" rot="R180" xref="yes"/>
+<pinref part="TP7" gate="G$1" pin="TP"/>
+<wire x1="48.26" y1="63.5" x2="45.72" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="55.88" x2="48.26" y2="63.5" width="0.1524" layer="91"/>
+<junction x="48.26" y="63.5"/>
 </segment>
 <segment>
 <pinref part="C81" gate="G$1" pin="2"/>
@@ -14303,8 +14317,12 @@ I-GVDD = ~7.3A (peak)</text>
 </segment>
 <segment>
 <pinref part="R28" gate="G$1" pin="2"/>
-<wire x1="50.8" y1="76.2" x2="45.72" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="76.2" x2="48.26" y2="76.2" width="0.1524" layer="91"/>
 <label x="45.72" y="76.2" size="0.8128" layer="95" rot="R180" xref="yes"/>
+<pinref part="TP6" gate="G$1" pin="TP"/>
+<wire x1="48.26" y1="76.2" x2="45.72" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="81.28" x2="48.26" y2="76.2" width="0.1524" layer="91"/>
+<junction x="48.26" y="76.2"/>
 </segment>
 <segment>
 <pinref part="C71" gate="G$1" pin="1"/>
@@ -14797,11 +14815,18 @@ I-GVDD = ~7.3A (peak)</text>
 <errors>
 <approved hash="104,3,152.4,172.72,IC6,GVDD_CD,N$59,,,"/>
 <approved hash="104,3,193.04,162.56,IC6,OUT_D_2,OUT_D,,,"/>
+<approved hash="104,1,116.84,190.5,IC11,OUTPUT,VDD,,,"/>
+<approved hash="104,1,71.12,193.04,IC11,GND_(THERMALPAD),GND,,,"/>
+<approved hash="104,1,116.84,121.92,IC2,OUTPUT,VDD2,,,"/>
+<approved hash="104,1,71.12,124.46,IC2,GND_(THERMALPAD),GND,,,"/>
 <approved hash="113,1,193.571,130.071,FRAME1,,,,,"/>
 <approved hash="113,4,193.571,130.071,FRAME4,,,,,"/>
 <approved hash="113,3,193.571,130.071,FRAME3,,,,,"/>
 <approved hash="113,5,193.571,130.071,FRAME5,,,,,"/>
 <approved hash="113,2,193.571,130.071,FRAME2,,,,,"/>
+<approved hash="113,6,193.571,130.071,FRAME6,,,,,"/>
+<approved hash="113,2,211.75,104.14,SJ1,,,,,"/>
+<approved hash="113,2,252.39,104.14,SJ2,,,,,"/>
 </errors>
 </schematic>
 </drawing>
