@@ -11128,6 +11128,53 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </deviceset>
 </devicesets>
 </library>
+<library name="V5618A">
+<packages>
+<package name="V5618A">
+<wire x1="0" y1="0" x2="8.5" y2="0" width="0.127" layer="51"/>
+<wire x1="8.5" y1="0" x2="8.5" y2="6.35" width="0.127" layer="51"/>
+<wire x1="8.5" y1="6.35" x2="0" y2="6.35" width="0.127" layer="51"/>
+<wire x1="0" y1="6.35" x2="0" y2="0" width="0.127" layer="51"/>
+<circle x="0" y="0" radius="0.2" width="0.127" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="KK">
+<wire x1="-5.08" y1="0" x2="5.08" y2="0" width="0.254" layer="94"/>
+<wire x1="5.08" y1="0" x2="5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="5.08" x2="4.445" y2="5.08" width="0.254" layer="94"/>
+<wire x1="4.445" y1="5.08" x2="4.445" y2="1.27" width="0.254" layer="94"/>
+<wire x1="4.445" y1="1.27" x2="3.175" y2="1.27" width="0.254" layer="94"/>
+<wire x1="3.175" y1="1.27" x2="3.175" y2="5.08" width="0.254" layer="94"/>
+<wire x1="3.175" y1="5.08" x2="2.54" y2="5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="5.08" x2="2.54" y2="1.27" width="0.254" layer="94"/>
+<wire x1="2.54" y1="1.27" x2="-2.54" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="1.27" x2="-2.54" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="5.08" x2="-3.175" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-3.175" y1="5.08" x2="-3.175" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-3.175" y1="1.27" x2="-4.445" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-4.445" y1="1.27" x2="-4.445" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-4.445" y1="5.08" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="5.08" x2="-5.08" y2="0" width="0.254" layer="94"/>
+<text x="5.715" y="3.175" size="1.778" layer="95">&gt;NAME</text>
+<text x="5.715" y="0.635" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="V5618A">
+<gates>
+<gate name="G$1" symbol="KK" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="V5618A">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -11388,6 +11435,8 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="TP11" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2" override_package3d_urn="urn:adsk.eagle:package:27379176/2" override_package_urn="urn:adsk.eagle:footprint:27900/1"/>
 <part name="TP6" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2"/>
 <part name="TP7" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2"/>
+<part name="U$3" library="V5618A" deviceset="V5618A" device="" override_package3d_urn="urn:adsk.eagle:package:27391343/2" override_package_urn="urn:adsk.eagle:footprint:27391348/1"/>
+<part name="U$4" library="V5618A" deviceset="V5618A" device="" override_package3d_urn="urn:adsk.eagle:package:27391343/2" override_package_urn="urn:adsk.eagle:footprint:27391348/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -11491,6 +11540,14 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <instance part="TP5" gate="G$1" x="132.08" y="195.58" smashed="yes">
 <attribute name="NAME" x="130.81" y="196.85" size="1.778" layer="95"/>
 <attribute name="TP_SIGNAL_NAME" x="133.35" y="194.31" size="1.778" layer="97"/>
+</instance>
+<instance part="U$3" gate="G$1" x="144.78" y="68.58" smashed="yes">
+<attribute name="NAME" x="150.495" y="71.755" size="1.778" layer="95"/>
+<attribute name="VALUE" x="150.495" y="69.215" size="1.778" layer="96"/>
+</instance>
+<instance part="U$4" gate="G$1" x="170.18" y="68.58" smashed="yes">
+<attribute name="NAME" x="175.895" y="71.755" size="1.778" layer="95"/>
+<attribute name="VALUE" x="175.895" y="69.215" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
